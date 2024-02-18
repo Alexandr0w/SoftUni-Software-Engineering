@@ -1,0 +1,14 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\01.EasterLunch\bin\Debug\net6.0\01.EasterLunch.exe
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\01.EasterLunch\bin\Debug\net6.0\01.EasterLunch.deps.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\01.EasterLunch\bin\Debug\net6.0\01.EasterLunch.runtimeconfig.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\01.EasterLunch\bin\Debug\net6.0\01.EasterLunch.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\01.EasterLunch\bin\Debug\net6.0\01.EasterLunch.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\01.EasterLunch\obj\Debug\net6.0\01.EasterLunch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\01.EasterLunch\obj\Debug\net6.0\01.EasterLunch.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\01.EasterLunch\obj\Debug\net6.0\01.EasterLunch.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\01.EasterLunch\obj\Debug\net6.0\01.EasterLunch.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\01.EasterLunch\obj\Debug\net6.0\01.EasterLunch.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\01.EasterLunch\obj\Debug\net6.0\refint\01.EasterLunch.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\01.EasterLunch\obj\Debug\net6.0\01.EasterLunch.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\01.EasterLunch\obj\Debug\net6.0\01.EasterLunch.genruntimeconfig.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\01.EasterLunch\obj\Debug\net6.0\ref\01.EasterLunch.dll

@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Lab\01.ExcellentResult\bin\Debug\net6.0\01.ExcellentResult.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Lab\01.ExcellentResult\bin\Debug\net6.0\01.ExcellentResult.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Lab\01.ExcellentResult\bin\Debug\net6.0\01.ExcellentResult.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Lab\01.ExcellentResult\bin\Debug\net6.0\01.ExcellentResult.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Lab\01.ExcellentResult\bin\Debug\net6.0\01.ExcellentResult.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Lab\01.ExcellentResult\obj\Debug\net6.0\01.ExcellentResult.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Lab\01.ExcellentResult\obj\Debug\net6.0\01.ExcellentResult.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Lab\01.ExcellentResult\obj\Debug\net6.0\01.ExcellentResult.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Lab\01.ExcellentResult\obj\Debug\net6.0\01.ExcellentResult.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Lab\01.ExcellentResult\obj\Debug\net6.0\01.ExcellentResult.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Lab\01.ExcellentResult\obj\Debug\net6.0\refint\01.ExcellentResult.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Lab\01.ExcellentResult\obj\Debug\net6.0\01.ExcellentResult.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Lab\01.ExcellentResult\obj\Debug\net6.0\01.ExcellentResult.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Lab\01.ExcellentResult\obj\Debug\net6.0\ref\01.ExcellentResult.dll

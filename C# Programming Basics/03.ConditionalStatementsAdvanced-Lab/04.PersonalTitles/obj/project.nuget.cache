@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "teRpHQjyld8jHxl1XoeDSzD8Ry5ad4RSYECJYOLn4V6Q3J8g6cwPfFplU/z8vr7pw+L7+Au+el4fnxMPbtsM2g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alexander\\Documents\\SoftUni\\PB-Jan-2024\\03.ConditionalStatementsAdvanced-Lab\\04.PersonalTitles\\04.PersonalTitles.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

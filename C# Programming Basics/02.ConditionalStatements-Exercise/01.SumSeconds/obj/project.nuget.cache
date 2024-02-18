@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "YCWLsF/0UWOfG1v/7jnuXbWeVI9IcU351Uu7CyYrH5+z9/vkXdtHD5fMolPXTQtyTxoLrclDrSXWLf4ZL4acSw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alexander\\Documents\\SoftUni\\PB-Jan-2024\\ConditionalStatements-Exercise\\01.SumSeconds\\01.SumSeconds.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

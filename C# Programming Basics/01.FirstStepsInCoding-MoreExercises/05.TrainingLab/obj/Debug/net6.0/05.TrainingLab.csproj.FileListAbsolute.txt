@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\05.TrainingLab\bin\Debug\net6.0\05.TrainingLab.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\05.TrainingLab\bin\Debug\net6.0\05.TrainingLab.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\05.TrainingLab\bin\Debug\net6.0\05.TrainingLab.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\05.TrainingLab\bin\Debug\net6.0\05.TrainingLab.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\05.TrainingLab\bin\Debug\net6.0\05.TrainingLab.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\05.TrainingLab\obj\Debug\net6.0\05.TrainingLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\05.TrainingLab\obj\Debug\net6.0\05.TrainingLab.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\05.TrainingLab\obj\Debug\net6.0\05.TrainingLab.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\05.TrainingLab\obj\Debug\net6.0\05.TrainingLab.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\05.TrainingLab\obj\Debug\net6.0\05.TrainingLab.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\05.TrainingLab\obj\Debug\net6.0\refint\05.TrainingLab.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\05.TrainingLab\obj\Debug\net6.0\05.TrainingLab.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\05.TrainingLab\obj\Debug\net6.0\05.TrainingLab.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\05.TrainingLab\obj\Debug\net6.0\ref\05.TrainingLab.dll

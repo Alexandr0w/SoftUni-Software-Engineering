@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "PCyHjJq39CCoWf4I4Y1mgRC/NeCDxWqcQ6x7lwJPfIfI4iKWuy0bH66mreWmc3wUIqtgqE+hhE08AuZTOF/izw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alexander\\source\\repos\\SoftUni\\PB-Jan-2024\\ConditionalStatements-Lab\\04.PasswordGuess\\04.PasswordGuess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

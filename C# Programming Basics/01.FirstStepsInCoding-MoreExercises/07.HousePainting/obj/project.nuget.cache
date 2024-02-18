@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "SQlF6LxX2Gx/dlysGBHosCo8D40l64eLPRjOWy+gUa+MYWT4zhVPmrZJzjkIhE+5eQf6XhgHPzy5JhB4yzOotQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alexander\\source\\repos\\SoftUni\\PB-Jan-2024\\FirstStepsInCoding-MoreExercises\\07.HousePainting\\07.HousePainting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "L+QRmlRoEDUgFvvddSw2aUr8o3AaP53/1NbwQJhDFBSXC9cSTq1G6J/oQXsbkX2TFjkQPH1nvMU0z4slh0X7qQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alexander\\Documents\\SoftUni\\PB-Jan-2024\\04.ForLoop-Exercise\\05.Salary\\05.Salary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

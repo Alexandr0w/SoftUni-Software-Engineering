@@ -1,0 +1,14 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\03.Numbers1ToNWithStep 3\bin\Debug\net6.0\03.Numbers1ToNWithStep 3.exe
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\03.Numbers1ToNWithStep 3\bin\Debug\net6.0\03.Numbers1ToNWithStep 3.deps.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\03.Numbers1ToNWithStep 3\bin\Debug\net6.0\03.Numbers1ToNWithStep 3.runtimeconfig.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\03.Numbers1ToNWithStep 3\bin\Debug\net6.0\03.Numbers1ToNWithStep 3.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\03.Numbers1ToNWithStep 3\bin\Debug\net6.0\03.Numbers1ToNWithStep 3.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\03.Numbers1ToNWithStep 3\obj\Debug\net6.0\03.Numbers1ToNWithStep 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\03.Numbers1ToNWithStep 3\obj\Debug\net6.0\03.Numbers1ToNWithStep 3.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\03.Numbers1ToNWithStep 3\obj\Debug\net6.0\03.Numbers1ToNWithStep 3.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\03.Numbers1ToNWithStep 3\obj\Debug\net6.0\03.Numbers1ToNWithStep 3.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\03.Numbers1ToNWithStep 3\obj\Debug\net6.0\03.Numbers1ToNWithStep 3.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\03.Numbers1ToNWithStep 3\obj\Debug\net6.0\refint\03.Numbers1ToNWithStep 3.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\03.Numbers1ToNWithStep 3\obj\Debug\net6.0\03.Numbers1ToNWithStep 3.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\03.Numbers1ToNWithStep 3\obj\Debug\net6.0\03.Numbers1ToNWithStep 3.genruntimeconfig.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\03.Numbers1ToNWithStep 3\obj\Debug\net6.0\ref\03.Numbers1ToNWithStep 3.dll

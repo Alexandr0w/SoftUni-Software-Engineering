@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\05.SuppliesForSchool\bin\Debug\net6.0\05.SuppliesForSchool.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\05.SuppliesForSchool\bin\Debug\net6.0\05.SuppliesForSchool.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\05.SuppliesForSchool\bin\Debug\net6.0\05.SuppliesForSchool.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\05.SuppliesForSchool\bin\Debug\net6.0\05.SuppliesForSchool.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\05.SuppliesForSchool\bin\Debug\net6.0\05.SuppliesForSchool.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\05.SuppliesForSchool\obj\Debug\net6.0\05.SuppliesForSchool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\05.SuppliesForSchool\obj\Debug\net6.0\05.SuppliesForSchool.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\05.SuppliesForSchool\obj\Debug\net6.0\05.SuppliesForSchool.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\05.SuppliesForSchool\obj\Debug\net6.0\05.SuppliesForSchool.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\05.SuppliesForSchool\obj\Debug\net6.0\05.SuppliesForSchool.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\05.SuppliesForSchool\obj\Debug\net6.0\refint\05.SuppliesForSchool.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\05.SuppliesForSchool\obj\Debug\net6.0\05.SuppliesForSchool.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\05.SuppliesForSchool\obj\Debug\net6.0\05.SuppliesForSchool.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\05.SuppliesForSchool\obj\Debug\net6.0\ref\05.SuppliesForSchool.dll

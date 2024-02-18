@@ -1,0 +1,14 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\01.OldBooks\bin\Debug\net6.0\01.OldBooks.exe
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\01.OldBooks\bin\Debug\net6.0\01.OldBooks.deps.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\01.OldBooks\bin\Debug\net6.0\01.OldBooks.runtimeconfig.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\01.OldBooks\bin\Debug\net6.0\01.OldBooks.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\01.OldBooks\bin\Debug\net6.0\01.OldBooks.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\01.OldBooks\obj\Debug\net6.0\01.OldBooks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\01.OldBooks\obj\Debug\net6.0\01.OldBooks.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\01.OldBooks\obj\Debug\net6.0\01.OldBooks.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\01.OldBooks\obj\Debug\net6.0\01.OldBooks.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\01.OldBooks\obj\Debug\net6.0\01.OldBooks.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\01.OldBooks\obj\Debug\net6.0\refint\01.OldBooks.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\01.OldBooks\obj\Debug\net6.0\01.OldBooks.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\01.OldBooks\obj\Debug\net6.0\01.OldBooks.genruntimeconfig.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\01.OldBooks\obj\Debug\net6.0\ref\01.OldBooks.dll

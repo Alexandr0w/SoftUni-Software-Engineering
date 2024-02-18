@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\09.FishTank\bin\Debug\net6.0\09.FishTank.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\09.FishTank\bin\Debug\net6.0\09.FishTank.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\09.FishTank\bin\Debug\net6.0\09.FishTank.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\09.FishTank\bin\Debug\net6.0\09.FishTank.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\09.FishTank\bin\Debug\net6.0\09.FishTank.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\09.FishTank\obj\Debug\net6.0\09.FishTank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\09.FishTank\obj\Debug\net6.0\09.FishTank.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\09.FishTank\obj\Debug\net6.0\09.FishTank.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\09.FishTank\obj\Debug\net6.0\09.FishTank.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\09.FishTank\obj\Debug\net6.0\09.FishTank.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\09.FishTank\obj\Debug\net6.0\refint\09.FishTank.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\09.FishTank\obj\Debug\net6.0\09.FishTank.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\09.FishTank\obj\Debug\net6.0\09.FishTank.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\09.FishTank\obj\Debug\net6.0\ref\09.FishTank.dll

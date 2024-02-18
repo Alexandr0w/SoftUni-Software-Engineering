@@ -1,0 +1,14 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Exercise\03.SumPrimeNonPrime\obj\Debug\net6.0\03.SumPrimeNonPrime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Exercise\03.SumPrimeNonPrime\obj\Debug\net6.0\03.SumPrimeNonPrime.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Exercise\03.SumPrimeNonPrime\obj\Debug\net6.0\03.SumPrimeNonPrime.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Exercise\03.SumPrimeNonPrime\obj\Debug\net6.0\03.SumPrimeNonPrime.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Exercise\03.SumPrimeNonPrime\bin\Debug\net6.0\03.SumPrimeNonPrime.exe
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Exercise\03.SumPrimeNonPrime\bin\Debug\net6.0\03.SumPrimeNonPrime.deps.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Exercise\03.SumPrimeNonPrime\bin\Debug\net6.0\03.SumPrimeNonPrime.runtimeconfig.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Exercise\03.SumPrimeNonPrime\bin\Debug\net6.0\03.SumPrimeNonPrime.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Exercise\03.SumPrimeNonPrime\bin\Debug\net6.0\03.SumPrimeNonPrime.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Exercise\03.SumPrimeNonPrime\obj\Debug\net6.0\03.SumPrimeNonPrime.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Exercise\03.SumPrimeNonPrime\obj\Debug\net6.0\refint\03.SumPrimeNonPrime.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Exercise\03.SumPrimeNonPrime\obj\Debug\net6.0\03.SumPrimeNonPrime.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Exercise\03.SumPrimeNonPrime\obj\Debug\net6.0\03.SumPrimeNonPrime.genruntimeconfig.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Exercise\03.SumPrimeNonPrime\obj\Debug\net6.0\ref\03.SumPrimeNonPrime.dll

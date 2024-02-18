@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "dSGmYDd8wVdoPKBBN7BFtZHMpc4Oq+8UTay3L5Ayp0PbgTzR1gHjTs8DSfrmlH229iFxlXbbq8+iu0AASfpyvg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alexander\\Documents\\SoftUni\\PB-Jan-2024\\03.ConditionalStatementsAdvanced-Lab\\09.FruitOrVegetable\\09.FruitOrVegetable.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\08.BasketballEquipment\bin\Debug\net6.0\08.BasketballEquipment.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\08.BasketballEquipment\bin\Debug\net6.0\08.BasketballEquipment.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\08.BasketballEquipment\bin\Debug\net6.0\08.BasketballEquipment.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\08.BasketballEquipment\bin\Debug\net6.0\08.BasketballEquipment.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\08.BasketballEquipment\bin\Debug\net6.0\08.BasketballEquipment.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\08.BasketballEquipment\obj\Debug\net6.0\08.BasketballEquipment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\08.BasketballEquipment\obj\Debug\net6.0\08.BasketballEquipment.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\08.BasketballEquipment\obj\Debug\net6.0\08.BasketballEquipment.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\08.BasketballEquipment\obj\Debug\net6.0\08.BasketballEquipment.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\08.BasketballEquipment\obj\Debug\net6.0\08.BasketballEquipment.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\08.BasketballEquipment\obj\Debug\net6.0\refint\08.BasketballEquipment.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\08.BasketballEquipment\obj\Debug\net6.0\08.BasketballEquipment.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\08.BasketballEquipment\obj\Debug\net6.0\08.BasketballEquipment.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\08.BasketballEquipment\obj\Debug\net6.0\ref\08.BasketballEquipment.dll

@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\02.TriangleArea\bin\Debug\net6.0\02.TriangleArea.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\02.TriangleArea\bin\Debug\net6.0\02.TriangleArea.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\02.TriangleArea\bin\Debug\net6.0\02.TriangleArea.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\02.TriangleArea\bin\Debug\net6.0\02.TriangleArea.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\02.TriangleArea\bin\Debug\net6.0\02.TriangleArea.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\02.TriangleArea\obj\Debug\net6.0\02.TriangleArea.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\02.TriangleArea\obj\Debug\net6.0\02.TriangleArea.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\02.TriangleArea\obj\Debug\net6.0\02.TriangleArea.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\02.TriangleArea\obj\Debug\net6.0\02.TriangleArea.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\02.TriangleArea\obj\Debug\net6.0\02.TriangleArea.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\02.TriangleArea\obj\Debug\net6.0\refint\02.TriangleArea.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\02.TriangleArea\obj\Debug\net6.0\02.TriangleArea.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\02.TriangleArea\obj\Debug\net6.0\02.TriangleArea.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\02.TriangleArea\obj\Debug\net6.0\ref\02.TriangleArea.dll

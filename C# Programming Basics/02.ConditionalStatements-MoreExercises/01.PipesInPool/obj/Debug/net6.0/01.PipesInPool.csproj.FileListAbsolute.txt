@@ -1,0 +1,4 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ConditionalStatements-MoreExercises\01.PipesInPool\obj\Debug\net6.0\01.PipesInPool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ConditionalStatements-MoreExercises\01.PipesInPool\obj\Debug\net6.0\01.PipesInPool.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ConditionalStatements-MoreExercises\01.PipesInPool\obj\Debug\net6.0\01.PipesInPool.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ConditionalStatements-MoreExercises\01.PipesInPool\obj\Debug\net6.0\01.PipesInPool.csproj.CoreCompileInputs.cache

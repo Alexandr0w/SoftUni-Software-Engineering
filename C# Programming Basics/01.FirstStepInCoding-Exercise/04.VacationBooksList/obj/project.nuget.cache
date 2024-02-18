@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5MeQkBj2mp9MRMoXJ04dlp9By9YIHz4Q0/vqBHLHsBI8P1iksqUX2hgH7o2mZT6AZl2qcwPhPUhO5ZtryLoSxw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alexander\\source\\repos\\SoftUni\\PB-Jan-2024\\FirstStepInCoding-Exercise\\04.VacationBooksList\\04.VacationBooksList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

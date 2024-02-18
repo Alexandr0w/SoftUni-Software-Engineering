@@ -1,0 +1,14 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\04.Walking\bin\Debug\net6.0\04.Walking.exe
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\04.Walking\bin\Debug\net6.0\04.Walking.deps.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\04.Walking\bin\Debug\net6.0\04.Walking.runtimeconfig.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\04.Walking\bin\Debug\net6.0\04.Walking.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\04.Walking\bin\Debug\net6.0\04.Walking.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\04.Walking\obj\Debug\net6.0\04.Walking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\04.Walking\obj\Debug\net6.0\04.Walking.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\04.Walking\obj\Debug\net6.0\04.Walking.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\04.Walking\obj\Debug\net6.0\04.Walking.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\04.Walking\obj\Debug\net6.0\04.Walking.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\04.Walking\obj\Debug\net6.0\refint\04.Walking.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\04.Walking\obj\Debug\net6.0\04.Walking.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\04.Walking\obj\Debug\net6.0\04.Walking.genruntimeconfig.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\04.Walking\obj\Debug\net6.0\ref\04.Walking.dll

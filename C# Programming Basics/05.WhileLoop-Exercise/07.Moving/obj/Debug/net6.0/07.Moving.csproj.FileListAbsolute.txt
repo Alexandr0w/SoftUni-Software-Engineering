@@ -1,0 +1,14 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\07.Moving\bin\Debug\net6.0\07.Moving.exe
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\07.Moving\bin\Debug\net6.0\07.Moving.deps.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\07.Moving\bin\Debug\net6.0\07.Moving.runtimeconfig.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\07.Moving\bin\Debug\net6.0\07.Moving.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\07.Moving\bin\Debug\net6.0\07.Moving.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\07.Moving\obj\Debug\net6.0\07.Moving.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\07.Moving\obj\Debug\net6.0\07.Moving.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\07.Moving\obj\Debug\net6.0\07.Moving.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\07.Moving\obj\Debug\net6.0\07.Moving.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\07.Moving\obj\Debug\net6.0\07.Moving.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\07.Moving\obj\Debug\net6.0\refint\07.Moving.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\07.Moving\obj\Debug\net6.0\07.Moving.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\07.Moving\obj\Debug\net6.0\07.Moving.genruntimeconfig.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\05.WhileLoop-Exercise\07.Moving\obj\Debug\net6.0\ref\07.Moving.dll

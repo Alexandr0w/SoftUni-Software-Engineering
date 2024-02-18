@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\01.TrapeziodArea\bin\Debug\net6.0\01.TrapeziodArea.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\01.TrapeziodArea\bin\Debug\net6.0\01.TrapeziodArea.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\01.TrapeziodArea\bin\Debug\net6.0\01.TrapeziodArea.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\01.TrapeziodArea\bin\Debug\net6.0\01.TrapeziodArea.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\01.TrapeziodArea\bin\Debug\net6.0\01.TrapeziodArea.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\01.TrapeziodArea\obj\Debug\net6.0\01.TrapeziodArea.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\01.TrapeziodArea\obj\Debug\net6.0\01.TrapeziodArea.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\01.TrapeziodArea\obj\Debug\net6.0\01.TrapeziodArea.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\01.TrapeziodArea\obj\Debug\net6.0\01.TrapeziodArea.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\01.TrapeziodArea\obj\Debug\net6.0\01.TrapeziodArea.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\01.TrapeziodArea\obj\Debug\net6.0\refint\01.TrapeziodArea.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\01.TrapeziodArea\obj\Debug\net6.0\01.TrapeziodArea.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\01.TrapeziodArea\obj\Debug\net6.0\01.TrapeziodArea.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\01.TrapeziodArea\obj\Debug\net6.0\ref\01.TrapeziodArea.dll

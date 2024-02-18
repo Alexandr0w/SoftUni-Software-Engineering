@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\06.Fishland\obj\Debug\net6.0\06.Fishland.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\06.Fishland\obj\Debug\net6.0\06.Fishland.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\06.Fishland\obj\Debug\net6.0\06.Fishland.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\06.Fishland\obj\Debug\net6.0\06.Fishland.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\06.Fishland\bin\Debug\net6.0\06.Fishland.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\06.Fishland\bin\Debug\net6.0\06.Fishland.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\06.Fishland\bin\Debug\net6.0\06.Fishland.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\06.Fishland\bin\Debug\net6.0\06.Fishland.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\06.Fishland\bin\Debug\net6.0\06.Fishland.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\06.Fishland\obj\Debug\net6.0\06.Fishland.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\06.Fishland\obj\Debug\net6.0\refint\06.Fishland.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\06.Fishland\obj\Debug\net6.0\06.Fishland.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\06.Fishland\obj\Debug\net6.0\06.Fishland.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\06.Fishland\obj\Debug\net6.0\ref\06.Fishland.dll

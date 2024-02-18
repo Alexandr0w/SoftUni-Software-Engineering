@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\03.Time+15Minutes\bin\Debug\net6.0\03.Time+15Minutes.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\03.Time+15Minutes\bin\Debug\net6.0\03.Time+15Minutes.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\03.Time+15Minutes\bin\Debug\net6.0\03.Time+15Minutes.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\03.Time+15Minutes\bin\Debug\net6.0\03.Time+15Minutes.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\03.Time+15Minutes\bin\Debug\net6.0\03.Time+15Minutes.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\03.Time+15Minutes\obj\Debug\net6.0\03.Time+15Minutes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\03.Time+15Minutes\obj\Debug\net6.0\03.Time+15Minutes.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\03.Time+15Minutes\obj\Debug\net6.0\03.Time+15Minutes.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\03.Time+15Minutes\obj\Debug\net6.0\03.Time+15Minutes.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\03.Time+15Minutes\obj\Debug\net6.0\03.Time+15Minutes.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\03.Time+15Minutes\obj\Debug\net6.0\refint\03.Time+15Minutes.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\03.Time+15Minutes\obj\Debug\net6.0\03.Time+15Minutes.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\03.Time+15Minutes\obj\Debug\net6.0\03.Time+15Minutes.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\03.Time+15Minutes\obj\Debug\net6.0\ref\03.Time+15Minutes.dll

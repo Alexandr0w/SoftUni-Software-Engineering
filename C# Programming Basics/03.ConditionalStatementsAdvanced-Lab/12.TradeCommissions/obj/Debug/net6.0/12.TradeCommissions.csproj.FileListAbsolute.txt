@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\12.TradeCommissions\bin\Debug\net6.0\12.TradeCommissions.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\12.TradeCommissions\bin\Debug\net6.0\12.TradeCommissions.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\12.TradeCommissions\bin\Debug\net6.0\12.TradeCommissions.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\12.TradeCommissions\bin\Debug\net6.0\12.TradeCommissions.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\12.TradeCommissions\bin\Debug\net6.0\12.TradeCommissions.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\12.TradeCommissions\obj\Debug\net6.0\12.TradeCommissions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\12.TradeCommissions\obj\Debug\net6.0\12.TradeCommissions.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\12.TradeCommissions\obj\Debug\net6.0\12.TradeCommissions.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\12.TradeCommissions\obj\Debug\net6.0\12.TradeCommissions.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\12.TradeCommissions\obj\Debug\net6.0\12.TradeCommissions.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\12.TradeCommissions\obj\Debug\net6.0\refint\12.TradeCommissions.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\12.TradeCommissions\obj\Debug\net6.0\12.TradeCommissions.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\12.TradeCommissions\obj\Debug\net6.0\12.TradeCommissions.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\12.TradeCommissions\obj\Debug\net6.0\ref\12.TradeCommissions.dll

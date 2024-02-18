@@ -1,0 +1,14 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\03.ExcursionCalculator\bin\Debug\net6.0\03.ExcursionCalculator.exe
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\03.ExcursionCalculator\bin\Debug\net6.0\03.ExcursionCalculator.deps.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\03.ExcursionCalculator\bin\Debug\net6.0\03.ExcursionCalculator.runtimeconfig.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\03.ExcursionCalculator\bin\Debug\net6.0\03.ExcursionCalculator.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\03.ExcursionCalculator\bin\Debug\net6.0\03.ExcursionCalculator.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\03.ExcursionCalculator\obj\Debug\net6.0\03.ExcursionCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\03.ExcursionCalculator\obj\Debug\net6.0\03.ExcursionCalculator.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\03.ExcursionCalculator\obj\Debug\net6.0\03.ExcursionCalculator.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\03.ExcursionCalculator\obj\Debug\net6.0\03.ExcursionCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\03.ExcursionCalculator\obj\Debug\net6.0\03.ExcursionCalculator.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\03.ExcursionCalculator\obj\Debug\net6.0\refint\03.ExcursionCalculator.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\03.ExcursionCalculator\obj\Debug\net6.0\03.ExcursionCalculator.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\03.ExcursionCalculator\obj\Debug\net6.0\03.ExcursionCalculator.genruntimeconfig.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\03.ExcursionCalculator\obj\Debug\net6.0\ref\03.ExcursionCalculator.dll

@@ -1,0 +1,14 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\04.GrandpaStavri\bin\Debug\net6.0\04.GrandpaStavri.exe
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\04.GrandpaStavri\bin\Debug\net6.0\04.GrandpaStavri.deps.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\04.GrandpaStavri\bin\Debug\net6.0\04.GrandpaStavri.runtimeconfig.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\04.GrandpaStavri\bin\Debug\net6.0\04.GrandpaStavri.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\04.GrandpaStavri\bin\Debug\net6.0\04.GrandpaStavri.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\04.GrandpaStavri\obj\Debug\net6.0\04.GrandpaStavri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\04.GrandpaStavri\obj\Debug\net6.0\04.GrandpaStavri.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\04.GrandpaStavri\obj\Debug\net6.0\04.GrandpaStavri.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\04.GrandpaStavri\obj\Debug\net6.0\04.GrandpaStavri.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\04.GrandpaStavri\obj\Debug\net6.0\04.GrandpaStavri.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\04.GrandpaStavri\obj\Debug\net6.0\refint\04.GrandpaStavri.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\04.GrandpaStavri\obj\Debug\net6.0\04.GrandpaStavri.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\04.GrandpaStavri\obj\Debug\net6.0\04.GrandpaStavri.genruntimeconfig.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\04.GrandpaStavri\obj\Debug\net6.0\ref\04.GrandpaStavri.dll

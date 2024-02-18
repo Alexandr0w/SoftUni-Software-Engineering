@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\03.CelsiusToFahrenheit\bin\Debug\net6.0\03.CelsiusToFahrenheit.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\03.CelsiusToFahrenheit\bin\Debug\net6.0\03.CelsiusToFahrenheit.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\03.CelsiusToFahrenheit\bin\Debug\net6.0\03.CelsiusToFahrenheit.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\03.CelsiusToFahrenheit\bin\Debug\net6.0\03.CelsiusToFahrenheit.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\03.CelsiusToFahrenheit\bin\Debug\net6.0\03.CelsiusToFahrenheit.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\03.CelsiusToFahrenheit\obj\Debug\net6.0\03.CelsiusToFahrenheit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\03.CelsiusToFahrenheit\obj\Debug\net6.0\03.CelsiusToFahrenheit.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\03.CelsiusToFahrenheit\obj\Debug\net6.0\03.CelsiusToFahrenheit.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\03.CelsiusToFahrenheit\obj\Debug\net6.0\03.CelsiusToFahrenheit.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\03.CelsiusToFahrenheit\obj\Debug\net6.0\03.CelsiusToFahrenheit.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\03.CelsiusToFahrenheit\obj\Debug\net6.0\refint\03.CelsiusToFahrenheit.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\03.CelsiusToFahrenheit\obj\Debug\net6.0\03.CelsiusToFahrenheit.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\03.CelsiusToFahrenheit\obj\Debug\net6.0\03.CelsiusToFahrenheit.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\03.CelsiusToFahrenheit\obj\Debug\net6.0\ref\03.CelsiusToFahrenheit.dll

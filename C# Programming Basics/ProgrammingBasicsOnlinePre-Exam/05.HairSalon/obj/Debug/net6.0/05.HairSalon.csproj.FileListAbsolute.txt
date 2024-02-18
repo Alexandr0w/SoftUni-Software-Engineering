@@ -1,0 +1,14 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\05.HairSalon\bin\Debug\net6.0\05.HairSalon.exe
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\05.HairSalon\bin\Debug\net6.0\05.HairSalon.deps.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\05.HairSalon\bin\Debug\net6.0\05.HairSalon.runtimeconfig.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\05.HairSalon\bin\Debug\net6.0\05.HairSalon.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\05.HairSalon\bin\Debug\net6.0\05.HairSalon.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\05.HairSalon\obj\Debug\net6.0\05.HairSalon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\05.HairSalon\obj\Debug\net6.0\05.HairSalon.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\05.HairSalon\obj\Debug\net6.0\05.HairSalon.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\05.HairSalon\obj\Debug\net6.0\05.HairSalon.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\05.HairSalon\obj\Debug\net6.0\05.HairSalon.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\05.HairSalon\obj\Debug\net6.0\refint\05.HairSalon.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\05.HairSalon\obj\Debug\net6.0\05.HairSalon.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\05.HairSalon\obj\Debug\net6.0\05.HairSalon.genruntimeconfig.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\05.HairSalon\obj\Debug\net6.0\ref\05.HairSalon.dll

@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\10.WeatherForecast-Part2\bin\Debug\net6.0\10.WeatherForecast-Part2.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\10.WeatherForecast-Part2\bin\Debug\net6.0\10.WeatherForecast-Part2.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\10.WeatherForecast-Part2\bin\Debug\net6.0\10.WeatherForecast-Part2.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\10.WeatherForecast-Part2\bin\Debug\net6.0\10.WeatherForecast-Part2.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\10.WeatherForecast-Part2\bin\Debug\net6.0\10.WeatherForecast-Part2.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\10.WeatherForecast-Part2\obj\Debug\net6.0\10.WeatherForecast-Part2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\10.WeatherForecast-Part2\obj\Debug\net6.0\10.WeatherForecast-Part2.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\10.WeatherForecast-Part2\obj\Debug\net6.0\10.WeatherForecast-Part2.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\10.WeatherForecast-Part2\obj\Debug\net6.0\10.WeatherForecast-Part2.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\10.WeatherForecast-Part2\obj\Debug\net6.0\10.WeatherForecast-Part2.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\10.WeatherForecast-Part2\obj\Debug\net6.0\refint\10.WeatherForecast-Part2.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\10.WeatherForecast-Part2\obj\Debug\net6.0\10.WeatherForecast-Part2.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\10.WeatherForecast-Part2\obj\Debug\net6.0\10.WeatherForecast-Part2.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\10.WeatherForecast-Part2\obj\Debug\net6.0\ref\10.WeatherForecast-Part2.dll

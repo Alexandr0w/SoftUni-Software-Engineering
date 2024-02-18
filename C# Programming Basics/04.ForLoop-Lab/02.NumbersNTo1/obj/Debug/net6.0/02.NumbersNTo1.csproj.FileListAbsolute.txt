@@ -1,0 +1,14 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\02.NumbersNTo1\bin\Debug\net6.0\02.NumbersNTo1.exe
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\02.NumbersNTo1\bin\Debug\net6.0\02.NumbersNTo1.deps.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\02.NumbersNTo1\bin\Debug\net6.0\02.NumbersNTo1.runtimeconfig.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\02.NumbersNTo1\bin\Debug\net6.0\02.NumbersNTo1.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\02.NumbersNTo1\bin\Debug\net6.0\02.NumbersNTo1.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\02.NumbersNTo1\obj\Debug\net6.0\02.NumbersNTo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\02.NumbersNTo1\obj\Debug\net6.0\02.NumbersNTo1.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\02.NumbersNTo1\obj\Debug\net6.0\02.NumbersNTo1.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\02.NumbersNTo1\obj\Debug\net6.0\02.NumbersNTo1.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\02.NumbersNTo1\obj\Debug\net6.0\02.NumbersNTo1.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\02.NumbersNTo1\obj\Debug\net6.0\refint\02.NumbersNTo1.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\02.NumbersNTo1\obj\Debug\net6.0\02.NumbersNTo1.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\02.NumbersNTo1\obj\Debug\net6.0\02.NumbersNTo1.genruntimeconfig.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\04.ForLoop-Lab\02.NumbersNTo1\obj\Debug\net6.0\ref\02.NumbersNTo1.dll

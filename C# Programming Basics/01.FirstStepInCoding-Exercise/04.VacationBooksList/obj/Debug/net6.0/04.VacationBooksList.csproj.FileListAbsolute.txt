@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\04.VacationBooksList\bin\Debug\net6.0\04.VacationBooksList.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\04.VacationBooksList\bin\Debug\net6.0\04.VacationBooksList.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\04.VacationBooksList\bin\Debug\net6.0\04.VacationBooksList.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\04.VacationBooksList\bin\Debug\net6.0\04.VacationBooksList.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\04.VacationBooksList\bin\Debug\net6.0\04.VacationBooksList.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\04.VacationBooksList\obj\Debug\net6.0\04.VacationBooksList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\04.VacationBooksList\obj\Debug\net6.0\04.VacationBooksList.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\04.VacationBooksList\obj\Debug\net6.0\04.VacationBooksList.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\04.VacationBooksList\obj\Debug\net6.0\04.VacationBooksList.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\04.VacationBooksList\obj\Debug\net6.0\04.VacationBooksList.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\04.VacationBooksList\obj\Debug\net6.0\refint\04.VacationBooksList.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\04.VacationBooksList\obj\Debug\net6.0\04.VacationBooksList.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\04.VacationBooksList\obj\Debug\net6.0\04.VacationBooksList.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\04.VacationBooksList\obj\Debug\net6.0\ref\04.VacationBooksList.dll

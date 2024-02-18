@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\02.BonusScore\bin\Debug\net6.0\02.BonusScore.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\02.BonusScore\bin\Debug\net6.0\02.BonusScore.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\02.BonusScore\bin\Debug\net6.0\02.BonusScore.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\02.BonusScore\bin\Debug\net6.0\02.BonusScore.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\02.BonusScore\bin\Debug\net6.0\02.BonusScore.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\02.BonusScore\obj\Debug\net6.0\02.BonusScore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\02.BonusScore\obj\Debug\net6.0\02.BonusScore.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\02.BonusScore\obj\Debug\net6.0\02.BonusScore.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\02.BonusScore\obj\Debug\net6.0\02.BonusScore.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\02.BonusScore\obj\Debug\net6.0\02.BonusScore.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\02.BonusScore\obj\Debug\net6.0\refint\02.BonusScore.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\02.BonusScore\obj\Debug\net6.0\02.BonusScore.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\02.BonusScore\obj\Debug\net6.0\02.BonusScore.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\02.BonusScore\obj\Debug\net6.0\ref\02.BonusScore.dll

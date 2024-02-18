@@ -1,0 +1,14 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\06.Substitute\bin\Debug\net6.0\06.Substitute.exe
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\06.Substitute\bin\Debug\net6.0\06.Substitute.deps.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\06.Substitute\bin\Debug\net6.0\06.Substitute.runtimeconfig.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\06.Substitute\bin\Debug\net6.0\06.Substitute.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\06.Substitute\bin\Debug\net6.0\06.Substitute.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\06.Substitute\obj\Debug\net6.0\06.Substitute.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\06.Substitute\obj\Debug\net6.0\06.Substitute.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\06.Substitute\obj\Debug\net6.0\06.Substitute.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\06.Substitute\obj\Debug\net6.0\06.Substitute.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\06.Substitute\obj\Debug\net6.0\06.Substitute.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\06.Substitute\obj\Debug\net6.0\refint\06.Substitute.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\06.Substitute\obj\Debug\net6.0\06.Substitute.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\06.Substitute\obj\Debug\net6.0\06.Substitute.genruntimeconfig.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\06.Substitute\obj\Debug\net6.0\ref\06.Substitute.dll

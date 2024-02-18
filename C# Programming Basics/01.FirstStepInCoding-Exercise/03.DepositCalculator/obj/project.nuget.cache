@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/6li3nR8YJLpBl9cFcfgp8dgVRTi27Q48n67p+lvVI0mqnqDs7gNbaGLB637enCDgxWXcOiOFGZ+6TgDhKBBfA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alexander\\source\\repos\\SoftUni\\PB-Jan-2024\\FirstStepInCoding-Exercise\\03.DepositCalculator\\03.DepositCalculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

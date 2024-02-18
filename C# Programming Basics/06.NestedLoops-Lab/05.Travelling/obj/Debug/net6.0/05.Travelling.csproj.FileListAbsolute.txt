@@ -1,0 +1,14 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\05.Travelling\bin\Debug\net6.0\05.Travelling.exe
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\05.Travelling\bin\Debug\net6.0\05.Travelling.deps.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\05.Travelling\bin\Debug\net6.0\05.Travelling.runtimeconfig.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\05.Travelling\bin\Debug\net6.0\05.Travelling.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\05.Travelling\bin\Debug\net6.0\05.Travelling.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\05.Travelling\obj\Debug\net6.0\05.Travelling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\05.Travelling\obj\Debug\net6.0\05.Travelling.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\05.Travelling\obj\Debug\net6.0\05.Travelling.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\05.Travelling\obj\Debug\net6.0\05.Travelling.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\05.Travelling\obj\Debug\net6.0\05.Travelling.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\05.Travelling\obj\Debug\net6.0\refint\05.Travelling.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\05.Travelling\obj\Debug\net6.0\05.Travelling.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\05.Travelling\obj\Debug\net6.0\05.Travelling.genruntimeconfig.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\05.Travelling\obj\Debug\net6.0\ref\05.Travelling.dll

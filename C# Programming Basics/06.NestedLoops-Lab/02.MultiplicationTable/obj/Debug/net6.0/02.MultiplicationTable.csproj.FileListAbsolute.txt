@@ -1,0 +1,14 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\02.MultiplicationTable\obj\Debug\net6.0\02.MultiplicationTable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\02.MultiplicationTable\obj\Debug\net6.0\02.MultiplicationTable.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\02.MultiplicationTable\obj\Debug\net6.0\02.MultiplicationTable.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\02.MultiplicationTable\obj\Debug\net6.0\02.MultiplicationTable.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\02.MultiplicationTable\bin\Debug\net6.0\02.MultiplicationTable.exe
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\02.MultiplicationTable\bin\Debug\net6.0\02.MultiplicationTable.deps.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\02.MultiplicationTable\bin\Debug\net6.0\02.MultiplicationTable.runtimeconfig.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\02.MultiplicationTable\bin\Debug\net6.0\02.MultiplicationTable.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\02.MultiplicationTable\bin\Debug\net6.0\02.MultiplicationTable.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\02.MultiplicationTable\obj\Debug\net6.0\02.MultiplicationTable.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\02.MultiplicationTable\obj\Debug\net6.0\refint\02.MultiplicationTable.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\02.MultiplicationTable\obj\Debug\net6.0\02.MultiplicationTable.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\02.MultiplicationTable\obj\Debug\net6.0\02.MultiplicationTable.genruntimeconfig.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\06.NestedLoops-Lab\02.MultiplicationTable\obj\Debug\net6.0\ref\02.MultiplicationTable.dll

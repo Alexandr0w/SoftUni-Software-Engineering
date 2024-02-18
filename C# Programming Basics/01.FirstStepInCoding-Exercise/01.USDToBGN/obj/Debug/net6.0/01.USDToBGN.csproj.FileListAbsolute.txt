@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\01.USDToBGN\bin\Debug\net6.0\01.USDToBGN.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\01.USDToBGN\bin\Debug\net6.0\01.USDToBGN.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\01.USDToBGN\bin\Debug\net6.0\01.USDToBGN.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\01.USDToBGN\bin\Debug\net6.0\01.USDToBGN.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\01.USDToBGN\bin\Debug\net6.0\01.USDToBGN.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\01.USDToBGN\obj\Debug\net6.0\01.USDToBGN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\01.USDToBGN\obj\Debug\net6.0\01.USDToBGN.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\01.USDToBGN\obj\Debug\net6.0\01.USDToBGN.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\01.USDToBGN\obj\Debug\net6.0\01.USDToBGN.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\01.USDToBGN\obj\Debug\net6.0\01.USDToBGN.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\01.USDToBGN\obj\Debug\net6.0\refint\01.USDToBGN.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\01.USDToBGN\obj\Debug\net6.0\01.USDToBGN.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\01.USDToBGN\obj\Debug\net6.0\01.USDToBGN.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\01.USDToBGN\obj\Debug\net6.0\ref\01.USDToBGN.dll

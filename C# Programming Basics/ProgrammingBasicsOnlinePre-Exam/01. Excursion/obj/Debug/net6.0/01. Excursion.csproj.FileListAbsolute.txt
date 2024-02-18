@@ -1,0 +1,14 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\01. Excursion\bin\Debug\net6.0\01. Excursion.exe
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\01. Excursion\bin\Debug\net6.0\01. Excursion.deps.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\01. Excursion\bin\Debug\net6.0\01. Excursion.runtimeconfig.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\01. Excursion\bin\Debug\net6.0\01. Excursion.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\01. Excursion\bin\Debug\net6.0\01. Excursion.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\01. Excursion\obj\Debug\net6.0\01. Excursion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\01. Excursion\obj\Debug\net6.0\01. Excursion.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\01. Excursion\obj\Debug\net6.0\01. Excursion.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\01. Excursion\obj\Debug\net6.0\01. Excursion.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\01. Excursion\obj\Debug\net6.0\01. Excursion.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\01. Excursion\obj\Debug\net6.0\refint\01. Excursion.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\01. Excursion\obj\Debug\net6.0\01. Excursion.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\01. Excursion\obj\Debug\net6.0\01. Excursion.genruntimeconfig.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\ProgrammingBasicsOnlinePre-Exam\01. Excursion\obj\Debug\net6.0\ref\01. Excursion.dll

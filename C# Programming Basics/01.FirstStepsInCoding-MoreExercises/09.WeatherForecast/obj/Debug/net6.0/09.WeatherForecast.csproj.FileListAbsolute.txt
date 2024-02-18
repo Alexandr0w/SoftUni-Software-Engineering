@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\09.WeatherForecast\bin\Debug\net6.0\09.WeatherForecast.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\09.WeatherForecast\bin\Debug\net6.0\09.WeatherForecast.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\09.WeatherForecast\bin\Debug\net6.0\09.WeatherForecast.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\09.WeatherForecast\bin\Debug\net6.0\09.WeatherForecast.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\09.WeatherForecast\bin\Debug\net6.0\09.WeatherForecast.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\09.WeatherForecast\obj\Debug\net6.0\09.WeatherForecast.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\09.WeatherForecast\obj\Debug\net6.0\09.WeatherForecast.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\09.WeatherForecast\obj\Debug\net6.0\09.WeatherForecast.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\09.WeatherForecast\obj\Debug\net6.0\09.WeatherForecast.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\09.WeatherForecast\obj\Debug\net6.0\09.WeatherForecast.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\09.WeatherForecast\obj\Debug\net6.0\refint\09.WeatherForecast.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\09.WeatherForecast\obj\Debug\net6.0\09.WeatherForecast.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\09.WeatherForecast\obj\Debug\net6.0\09.WeatherForecast.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\03.FirstStepsInCoding-MoreExercises\09.WeatherForecast\obj\Debug\net6.0\ref\09.WeatherForecast.dll

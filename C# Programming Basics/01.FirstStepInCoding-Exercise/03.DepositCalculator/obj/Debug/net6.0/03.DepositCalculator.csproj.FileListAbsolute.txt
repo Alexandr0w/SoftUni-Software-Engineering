@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\03.DepositCalculator\bin\Debug\net6.0\03.DepositCalculator.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\03.DepositCalculator\bin\Debug\net6.0\03.DepositCalculator.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\03.DepositCalculator\bin\Debug\net6.0\03.DepositCalculator.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\03.DepositCalculator\bin\Debug\net6.0\03.DepositCalculator.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\03.DepositCalculator\bin\Debug\net6.0\03.DepositCalculator.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\03.DepositCalculator\obj\Debug\net6.0\03.DepositCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\03.DepositCalculator\obj\Debug\net6.0\03.DepositCalculator.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\03.DepositCalculator\obj\Debug\net6.0\03.DepositCalculator.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\03.DepositCalculator\obj\Debug\net6.0\03.DepositCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\03.DepositCalculator\obj\Debug\net6.0\03.DepositCalculator.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\03.DepositCalculator\obj\Debug\net6.0\refint\03.DepositCalculator.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\03.DepositCalculator\obj\Debug\net6.0\03.DepositCalculator.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\03.DepositCalculator\obj\Debug\net6.0\03.DepositCalculator.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\01.FirstStepInCoding-Exercise\03.DepositCalculator\obj\Debug\net6.0\ref\03.DepositCalculator.dll

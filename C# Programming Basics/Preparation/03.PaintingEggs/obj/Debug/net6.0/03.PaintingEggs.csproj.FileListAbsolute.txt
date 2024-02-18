@@ -1,0 +1,14 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\03.PaintingEggs\bin\Debug\net6.0\03.PaintingEggs.exe
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\03.PaintingEggs\bin\Debug\net6.0\03.PaintingEggs.deps.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\03.PaintingEggs\bin\Debug\net6.0\03.PaintingEggs.runtimeconfig.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\03.PaintingEggs\bin\Debug\net6.0\03.PaintingEggs.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\03.PaintingEggs\bin\Debug\net6.0\03.PaintingEggs.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\03.PaintingEggs\obj\Debug\net6.0\03.PaintingEggs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\03.PaintingEggs\obj\Debug\net6.0\03.PaintingEggs.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\03.PaintingEggs\obj\Debug\net6.0\03.PaintingEggs.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\03.PaintingEggs\obj\Debug\net6.0\03.PaintingEggs.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\03.PaintingEggs\obj\Debug\net6.0\03.PaintingEggs.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\03.PaintingEggs\obj\Debug\net6.0\refint\03.PaintingEggs.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\03.PaintingEggs\obj\Debug\net6.0\03.PaintingEggs.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\03.PaintingEggs\obj\Debug\net6.0\03.PaintingEggs.genruntimeconfig.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\Preparation\03.PaintingEggs\obj\Debug\net6.0\ref\03.PaintingEggs.dll

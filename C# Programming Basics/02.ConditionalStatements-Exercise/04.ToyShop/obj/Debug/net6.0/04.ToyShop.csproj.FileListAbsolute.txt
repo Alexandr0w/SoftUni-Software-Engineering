@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\04.ToyShop\obj\Debug\net6.0\04.ToyShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\04.ToyShop\obj\Debug\net6.0\04.ToyShop.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\04.ToyShop\obj\Debug\net6.0\04.ToyShop.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\04.ToyShop\obj\Debug\net6.0\04.ToyShop.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\04.ToyShop\bin\Debug\net6.0\04.ToyShop.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\04.ToyShop\bin\Debug\net6.0\04.ToyShop.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\04.ToyShop\bin\Debug\net6.0\04.ToyShop.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\04.ToyShop\bin\Debug\net6.0\04.ToyShop.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\04.ToyShop\bin\Debug\net6.0\04.ToyShop.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\04.ToyShop\obj\Debug\net6.0\04.ToyShop.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\04.ToyShop\obj\Debug\net6.0\refint\04.ToyShop.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\04.ToyShop\obj\Debug\net6.0\04.ToyShop.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\04.ToyShop\obj\Debug\net6.0\04.ToyShop.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\04.ToyShop\obj\Debug\net6.0\ref\04.ToyShop.dll

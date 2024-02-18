@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\05.GodzillaVs.Kong\bin\Debug\net6.0\05.GodzillaVs.Kong.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\05.GodzillaVs.Kong\bin\Debug\net6.0\05.GodzillaVs.Kong.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\05.GodzillaVs.Kong\bin\Debug\net6.0\05.GodzillaVs.Kong.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\05.GodzillaVs.Kong\bin\Debug\net6.0\05.GodzillaVs.Kong.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\05.GodzillaVs.Kong\bin\Debug\net6.0\05.GodzillaVs.Kong.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\05.GodzillaVs.Kong\obj\Debug\net6.0\05.GodzillaVs.Kong.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\05.GodzillaVs.Kong\obj\Debug\net6.0\05.GodzillaVs.Kong.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\05.GodzillaVs.Kong\obj\Debug\net6.0\05.GodzillaVs.Kong.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\05.GodzillaVs.Kong\obj\Debug\net6.0\05.GodzillaVs.Kong.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\05.GodzillaVs.Kong\obj\Debug\net6.0\05.GodzillaVs.Kong.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\05.GodzillaVs.Kong\obj\Debug\net6.0\refint\05.GodzillaVs.Kong.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\05.GodzillaVs.Kong\obj\Debug\net6.0\05.GodzillaVs.Kong.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\05.GodzillaVs.Kong\obj\Debug\net6.0\05.GodzillaVs.Kong.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatements-Exercise\05.GodzillaVs.Kong\obj\Debug\net6.0\ref\05.GodzillaVs.Kong.dll

@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\03.AnimalType\bin\Debug\net6.0\03.AnimalType.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\03.AnimalType\bin\Debug\net6.0\03.AnimalType.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\03.AnimalType\bin\Debug\net6.0\03.AnimalType.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\03.AnimalType\bin\Debug\net6.0\03.AnimalType.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\03.AnimalType\bin\Debug\net6.0\03.AnimalType.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\03.AnimalType\obj\Debug\net6.0\03.AnimalType.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\03.AnimalType\obj\Debug\net6.0\03.AnimalType.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\03.AnimalType\obj\Debug\net6.0\03.AnimalType.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\03.AnimalType\obj\Debug\net6.0\03.AnimalType.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\03.AnimalType\obj\Debug\net6.0\03.AnimalType.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\03.AnimalType\obj\Debug\net6.0\refint\03.AnimalType.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\03.AnimalType\obj\Debug\net6.0\03.AnimalType.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\03.AnimalType\obj\Debug\net6.0\03.AnimalType.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\03.AnimalType\obj\Debug\net6.0\ref\03.AnimalType.dll

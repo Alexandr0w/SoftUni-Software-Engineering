@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\07.WorkingHours\bin\Debug\net6.0\07.WorkingHours.exe
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\07.WorkingHours\bin\Debug\net6.0\07.WorkingHours.deps.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\07.WorkingHours\bin\Debug\net6.0\07.WorkingHours.runtimeconfig.json
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\07.WorkingHours\bin\Debug\net6.0\07.WorkingHours.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\07.WorkingHours\bin\Debug\net6.0\07.WorkingHours.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\07.WorkingHours\obj\Debug\net6.0\07.WorkingHours.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\07.WorkingHours\obj\Debug\net6.0\07.WorkingHours.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\07.WorkingHours\obj\Debug\net6.0\07.WorkingHours.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\07.WorkingHours\obj\Debug\net6.0\07.WorkingHours.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\07.WorkingHours\obj\Debug\net6.0\07.WorkingHours.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\07.WorkingHours\obj\Debug\net6.0\refint\07.WorkingHours.dll
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\07.WorkingHours\obj\Debug\net6.0\07.WorkingHours.pdb
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\07.WorkingHours\obj\Debug\net6.0\07.WorkingHours.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SoftUni\PB-Jan-2024\ConditionalStatementsAdvanced-Lab\07.WorkingHours\obj\Debug\net6.0\ref\07.WorkingHours.dll

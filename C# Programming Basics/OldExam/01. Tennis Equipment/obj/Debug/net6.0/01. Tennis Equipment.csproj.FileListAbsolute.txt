@@ -1,0 +1,14 @@
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\OldExam\01. Tennis Equipment\bin\Debug\net6.0\01. Tennis Equipment.exe
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\OldExam\01. Tennis Equipment\bin\Debug\net6.0\01. Tennis Equipment.deps.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\OldExam\01. Tennis Equipment\bin\Debug\net6.0\01. Tennis Equipment.runtimeconfig.json
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\OldExam\01. Tennis Equipment\bin\Debug\net6.0\01. Tennis Equipment.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\OldExam\01. Tennis Equipment\bin\Debug\net6.0\01. Tennis Equipment.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\OldExam\01. Tennis Equipment\obj\Debug\net6.0\01. Tennis Equipment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\OldExam\01. Tennis Equipment\obj\Debug\net6.0\01. Tennis Equipment.AssemblyInfoInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\OldExam\01. Tennis Equipment\obj\Debug\net6.0\01. Tennis Equipment.AssemblyInfo.cs
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\OldExam\01. Tennis Equipment\obj\Debug\net6.0\01. Tennis Equipment.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\OldExam\01. Tennis Equipment\obj\Debug\net6.0\01. Tennis Equipment.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\OldExam\01. Tennis Equipment\obj\Debug\net6.0\refint\01. Tennis Equipment.dll
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\OldExam\01. Tennis Equipment\obj\Debug\net6.0\01. Tennis Equipment.pdb
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\OldExam\01. Tennis Equipment\obj\Debug\net6.0\01. Tennis Equipment.genruntimeconfig.cache
+C:\Users\Alexander\Documents\SoftUni\PB-Jan-2024\OldExam\01. Tennis Equipment\obj\Debug\net6.0\ref\01. Tennis Equipment.dll
