@@ -6,17 +6,17 @@
         {
             double budget = double.Parse(Console.ReadLine());
             int students = int.Parse(Console.ReadLine());
-            double PackageOfFlourPrice = double.Parse(Console.ReadLine());
-            double SingleEggPrice = double.Parse(Console.ReadLine());
-            double SingleApronPrice = double.Parse(Console.ReadLine());
+            double packageOfFlourPrice = double.Parse(Console.ReadLine());
+            double singleEggPrice = double.Parse(Console.ReadLine());
+            double singleApronPrice = double.Parse(Console.ReadLine());
 
             int freePackages = students / 5;
 
             int apronsNeeded = (int)Math.Ceiling(students * 1.2);
 
-            double totalSum = (SingleApronPrice * apronsNeeded) +
-                              (SingleEggPrice * 10 * students) +
-                              (PackageOfFlourPrice * (students - freePackages));
+            double totalSum = (singleApronPrice * apronsNeeded) +
+                              (singleEggPrice * 10 * students) +
+                              (packageOfFlourPrice * (students - freePackages));
             if (budget >= totalSum)
             {
                 Console.WriteLine($"Items purchased for {totalSum:F2}$.");
