@@ -6,7 +6,7 @@ namespace _03.MatchDates
     {
         static void Main(string[] args)
         {
-            string input = Console.ReadLine();
+            /*string input = Console.ReadLine();
             string pattern = @"\b(?<day>\d{2})(\.|-|\/)(?<month>[A-Z][a-z]{2})\1(?<year>\d{4})\b";
 
             MatchCollection matches = Regex.Matches(input, pattern);
@@ -14,7 +14,13 @@ namespace _03.MatchDates
             foreach (Match match in matches)
             {
                 Console.WriteLine($"Day: {match.Groups["day"].Value}, Month: {match.Groups["month"].Value}, Year: {match.Groups["year"].Value}");
-            }
+            }*/
+            string greet = "Hello";
+            string name = "John";
+
+            string result = string.Concat(greet, name);
+
+            Console.WriteLine(result);
         }
     }
 }
