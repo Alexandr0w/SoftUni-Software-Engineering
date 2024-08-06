@@ -17,6 +17,6 @@ All courses and exams from SoftUni
   </tr>
   <tr>
     <td><a href="https://softuni.bg/trainings/4502/programming-fundamentals-with-csharp-may-2024">C# Fundamentals</a></td>
-    <td>In progress</td>
+    <td><a href="https://softuni.bg/certificates/certificates/converttoimage/222311?code=07324103">Completed ✔️</a></td>
   </tr>
 </table>
