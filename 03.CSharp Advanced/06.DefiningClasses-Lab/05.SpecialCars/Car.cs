@@ -13,8 +13,8 @@ namespace CarManufacturer
         private int year;
         private double fuelQuantity;
         private double fuelConsumption;
-        private Engine engine;
-        private Tire[] tires;
+        private int engine;
+        private int tires;
 
         public Car()
         {
@@ -39,7 +39,7 @@ namespace CarManufacturer
         }
 
 
-        public Car(string make, string model, int year, double fuelQuantity, double fuelConsumption, Engine engine, Tire[] tires) : this(make, model, year, fuelQuantity, fuelConsumption)
+        public Car(string make, string model, int year, double fuelQuantity, double fuelConsumption, int engine, int tires) : this(make, model, year, fuelQuantity, fuelConsumption)
         {
             Engine = engine;
             Tires = tires;
@@ -75,13 +75,13 @@ namespace CarManufacturer
             set { fuelQuantity = value; }
         }
 
-        public Engine Engine
+        public int Engine
         {
             get { return engine; }
             set { engine = value; }
         }
 
-        public Tire[] Tires
+        public int Tires
         {
             get { return tires; }
             set { tires = value; }
