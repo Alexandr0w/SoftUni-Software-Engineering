@@ -19,7 +19,7 @@ namespace CarManufacturer
         public Car()
         {
             Make = "VW";
-            Model = "Golf";
+            Model = "Golf"; 
             Year = 2025;
             FuelQuantity = 200;
             FuelConsumption = 10;

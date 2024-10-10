@@ -26,7 +26,7 @@ namespace CarManufacturer
         public double Pressure
         {
             get { return pressure; }
-            set { pressure = value; }
+            set { pressure = value; } 
         }
     }
 }

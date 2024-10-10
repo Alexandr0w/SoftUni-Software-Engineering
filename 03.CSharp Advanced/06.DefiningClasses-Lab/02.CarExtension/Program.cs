@@ -10,7 +10,7 @@
                 Model = "6",
                 Year = 2010,
                 FuelQuantity = 1000,
-                FuelConsumption = 10
+                FuelConsumption = 10 
             };
 
             car.Drive(55);

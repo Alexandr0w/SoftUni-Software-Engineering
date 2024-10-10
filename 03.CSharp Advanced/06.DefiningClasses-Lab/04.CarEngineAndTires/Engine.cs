@@ -24,7 +24,7 @@ namespace CarManufacturer
 
         public Engine(int horsePower, double cubicCapacity)
         {
-            HorsePower = horsePower;
+            HorsePower = horsePower; 
             CubicCapacity = cubicCapacity;
         }
     }

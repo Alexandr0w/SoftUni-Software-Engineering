@@ -9,7 +9,7 @@ namespace CarManufacturer
     public class Car
     {
         private string make;
-        private string model;
+        private string model; 
         private int year;
         private double fuelQuantity;
         private double fuelConsumption;
