@@ -14,7 +14,7 @@ namespace CarManufacturer
         private double fuelQuantity;
         private double fuelConsumption;
 
-        public string Make
+        public string Make 
         {
             get { return make; }
             set { make = value; }

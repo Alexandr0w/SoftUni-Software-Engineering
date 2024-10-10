@@ -16,7 +16,7 @@
             Tire[] tires = new Tire[2]
             {
                 new Tire(2000, 2),
-                new Tire(2000, 3)
+                new Tire(2000, 3) 
             };
 
             Engine engine = new Engine(225, 3000);
