@@ -21,7 +21,7 @@
 
             Engine engine = new Engine(225, 3000);
 
-            Car enginedCar = new Car("BMW", "5", 2008, 60, 25, engine, tires);
+            Car enginedCar = new Car("BMW", "3", 2008, 60, 25, engine, tires);
         }
     }
 }
