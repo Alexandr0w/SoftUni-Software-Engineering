@@ -1,11 +1,20 @@
-<<<<<<< HEAD
-﻿//
-//
-=======
-<<<<<<< HEAD
-﻿
-=======
-﻿//
-//
->>>>>>> 48d7ae599d31b28b2513dc57f8172fcb65822ad4
->>>>>>> 17fcfae343c7893ee25c3c2474fb76d30280635d
+List<double> numbers = Console.ReadLine().Split().Select(double.Parse).ToList();
+
+Dictionary<double, int> numberTimes = new Dictionary<double, int>();
+
+foreach (var number in numbers)
+{
+    if (!numberTimes.ContainsKey(number))
+    {
+        numberTimes.Add(number, 1);
+    }
+    else
+    {
+        numberTimes[number]++;
+    }
+}
+
+foreach (var numberTime in numberTimes)
+{
+    Console.WriteLine($"{numberTime.Key} - {numberTime.Value} times");
+}
