@@ -30,5 +30,5 @@ while (command != "End")
 
 foreach (Car car in cars.Values)
 {
-    Console.WriteLine($"{car.Model} {car.FuelAmount:f2} {car.TravelledDistance}");
+    Console.WriteLine($"{car.Model} {car.FuelAmount:F2} {car.TravelledDistance}");
 }

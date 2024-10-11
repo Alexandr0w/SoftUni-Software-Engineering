@@ -1,14 +1,15 @@
-﻿namespace DateModifier;
-
-public class Program
+﻿namespace DateModifier
 {
-    public static void Main()
+    public class Program
     {
-        string first = Console.ReadLine();
-        string second = Console.ReadLine();
+        public static void Main()
+        {
+            string first = Console.ReadLine();
+            string second = Console.ReadLine();
 
-        int difference = DateModifier.CalculateDifferenceInDays(first, second);
+            int difference = DateModifier.CalculateDifferenceInDays(first, second);
 
-        Console.WriteLine(difference);
+            Console.WriteLine(difference);
+        }
     }
 }

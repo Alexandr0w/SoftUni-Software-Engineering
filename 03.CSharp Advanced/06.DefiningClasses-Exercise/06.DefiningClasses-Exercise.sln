@@ -3,17 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DefineAClassPerson", "01.DefineAClassPerson\01.DefineAClassPerson.csproj", "{90F0D2C9-6F45-4AAE-A4F4-C6F373401C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.DefineAClassPerson", "01.DefineAClassPerson\01.DefineAClassPerson.csproj", "{90F0D2C9-6F45-4AAE-A4F4-C6F373401C63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CreatingConstructors", "02.CreatingConstructors\02.CreatingConstructors.csproj", "{1453BF34-1D0A-4D25-B9A9-9AE6302AF15A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.CreatingConstructors", "02.CreatingConstructors\02.CreatingConstructors.csproj", "{1453BF34-1D0A-4D25-B9A9-9AE6302AF15A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.OldestFamilyMember", "03.OldestFamilyMember\03.OldestFamilyMember.csproj", "{DF2A9784-32BA-4425-9AED-A88E19C961D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.OldestFamilyMember", "03.OldestFamilyMember\03.OldestFamilyMember.csproj", "{DF2A9784-32BA-4425-9AED-A88E19C961D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.OpinionPoll", "04.OpinionPoll\04.OpinionPoll.csproj", "{0A019E53-3B1E-44FE-9FE4-81E635EAF0DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.OpinionPoll", "04.OpinionPoll\04.OpinionPoll.csproj", "{0A019E53-3B1E-44FE-9FE4-81E635EAF0DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.DateModifier", "05.DateModifier\05.DateModifier.csproj", "{34B8367A-D7DF-4EDE-B83A-C924F85BC755}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.DateModifier", "05.DateModifier\05.DateModifier.csproj", "{34B8367A-D7DF-4EDE-B83A-C924F85BC755}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.SpeedRacing", "06.SpeedRacing\06.SpeedRacing.csproj", "{F6D95FE8-9CA0-40B5-B8FF-55E1ED931E81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.SpeedRacing", "06.SpeedRacing\06.SpeedRacing.csproj", "{F6D95FE8-9CA0-40B5-B8FF-55E1ED931E81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.RawData", "07.RawData\07.RawData.csproj", "{0DBA8F88-20EF-49F7-9C74-B25184148517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.CarSalesman", "08.CarSalesman\08.CarSalesman.csproj", "{648BA0C3-B3BA-41BA-B44B-0676723171B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.PokemonTrainer", "09.PokemonTrainer\09.PokemonTrainer.csproj", "{B1C20F52-6C7B-4E97-89C0-199ADEA7E07A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.SoftUniParking", "10.SoftUniParking\10.SoftUniParking.csproj", "{EEC19532-3420-4B09-B838-477500B1C7DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,22 @@ Global
 		{F6D95FE8-9CA0-40B5-B8FF-55E1ED931E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6D95FE8-9CA0-40B5-B8FF-55E1ED931E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6D95FE8-9CA0-40B5-B8FF-55E1ED931E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DBA8F88-20EF-49F7-9C74-B25184148517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBA8F88-20EF-49F7-9C74-B25184148517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DBA8F88-20EF-49F7-9C74-B25184148517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DBA8F88-20EF-49F7-9C74-B25184148517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{648BA0C3-B3BA-41BA-B44B-0676723171B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648BA0C3-B3BA-41BA-B44B-0676723171B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648BA0C3-B3BA-41BA-B44B-0676723171B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648BA0C3-B3BA-41BA-B44B-0676723171B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C20F52-6C7B-4E97-89C0-199ADEA7E07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C20F52-6C7B-4E97-89C0-199ADEA7E07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C20F52-6C7B-4E97-89C0-199ADEA7E07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C20F52-6C7B-4E97-89C0-199ADEA7E07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC19532-3420-4B09-B838-477500B1C7DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC19532-3420-4B09-B838-477500B1C7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC19532-3420-4B09-B838-477500B1C7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC19532-3420-4B09-B838-477500B1C7DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
