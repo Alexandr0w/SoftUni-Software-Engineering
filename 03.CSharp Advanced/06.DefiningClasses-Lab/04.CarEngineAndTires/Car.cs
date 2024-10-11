@@ -102,7 +102,7 @@ namespace CarManufacturer
 
         public string WhoAmI()
         {
-            StringBuilder result = new StringBuilder();
+            StringBuilder result = new StringBuilder(); 
             result.AppendLine($"Make: {this.Make}");
             result.AppendLine($"Model: {this.Model}");
             result.AppendLine($"Year: {this.Year}");
