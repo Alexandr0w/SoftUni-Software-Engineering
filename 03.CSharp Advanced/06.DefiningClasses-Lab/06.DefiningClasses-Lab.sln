@@ -3,15 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-<<<<<<< HEAD
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Car", "01.Car\01.Car.csproj", "{A85B1387-9561-4D32-9E88-E4D48BF42C65}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CarExtension", "02.CarExtension\02.CarExtension.csproj", "{31CB3303-4053-4FAC-B878-B96EB49DB334}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CarConstructors", "03.CarConstructors\03.CarConstructors.csproj", "{60B41B8C-52C5-4509-BB5E-532DA1E333AB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.CarEngineAndTires", "04.CarEngineAndTires\04.CarEngineAndTires.csproj", "{2BDBFFB3-BA80-4C2D-BF1A-81E5EC421790}"
-=======
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Car", "01.Car\01.Car.csproj", "{A85B1387-9561-4D32-9E88-E4D48BF42C65}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.CarExtension", "02.CarExtension\02.CarExtension.csproj", "{31CB3303-4053-4FAC-B878-B96EB49DB334}"
@@ -20,8 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.CarConstructors", "03.Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.CarEngineAndTires", "04.CarEngineAndTires\04.CarEngineAndTires.csproj", "{2BDBFFB3-BA80-4C2D-BF1A-81E5EC421790}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SpecialCars", "05.SpecialCars\05.SpecialCars.csproj", "{BB2F9C3F-03BC-4107-945E-E21C2633BFA9}"
->>>>>>> 17fcfae343c7893ee25c3c2474fb76d30280635d
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.SpecialCars", "05.SpecialCars\05.SpecialCars.csproj", "{BB2F9C3F-03BC-4107-945E-E21C2633BFA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,13 +35,10 @@ Global
 		{2BDBFFB3-BA80-4C2D-BF1A-81E5EC421790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BDBFFB3-BA80-4C2D-BF1A-81E5EC421790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BDBFFB3-BA80-4C2D-BF1A-81E5EC421790}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
-=======
 		{BB2F9C3F-03BC-4107-945E-E21C2633BFA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BB2F9C3F-03BC-4107-945E-E21C2633BFA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB2F9C3F-03BC-4107-945E-E21C2633BFA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB2F9C3F-03BC-4107-945E-E21C2633BFA9}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> 17fcfae343c7893ee25c3c2474fb76d30280635d
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
