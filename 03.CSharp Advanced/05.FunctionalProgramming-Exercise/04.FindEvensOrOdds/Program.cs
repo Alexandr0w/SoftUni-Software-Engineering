@@ -4,10 +4,18 @@ int upperNumber = numbers[1];
 
 string parity = Console.ReadLine();
 
-Predicate<int> isValid = x => x % 2 == 0;
+Predicate<int> isValid;
+if (parity == "even") isValid = x => x % 2 == 0;
+else if (parity == "odd") isValid = x => x % 2 != 0;
+else isValid = x => false;
 
-for (int i = lowerNumber; i < upperNumber; i++)
+List<int> result = new List<int>();
+for (int i = lowerNumber; i <= upperNumber; i++)
 {
-    if (parity == "even")
-    else if (parity == "odd")
-}    
+    if (isValid(i))
+    {
+        result.Add(i);
+    }
+}
+
+Console.WriteLine(string.Join(" ", result));
