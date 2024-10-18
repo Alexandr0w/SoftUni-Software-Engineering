@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 
-namespace LinkedList
+namespace CustomDoublyLinkedList
 {
-    public class CustomDoublyLinkedList<TValue> : IEnumerable<TValue>
+    public class DoublyLinkedList<TValue> : IEnumerable<TValue>
     {
         private readonly Node _head, _tail;
 
-        public CustomDoublyLinkedList()
+        public DoublyLinkedList()
         {
             this._head = new Node(default!);
             this._tail = new Node(default!);

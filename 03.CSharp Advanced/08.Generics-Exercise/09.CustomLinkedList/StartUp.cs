@@ -1,4 +1,4 @@
-﻿namespace LinkedList
+﻿namespace CustomDoublyLinkedList
 {
     public class StartUp
     {
