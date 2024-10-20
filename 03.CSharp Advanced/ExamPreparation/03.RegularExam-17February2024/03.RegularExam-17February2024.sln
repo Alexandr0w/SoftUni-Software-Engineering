@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ChickenSnack", "01.ChickenSnack\01.ChickenSnack.csproj", "{D9C23AF2-852F-4626-9ED4-49CEAA249B81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.ChickenSnack", "01.ChickenSnack\01.ChickenSnack.csproj", "{D9C23AF2-852F-4626-9ED4-49CEAA249B81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ClearSkies", "02.ClearSkies\02.ClearSkies.csproj", "{B3438D5E-9BD4-47E2-AE15-4EAD62B7DD32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.ClearSkies", "02.ClearSkies\02.ClearSkies.csproj", "{B3438D5E-9BD4-47E2-AE15-4EAD62B7DD32}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharkTaxonomy", "SharkTaxonomy\SharkTaxonomy.csproj", "{B653967B-025F-41B1-8BC1-47DC7D6121B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.SharkTaxonomy", "03.SharkTaxonomy\03.SharkTaxonomy.csproj", "{9C36AA6E-56E1-4EB0-B992-19EC8CBE08B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{B3438D5E-9BD4-47E2-AE15-4EAD62B7DD32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3438D5E-9BD4-47E2-AE15-4EAD62B7DD32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3438D5E-9BD4-47E2-AE15-4EAD62B7DD32}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B653967B-025F-41B1-8BC1-47DC7D6121B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B653967B-025F-41B1-8BC1-47DC7D6121B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B653967B-025F-41B1-8BC1-47DC7D6121B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B653967B-025F-41B1-8BC1-47DC7D6121B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C36AA6E-56E1-4EB0-B992-19EC8CBE08B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C36AA6E-56E1-4EB0-B992-19EC8CBE08B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C36AA6E-56E1-4EB0-B992-19EC8CBE08B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C36AA6E-56E1-4EB0-B992-19EC8CBE08B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
