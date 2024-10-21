@@ -18,7 +18,7 @@ for (int i = 0; i < n; i++)
 
 foreach (var (student, grades) in studentGrades)
 {
-    string[] mappedGrades = grades.Select(grade => $"{grade:f2}").ToArray();
+    string[] mappedGrades = grades.Select(grade => $"{grade:F2}").ToArray();
 
-    Console.WriteLine($"{student} -> {string.Join(" ", mappedGrades)} (avg: {grades.Average():f2})");
+    Console.WriteLine($"{student} -> {string.Join(" ", mappedGrades)} (avg: {grades.Average():F2})");
 }
