@@ -9,46 +9,36 @@
                 .Select(int.Parse)
                 .ToArray();
 
-            SortArray(input, 0, input.Length - 1);
+            Array.Sort(input);
 
             Console.WriteLine(string.Join(" ", input));
         }
-        private static int[] SortArray(int[] array, int leftIndex, int rightIndex)
+
+        public static void QuickSort<T>(T[] array, int start, int end) where T : IComparable<T>
         {
-            var i = leftIndex;
-            var j = rightIndex;
-            var pivot = array[leftIndex];
-            while (i <= j)
-            {
-                while (array[i] < pivot)
-                {
-                    i++;
-                }
+            if (start >= end) return;
 
-                while (array[j] > pivot)
+            int pivotIndex = Partition(array, start, end);
+
+            QuickSort(array, 0, pivotIndex - 1);
+            QuickSort(array, pivotIndex + 1, end);
+        }
+
+        private static int Partition<T>(T[] array, int start, int end) where T: IComparable<T>
+        {
+            T pivot = array[end];
+            int index = start;
+
+            for (int i = start; i < end; i++)
+            {
+                if (array[i].CompareTo(pivot) <= 0)
                 {
-                    j--;
-                }
-                if (i <= j)
-                {
-                    int temp = array[i];
-                    array[i] = array[j];
-                    array[j] = temp;
-                    i++;
-                    j--;
+                    (array[i], array[index]) = (array[index++], array[i]);
                 }
             }
 
-            if (leftIndex < j)
-            {
-                SortArray(array, leftIndex, j);
-            }
-            if (i < rightIndex)
-            {
-                SortArray(array, i, rightIndex);
-            }
-
-            return array;
+            (array[end], array[index]) = (array[index], array[end]);
+            return index;
         }
     }
 }
