@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.RecursiveArraySum", "01.RecursiveArraySum\01.RecursiveArraySum.csproj", "{CCB2C197-8DD2-46B5-B7BB-12751960D2C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.RecursiveFactorial", "02.RecursiveFactorial\02.RecursiveFactorial.csproj", "{C0EAB938-DDA2-4788-AED5-95EEC8F63BF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SumOfCoins", "03.SumOfCoins\03.SumOfCoins.csproj", "{2AC08249-8BE9-42E2-90A6-0B33E5E18D0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SetCover", "04.SetCover\04.SetCover.csproj", "{E8416654-C6D8-4992-B69E-AC52E50147EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.MergeSort", "05.MergeSort\05.MergeSort.csproj", "{A4258502-5DE1-48F7-9AA5-E0B1FE427E10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Quicksort", "06.Quicksort\06.Quicksort.csproj", "{AC1D0CB6-88E8-4505-B5D1-380ACC677C13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.BinarySearch", "07.BinarySearch\07.BinarySearch.csproj", "{BB5CA1B5-79F1-4E98-80EF-68A5A6C050B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCB2C197-8DD2-46B5-B7BB-12751960D2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB2C197-8DD2-46B5-B7BB-12751960D2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB2C197-8DD2-46B5-B7BB-12751960D2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB2C197-8DD2-46B5-B7BB-12751960D2C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0EAB938-DDA2-4788-AED5-95EEC8F63BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0EAB938-DDA2-4788-AED5-95EEC8F63BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0EAB938-DDA2-4788-AED5-95EEC8F63BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0EAB938-DDA2-4788-AED5-95EEC8F63BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC08249-8BE9-42E2-90A6-0B33E5E18D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC08249-8BE9-42E2-90A6-0B33E5E18D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC08249-8BE9-42E2-90A6-0B33E5E18D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC08249-8BE9-42E2-90A6-0B33E5E18D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8416654-C6D8-4992-B69E-AC52E50147EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8416654-C6D8-4992-B69E-AC52E50147EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8416654-C6D8-4992-B69E-AC52E50147EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8416654-C6D8-4992-B69E-AC52E50147EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4258502-5DE1-48F7-9AA5-E0B1FE427E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4258502-5DE1-48F7-9AA5-E0B1FE427E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4258502-5DE1-48F7-9AA5-E0B1FE427E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4258502-5DE1-48F7-9AA5-E0B1FE427E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1D0CB6-88E8-4505-B5D1-380ACC677C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1D0CB6-88E8-4505-B5D1-380ACC677C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1D0CB6-88E8-4505-B5D1-380ACC677C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1D0CB6-88E8-4505-B5D1-380ACC677C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5CA1B5-79F1-4E98-80EF-68A5A6C050B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5CA1B5-79F1-4E98-80EF-68A5A6C050B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5CA1B5-79F1-4E98-80EF-68A5A6C050B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5CA1B5-79F1-4E98-80EF-68A5A6C050B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C617A1C4-4E0F-40E1-B22E-14EF0E882314}
+	EndGlobalSection
+EndGlobal
