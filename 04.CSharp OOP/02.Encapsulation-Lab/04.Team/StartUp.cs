@@ -1,4 +1,6 @@
-﻿namespace PersonsInfo
+﻿using System.Collections.Generic;
+
+namespace PersonsInfo
 {
     public class StartUp
     {
@@ -32,8 +34,8 @@
                 team.AddPlayer(person);
             }
 
-            Console.WriteLine(team.FirstTeam.Count);
-            Console.WriteLine(team.ReserveTeam.Count);
+            Console.WriteLine($"First team has {team.FirstTeam.Count} players.");
+            Console.WriteLine($"Reserve team has {team.ReserveTeam.Count} players.");
         }
     }
 }
