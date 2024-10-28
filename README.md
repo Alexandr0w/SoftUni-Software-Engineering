@@ -19,4 +19,8 @@ All courses and exams from SoftUni
     <td><a href="https://softuni.bg/trainings/4502/programming-fundamentals-with-csharp-may-2024">C# Fundamentals</a></td>
     <td><a href="https://softuni.bg/certificates/details/222311/07324103">Completed ✔️</a></td>
   </tr>
+  <tr>
+    <td><a href="https://softuni.bg/trainings/4696/csharp-advanced-september-2024">C# Advanced</a></td>
+    <td><a href="https://softuni.bg/certificates/details/227795/75ddd65e">Completed ✔️</a></td>
+  </tr>
 </table>
