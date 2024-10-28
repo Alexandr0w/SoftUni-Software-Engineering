@@ -1,30 +1,29 @@
 ﻿using System.Text;
 
-namespace SharkTaxonomy
+namespace SharkTaxonomy;
+
+public class Shark
 {
-    public class Shark
+    public Shark(string kind, int length, string food, string habitat)
     {
-        public Shark(string kind, int length, string food, string habitat)
-        {
-            this.Kind = kind;
-            this.Length = length;
-            this.Food = food;
-            this.Habitat = habitat;
-        }
+        this.Kind = kind;
+        this.Length = length;
+        this.Food = food;
+        this.Habitat = habitat;
+    }
 
-        public string Kind { get; set; }
-        public int Length { get; set; }
-        public string Food { get; set; }
-        public string Habitat { get; set; }
+    public string Kind { get; }
+    public int Length { get; }
+    public string Food { get; }
+    public string Habitat { get; }
 
-        public override string ToString()
-        {
-            StringBuilder sb = new StringBuilder();
+    public override string ToString()
+    {
+        StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine($"{this.Kind} shark: {this.Length}m long.");
-            sb.AppendLine($"Could be spotted in the {this.Habitat}, typical menu: {this.Food}");
-        
-            return sb.ToString().Trim();
-        }
+        sb.AppendLine($"{this.Kind} shark: {this.Length}m long.");
+        sb.Append($"Could be spotted in the {this.Habitat}, typical menu: {this.Food}");
+
+        return sb.ToString();
     }
 }
