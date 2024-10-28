@@ -4,12 +4,17 @@
     {
         public static void Main()
         {
-            Person[] people = ReadPeople();
-            Product[] products = ReadProducts();
-
-            foreach (Person person in people)
+            try
             {
-                Console.WriteLine($"{person.Name} -");
+                Person[] people = ReadPeople();
+                Product[] products = ReadProducts();
+
+                ProcessCommands(people, products);
+                PrintOutput(people);
+            }
+            catch (ArgumentException e)
+            {
+                Console.WriteLine(e.Message);
             }
         }
 
@@ -53,10 +58,35 @@
             while (command != "END")
             {
                 string[] data = command.Split(" ", StringSplitOptions.RemoveEmptyEntries);
-                Person person =  personByName[data[0]];
+                Person person = personByName[data[0]];
                 Product product = productByName[data[1]];
+
+                if (person.Purchase(product))
+                {
+                    Console.WriteLine($"{person.Name} bought {product.Name}");
+                }
+                else
+                {
+                    Console.WriteLine($"{person.Name} can't afford {product.Name}");
+                }
 
                 command = Console.ReadLine();
             }
+        }
+
+        private static void PrintOutput(Person[] people)
+        {
+            foreach (Person person in people)
+            {
+                if (person.Bag.Count == 0)
+                {
+                    Console.WriteLine($"{person.Name} - Nothing bought");
+                }
+                else
+                {    
+                    Console.WriteLine($"{person.Name} - { string.Join(", ", person.Bag.Select(p => p.Name)) }");
+                }
+            }
+        }
     }
 }
