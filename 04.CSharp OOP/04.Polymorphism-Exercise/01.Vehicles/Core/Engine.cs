@@ -3,29 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Vehicles.Core.Interfaces;
-using Vehicles.Factories.Interfaces;
+using Vehicles.Factories;
 using Vehicles.IO.Interfaces;
 using Vehicles.Models;
-using Vehicles.Models.Interfaces;
 
 namespace Vehicles.Core
 {
-    public class Engine : IEngine
+    public class Engine
     {
         private readonly IReader _reader;
         private readonly IWriter _writer;
-        private readonly IVehicleFactory _vehicleFactory;
+        private readonly VehicleFactory _vehicleFactory;
 
-        private readonly ICollection<IVehicle> _vehicles;
+        private readonly ICollection<Vehicle> _vehicles;
 
-        public Engine(IReader reader, IWriter writer, IVehicleFactory vehicleFactory)
+        public Engine(IReader reader, IWriter writer, VehicleFactory vehicleFactory)
         {
             this._reader = reader;
             this._writer = writer;
             this._vehicleFactory = vehicleFactory;
 
-            this._vehicles = new List<IVehicle>();
+            this._vehicles = new List<Vehicle>();
         }
 
         public void Run()
@@ -42,7 +40,7 @@ namespace Vehicles.Core
                 string command = data[0];
                 string vehicleType = data[1];
 
-                IVehicle vehicle = _vehicles.FirstOrDefault(v => v.GetType().Name == vehicleType);
+                Vehicle vehicle = _vehicles.FirstOrDefault(v => v.GetType().Name == vehicleType);
 
                 if (vehicle is null)
                 {
@@ -77,7 +75,7 @@ namespace Vehicles.Core
             }
         }
 
-        private IVehicle CreateVehicle()
+        private Vehicle CreateVehicle()
         {
             string[] data = _reader.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
 

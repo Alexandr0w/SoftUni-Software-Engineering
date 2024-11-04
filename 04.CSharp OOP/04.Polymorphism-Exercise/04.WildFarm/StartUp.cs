@@ -1,9 +1,9 @@
-﻿using Vehicles.Core;
-using Vehicles.IO;
-using Vehicles.IO.Interfaces;
-using Vehicles.Factories;
+﻿using WildFarm.Core;
+using WildFarm.IO;
+using WildFarm.Factories;
+using WildFarm.IO.Interfaces;
 
-namespace Vehicles
+namespace WildFarm
 {
     public class StartUp
     {
@@ -28,8 +28,9 @@ namespace Vehicles
                 Console.WriteLine("The result is printed in output.txt file.");
             }
 
-            VehicleFactory vehicleFactory = new VehicleFactory(); 
-            Engine engine = new Engine(reader, writer, vehicleFactory);
+            AnimalFactory animalFactory = new AnimalFactory();
+            FoodFactory foodFactory = new FoodFactory();
+            Engine engine = new Engine(reader, writer, animalFactory, foodFactory);
 
             try
             {

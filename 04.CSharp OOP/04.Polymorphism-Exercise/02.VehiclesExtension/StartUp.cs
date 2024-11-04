@@ -1,9 +1,9 @@
-﻿using Vehicles.Core;
-using Vehicles.IO;
-using Vehicles.IO.Interfaces;
-using Vehicles.Factories;
+﻿using VehiclesExtension.Core;
+using VehiclesExtension.IO;
+using VehiclesExtension.IO.Interfaces;
+using VehiclesExtension.Factories;
 
-namespace Vehicles
+namespace VehiclesExtension
 {
     public class StartUp
     {

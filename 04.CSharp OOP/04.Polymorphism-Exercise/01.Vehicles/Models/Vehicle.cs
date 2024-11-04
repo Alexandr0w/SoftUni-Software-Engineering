@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Vehicles.Models.Interfaces;
 
 namespace Vehicles.Models
 {
-    public abstract class Vehicle : IVehicle
+    public abstract class Vehicle
     {
         protected Vehicle(double fuelQuantity, double fuelConsumption)
         {

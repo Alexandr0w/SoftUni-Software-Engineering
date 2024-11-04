@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Vehicles.Core.Interfaces
+namespace WildFarm.Models.Interfaces
 {
-    public interface IEngine
+    public interface IMammal
     {
-        void Run();
+        string LivingRegion { get; }
     }
 }

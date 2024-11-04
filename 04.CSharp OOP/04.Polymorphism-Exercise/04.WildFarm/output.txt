@@ -1,0 +1,6 @@
+ROAR!!!
+Tiger does not eat Vegetable
+Woof!
+Dog does not eat Vegetable
+Tiger [Rex, Bengal, 167.7, Asia, 0]
+Dog [Tommy, 500, Street, 0]

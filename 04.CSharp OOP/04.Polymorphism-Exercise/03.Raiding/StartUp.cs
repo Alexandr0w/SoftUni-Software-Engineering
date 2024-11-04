@@ -1,9 +1,9 @@
-﻿using Vehicles.Core;
-using Vehicles.IO;
-using Vehicles.IO.Interfaces;
-using Vehicles.Factories;
+﻿using Raiding.Core;
+using Raiding.IO;
+using Raiding.Factories;
+using Raiding.IO.Interfaces;
 
-namespace Vehicles
+namespace Raiding
 {
     public class StartUp
     {
@@ -28,8 +28,8 @@ namespace Vehicles
                 Console.WriteLine("The result is printed in output.txt file.");
             }
 
-            VehicleFactory vehicleFactory = new VehicleFactory(); 
-            Engine engine = new Engine(reader, writer, vehicleFactory);
+            HeroFactory heroFactory = new HeroFactory(); 
+            Engine engine = new Engine(reader, writer, heroFactory);
 
             try
             {

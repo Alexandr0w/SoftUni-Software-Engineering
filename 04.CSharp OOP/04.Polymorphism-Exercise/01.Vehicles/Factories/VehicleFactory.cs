@@ -3,15 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Vehicles.Factories.Interfaces;
 using Vehicles.Models;
-using Vehicles.Models.Interfaces;
 
 namespace Vehicles.Factories
 {
-    public class VehicleFactory : IVehicleFactory
+    public class VehicleFactory 
     {
-        public IVehicle Create(string type, double fuelQuantity, double fuelConsumption)
+        public Vehicle Create(string type, double fuelQuantity, double fuelConsumption)
         {
             switch (type)
             {

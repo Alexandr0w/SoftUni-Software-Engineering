@@ -1,0 +1,10 @@
+Fuel must be a positive number
+Fuel must be a positive number
+Cannot fit 300 fuel in the tank
+Bus travelled 10 km
+Cannot fit 1000 fuel in the tank
+Bus needs refueling
+Cannot fit 1000 fuel in the tank
+Car: 40.00
+Truck: 100.00
+Bus: 23.00
