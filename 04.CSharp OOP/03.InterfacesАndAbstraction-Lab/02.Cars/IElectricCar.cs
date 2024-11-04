@@ -8,6 +8,6 @@ namespace Cars
 {
     public interface IElectricCar
     {
-        public int Battery { get; }
+        int Battery { get; }
     }
 }
