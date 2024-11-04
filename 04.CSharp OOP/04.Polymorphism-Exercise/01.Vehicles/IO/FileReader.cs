@@ -7,11 +7,23 @@ using Vehicles.IO.Interfaces;
 
 namespace Vehicles.IO
 {
-    internal class FileReader : IReader
+    public class FileReader : IReader
     {
+        private StreamReader _reader;
+
+        public FileReader(string filePath)
+        {
+            _reader = new StreamReader(filePath);
+        }
+
         public string ReadLine()
         {
-            throw new NotImplementedException();
+            return _reader.ReadLine();
+        }
+
+        public void Close()
+        {
+            _reader?.Close();
         }
     }
 }

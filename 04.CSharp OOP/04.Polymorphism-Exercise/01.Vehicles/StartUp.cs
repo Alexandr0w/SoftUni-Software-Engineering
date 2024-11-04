@@ -11,15 +11,44 @@ namespace Vehicles
     {
         static void Main()
         {
-            IReader reader = new ConsoleReader();
-            IWriter writer = new ConsoleWriter();
-            //IWriter writer = new FileWriter();
+            // True - for Console, False - for File
+            bool useConsole = true;
 
-            IVehicleFactory vehicleFactory = new VehicleFactory();
+            IReader reader;
+            IWriter writer;
 
+            if (useConsole)
+            {
+                reader = new ConsoleReader(); 
+                writer = new ConsoleWriter(); 
+            }
+            else
+            {
+                string inputFilePath = "../../../input.txt"; 
+                string outputFilePath = "../../../output.txt"; 
+                reader = new FileReader(inputFilePath); 
+                writer = new FileWriter(outputFilePath); 
+            }
+
+            IVehicleFactory vehicleFactory = new VehicleFactory(); 
             IEngine engine = new Engine(reader, writer, vehicleFactory);
 
-            engine.Run();
+            try
+            {
+                engine.Run();
+            }
+            finally
+            {
+                if (reader is FileReader fileReader)
+                {
+                    fileReader.Close(); 
+                }
+
+                if (writer is FileWriter fileWriter)
+                {
+                    fileWriter.Close(); 
+                }
+            }
         }
     }
 }

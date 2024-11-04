@@ -1,5 +1,5 @@
-Car travelled 9 km
 Car needs refueling
-Truck travelled 10 km
-Car : 54.20
-Truck : 75.00
+Car travelled 13.5 km
+Truck needs refueling
+Car: 113.05
+Truck: 109.12

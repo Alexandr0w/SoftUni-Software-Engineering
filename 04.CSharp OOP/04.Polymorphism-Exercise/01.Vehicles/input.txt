@@ -1,0 +1,8 @@
+Car 30.4 0.4
+Truck 99.34 0.9
+5
+Drive Car 500
+Drive Car 13.5
+Refuel Truck 10.300
+Drive Truck 56.2
+Refuel Car 100.2

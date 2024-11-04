@@ -7,13 +7,23 @@ using Vehicles.IO.Interfaces;
 
 namespace Vehicles.IO
 {
-    internal class FileWriter : IWriter
+    public class FileWriter : IWriter
     {
+        private readonly StreamWriter _writer;
+
+        public FileWriter(string filePath)
+        {
+            _writer = new StreamWriter(filePath); 
+        }
+
         public void WriteLine(string str)
         {
-            using StreamWriter writer = new("../../../output.txt", true);
+            _writer.WriteLine(str);
+        }
 
-            writer.WriteLine(str);
+        public void Close()
+        {
+            _writer?.Close(); 
         }
     }
 }

@@ -37,7 +37,7 @@ namespace Vehicles.Core
 
             for (int i = 0; i < commandsCount; i++)
             {
-                string[] data = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                string[] data = _reader.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
                 string command = data[0];
                 string vehicleType = data[1];
