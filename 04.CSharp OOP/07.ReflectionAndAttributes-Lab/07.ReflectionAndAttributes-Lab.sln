@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Stealer", "01.Stealer\01.Stealer.csproj", "{6C782588-D48E-4A92-80F0-57491E5C9B06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Stealer", "01.Stealer\01.Stealer.csproj", "{6C782588-D48E-4A92-80F0-57491E5C9B06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.HighQualityMistakes", "02.HighQualityMistakes\02.HighQualityMistakes.csproj", "{79FDDD40-9BE2-4339-A2A8-4CBEA797D872}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.HighQualityMistakes", "02.HighQualityMistakes\02.HighQualityMistakes.csproj", "{79FDDD40-9BE2-4339-A2A8-4CBEA797D872}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MissionPrivateImpossible", "03.MissionPrivateImpossible\03.MissionPrivateImpossible.csproj", "{27E350C0-585E-4B8A-A270-E793D92EB0CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.MissionPrivateImpossible", "03.MissionPrivateImpossible\03.MissionPrivateImpossible.csproj", "{27E350C0-585E-4B8A-A270-E793D92EB0CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Collector", "04.Collector\04.Collector.csproj", "{ED7E7FDF-38DC-47A9-AE6F-67B119761050}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Collector", "04.Collector\04.Collector.csproj", "{ED7E7FDF-38DC-47A9-AE6F-67B119761050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.CreateAttribute", "05.CreateAttribute\05.CreateAttribute.csproj", "{EE3CE79D-8446-4116-86A5-637EDD54B573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.CreateAttribute", "05.CreateAttribute\05.CreateAttribute.csproj", "{EE3CE79D-8446-4116-86A5-637EDD54B573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.CodeTracker", "06.CodeTracker\06.CodeTracker.csproj", "{B56326B6-34CD-417F-89AA-CD556F9CCA86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{EE3CE79D-8446-4116-86A5-637EDD54B573}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE3CE79D-8446-4116-86A5-637EDD54B573}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE3CE79D-8446-4116-86A5-637EDD54B573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B56326B6-34CD-417F-89AA-CD556F9CCA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56326B6-34CD-417F-89AA-CD556F9CCA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56326B6-34CD-417F-89AA-CD556F9CCA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56326B6-34CD-417F-89AA-CD556F9CCA86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
