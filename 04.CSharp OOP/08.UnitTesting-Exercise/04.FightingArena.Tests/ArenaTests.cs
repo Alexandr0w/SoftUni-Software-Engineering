@@ -2,32 +2,66 @@
 {
     using NUnit.Framework;
     using System;
+    using System.Linq;
 
     [TestFixture]
     public class ArenaTests
     {
+        private Arena arena;
+        private Warrior warrior1;
+        private Warrior warrior2;
+
         [SetUp]
         public void SetUp()
         {
-
+            arena = new Arena();
+            warrior1 = new Warrior("Thor", 50, 100);
+            warrior2 = new Warrior("Loki", 40, 80);
         }
 
-        private static string GenerateRandomString()
+        [Test]
+        public void Constructor_ShouldInitializeEmptyCollection()
         {
-            int randomTextLength = Random.Shared.Next(minValue: 5, maxValue: 50);
-            return GenerateRandomString(randomTextLength);
+            Assert.IsNotNull(arena.Warriors);
+            Assert.AreEqual(0, arena.Count);
         }
 
-        private static string GenerateRandomString(int length)
+        [Test]
+        public void Enroll_ShouldAddWarriorToArena()
         {
-            char[] symbols = new char[length];
-            for (var i = 0; i < length; i++)
-            {
-                int randomLetterIndex = Random.Shared.Next(maxValue: 26);
-                symbols[i] = (char)('a' + randomLetterIndex);
-            }
+            arena.Enroll(warrior1);
+            Assert.AreEqual(1, arena.Count);
+            Assert.Contains(warrior1, arena.Warriors.ToList());
+        }
 
-            return new string(symbols);
+        [Test]
+        public void Enroll_ShouldThrowException_WhenWarriorAlreadyEnrolled()
+        {
+            arena.Enroll(warrior1);
+            Assert.Throws<InvalidOperationException>(() => arena.Enroll(warrior1));
+        }
+
+        [Test]
+        public void Fight_ShouldThrowException_WhenAttackerDoesNotExist()
+        {
+            arena.Enroll(warrior2);
+            Assert.Throws<InvalidOperationException>(() => arena.Fight("Thor", "Loki"));
+        }
+
+        [Test]
+        public void Fight_ShouldThrowException_WhenDefenderDoesNotExist()
+        {
+            arena.Enroll(warrior1);
+            Assert.Throws<InvalidOperationException>(() => arena.Fight("Thor", "Loki"));
+        }
+
+        [Test]
+        public void Fight_ShouldAllowValidFight()
+        {
+            arena.Enroll(warrior1);
+            arena.Enroll(warrior2);
+            arena.Fight("Thor", "Loki");
+            Assert.Less(warrior2.HP, 80);
         }
     }
 }
