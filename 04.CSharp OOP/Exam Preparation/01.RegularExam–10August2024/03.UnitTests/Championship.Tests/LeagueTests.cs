@@ -9,13 +9,10 @@ namespace Championship.Tests
     public class LeagueTests
     {
         private League league;
-        private Team testTeam;
-
         [SetUp]
         public void Setup()
         {
             league = new League();
-            testTeam = new Team("test");
         }
 
         [Test]
@@ -26,45 +23,50 @@ namespace Championship.Tests
         }
 
         [Test]
-        public void AddTeam_WhenMaxCapacity_ThrowsAnException()
+        public void AddTeam_WhenMaxCapacity_ThrowsException()
         {
             for (int i = 0; i < league.Capacity; i++)
             {
                 league.AddTeam(new Team(i.ToString()));
             }
 
-            var exception = Assert.Throws<InvalidOperationException>
-                (() => league.AddTeam(testTeam)
-            );
+            var exception = Assert.Throws<InvalidOperationException>(() =>
+            {
+                league.AddTeam(new Team("test"));
+            });
 
             Assert.AreEqual("League is full.", exception.Message);
         }
 
         [Test]
-        public void AddTeam_WhenTeamExists_ThrowsAnException()
+        public void AddTeam_WhenTeamExists_ThrowsException()
         {
-            league.AddTeam(testTeam);
 
-            var exception = Assert.Throws<InvalidOperationException>
-                (() => league.AddTeam(testTeam)
-            );
+            league.AddTeam(new Team("test"));
+
+            var exception = Assert.Throws<InvalidOperationException>(() =>
+            {
+                league.AddTeam(new Team("test"));
+            });
 
             Assert.AreEqual("Team already exists.", exception.Message);
         }
 
         [Test]
-        public void AddTeam_Works_Correctly()
+        public void AddTeam_Works()
         {
-            league.AddTeam(testTeam);
+
+            league.AddTeam(new Team("test"));
 
             Assert.AreEqual(1, league.Teams.Count);
+            Assert.That(league.Teams[0].Name == "test");
         }
 
         [Test]
         public void RemoveTeam_WhenTeamDoesntExist_ReturnFalse()
         {
-            league.AddTeam(testTeam);
 
+            league.AddTeam(new Team("test"));
             bool result = league.RemoveTeam("None");
 
             Assert.AreEqual(1, league.Teams.Count);
@@ -72,10 +74,9 @@ namespace Championship.Tests
         }
 
         [Test]
-        public void RemoveTeam_WhenTeamExist_Return“rue()
+        public void RemoveTeam_WhenTeamExists_ReturnTrue()
         {
-            league.AddTeam(testTeam);
-
+            league.AddTeam(new Team("test"));
             bool result = league.RemoveTeam("test");
 
             Assert.AreEqual(0, league.Teams.Count);
@@ -83,37 +84,38 @@ namespace Championship.Tests
         }
 
         [Test]
-        public void PlayMatch_WhenAwayTeamDoesNotExist_ThrowsAnException()
+        public void PlayMatch_WhenAwayTeamDoesNotExist_Throws()
         {
             league.AddTeam(new Team("home team"));
             league.AddTeam(new Team("away team"));
 
-            var exception = Assert.Throws<InvalidOperationException>
-                (() => league.PlayMatch("home team", "none", 2, 3)
-            );
+            var exception = Assert.Throws<InvalidOperationException>(() =>
+            {
+                league.PlayMatch("home team", "none", 2, 3);
+            });
 
             Assert.AreEqual("One or both teams do not exist.", exception.Message);
         }
 
-        [Test]  
-        public void PlayMatch_WhenHomeTeamDoesNotExist_ThrowsAnException()
+        [Test]
+        public void PlayMatch_WhenHomeTeamDoesNotExist_Throws()
         {
             league.AddTeam(new Team("home team"));
             league.AddTeam(new Team("away team"));
 
-            var exception = Assert.Throws<InvalidOperationException>
-                (() => league.PlayMatch("none", "away team", 2, 3)
-            );
+            var exception = Assert.Throws<InvalidOperationException>(() =>
+            {
+                league.PlayMatch("none", "away team", 2, 3);
+            });
 
             Assert.AreEqual("One or both teams do not exist.", exception.Message);
         }
 
-        [Test]  
+        [Test]
         public void PlayMatch_Draw_AddsPointsCorrectly()
         {
             Team homeTeam = new Team("home team");
             Team awayTeam = new Team("away team");
-
             league.AddTeam(homeTeam);
             league.AddTeam(awayTeam);
 
@@ -128,7 +130,6 @@ namespace Championship.Tests
         {
             Team homeTeam = new Team("home team");
             Team awayTeam = new Team("away team");
-
             league.AddTeam(homeTeam);
             league.AddTeam(awayTeam);
 
@@ -139,11 +140,10 @@ namespace Championship.Tests
         }
 
         [Test]
-        public void PlayMatch_WhenAwayWins_AddPointsCorrectly()
+        public void PlayMatch_WhenAwayWins_AddsPointsCorrectly()
         {
             Team homeTeam = new Team("home team");
             Team awayTeam = new Team("away team");
-
             league.AddTeam(homeTeam);
             league.AddTeam(awayTeam);
 
@@ -154,13 +154,14 @@ namespace Championship.Tests
         }
 
         [Test]
-        public void GetTeamInfo_WhenTeamDoesNotExist_ThrowsAnException()
+        public void GetTeamInfo_WhenTeamDoesNotExist_Throws()
         {
             league.AddTeam(new Team("home team"));
 
-            var exception = Assert.Throws<InvalidOperationException>
-                (() => league.GetTeamInfo("None")
-            );
+            var exception = Assert.Throws<InvalidOperationException>(() =>
+            {
+                league.GetTeamInfo("None");
+            });
 
             Assert.AreEqual("Team does not exist.", exception.Message);
         }
@@ -169,12 +170,10 @@ namespace Championship.Tests
         public void GetTeamInfo_ReturnsCorrectData()
         {
             var team = new Team("home team");
-
             league.AddTeam(team);
-
             string result = league.GetTeamInfo("home team");
 
-            Assert.AreEqual(team.ToString(), result);   
+            Assert.AreEqual(team.ToString(), result);
         }
     }
 }
