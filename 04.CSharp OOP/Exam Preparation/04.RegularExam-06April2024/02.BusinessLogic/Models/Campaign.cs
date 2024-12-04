@@ -9,7 +9,7 @@ namespace InfluencerManagerApp.Models
 
         protected Campaign(string brand, double budget)
         {
-            if (string.IsNullOrWhiteSpace(brand)) throw new ArgumentNullException(ExceptionMessages.BrandIsrequired);
+            if (string.IsNullOrWhiteSpace(brand)) throw new ArgumentException(ExceptionMessages.BrandIsrequired);
 
             this.Brand = brand;
             this.Budget = budget;

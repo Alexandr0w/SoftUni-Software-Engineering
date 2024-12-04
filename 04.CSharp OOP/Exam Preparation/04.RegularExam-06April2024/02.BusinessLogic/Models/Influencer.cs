@@ -23,7 +23,7 @@ namespace InfluencerManagerApp.Models
 
         public string Username { get; }
         public int Followers { get; }
-        public double EngagementRate { get; private set; }
+        public double EngagementRate { get; }
         public double Income { get; private set; }
         public IReadOnlyCollection<string> Participations { get; }
 

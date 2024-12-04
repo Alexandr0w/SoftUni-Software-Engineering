@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.InfluencerManagerApp", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.InfluencerManagerApp", "02.BusinessLogic\02.InfluencerManagerApp.csproj", "{94A1BDB2-515A-45D5-BD15-C1C95A23D409}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialMediaManager.Tests", "03.UnitTests\SocialMediaManager.Tests\SocialMediaManager.Tests.csproj", "{D4E866EC-758A-43E9-A62B-43CCE6C0F112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialMediaManager", "03.UnitTests\SocialMediaManager\SocialMediaManager.csproj", "{F3A0DBA1-769D-44BC-8FAF-8621E2C78470}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{94A1BDB2-515A-45D5-BD15-C1C95A23D409}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94A1BDB2-515A-45D5-BD15-C1C95A23D409}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94A1BDB2-515A-45D5-BD15-C1C95A23D409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E866EC-758A-43E9-A62B-43CCE6C0F112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E866EC-758A-43E9-A62B-43CCE6C0F112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E866EC-758A-43E9-A62B-43CCE6C0F112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E866EC-758A-43E9-A62B-43CCE6C0F112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A0DBA1-769D-44BC-8FAF-8621E2C78470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A0DBA1-769D-44BC-8FAF-8621E2C78470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A0DBA1-769D-44BC-8FAF-8621E2C78470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A0DBA1-769D-44BC-8FAF-8621E2C78470}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

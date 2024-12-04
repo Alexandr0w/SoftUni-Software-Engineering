@@ -115,7 +115,7 @@ namespace InfluencerManagerApp.Core
                 return string.Format(OutputMessages.InvalidCampaignToFund);
             }
 
-            if (amount < 0)
+            if (amount <= 0)
             {
                 return string.Format(OutputMessages.NotPositiveFundingAmount);
             }
@@ -167,6 +167,7 @@ namespace InfluencerManagerApp.Core
             }
 
             this._influencers.RemoveModel(influencer);
+
             return string.Format(OutputMessages.ContractConcludedSuccessfully, username);
         }
 
