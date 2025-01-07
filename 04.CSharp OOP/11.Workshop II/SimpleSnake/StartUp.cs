@@ -12,13 +12,11 @@ namespace SimpleSnake
         {
             ConsoleWindow.CustomizeConsole();
 
-            IWriter writer = new ConsoleWriter();
+            ConsoleOperator consoleOperator = new ConsoleOperator();
             Playground playground = new Playground(60, 20);
 
-            IEngine engine = new Engine(playground, writer);
+            IEngine engine = new Engine(playground, consoleOperator, consoleOperator);
             engine.Run();
-
-            Console.ReadLine();
         }
     }
 }
