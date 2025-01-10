@@ -1,0 +1,7 @@
+ALTER TABLE [Users]
+DROP [PK__Users__77222459842E2848]
+
+
+ALTER TABLE [Users]
+ADD CONSTRAINT [PK_Composite_Id_Username]
+PRIMARY KEY ([Id], [Username])
