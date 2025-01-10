@@ -1,7 +1,11 @@
 CREATE DATABASE [Movies]
+GO
+
+USE [Movies]
+GO
 
 CREATE TABLE [Directors](
-	[Id] INT PRIMARY KEY IDENTITY,
+	[Id] INT PRIMARY KEY IDENTITY NOT NULL,
 	[DirectorName] NVARCHAR(70) NOT NULL,
 	[Notes] NVARCHAR(MAX)
 )
@@ -15,7 +19,7 @@ VALUES
 ('Georgi', 'Something')
 
 CREATE TABLE [Genres](
-	[Id] INT PRIMARY KEY IDENTITY,
+	[Id] INT PRIMARY KEY IDENTITY NOT NULL,
 	[GenreName] NVARCHAR(70) NOT NULL,
 	[Notes] NVARCHAR(MAX)
 )
@@ -29,7 +33,7 @@ VALUES
 ('Fantasy', 'Something')
 
 CREATE TABLE [Categories] (
-	[Id] INT PRIMARY KEY IDENTITY,
+	[Id] INT PRIMARY KEY IDENTITY NOT NULL,
 	[Categories] NVARCHAR(70) NOT NULL,
 	[Notes] NVARCHAR(MAX) 
 )
@@ -43,7 +47,7 @@ VALUES
 ('Georgi', 'Something')
 
 CREATE TABLE [Movies] (
-	[Id] INT PRIMARY KEY IDENTITY,
+	[Id] INT PRIMARY KEY IDENTITY NOT NULL,
 	[Title] NVARCHAR(50) NOT NULL,
 	[DirectorId] INT FOREIGN KEY REFERENCES [Directors]([Id]) NOT NULL,
 	[CopyrightYear] DATE NOT NULL,
