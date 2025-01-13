@@ -28,5 +28,5 @@ CREATE TABLE [Employees](
 	[DepartmentId] INT FOREIGN KEY REFERENCES [Departments]([Id]) NOT NULL,
 	[HireDate] DATE NOT NULL DEFAULT (GETDATE()),
 	[Salary] DECIMAL(18, 4) NOT NULL,
-	[AddressId] INT FOREIGN KEY REFERENCES [Addresses]([Id]) NOT NULL
+	[AddressId] INT FOREIGN KEY REFERENCES [Addresses]([Id]) NULL
 )
