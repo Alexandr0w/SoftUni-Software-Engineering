@@ -1,13 +1,11 @@
   CREATE VIEW [V_EmployeeNameJobTitle] 
 		   AS
-SELECT CONCAT([FirstName]
-			,' '
-			,[MiddleName]
-			,' '
-			,[LastName])
+SELECT CONCAT([FirstName], ' '
+			 ,[MiddleName], ' '
+			 ,[LastName])
 		   AS 
-		    'Full Name'
-		    ,[JobTitle]
+		     'Full Name'
+		     ,[JobTitle]
 		   AS 
-		    'Job Title'
+		     'Job Title'
 	     FROM [Employees]
