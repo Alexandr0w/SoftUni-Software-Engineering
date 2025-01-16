@@ -1,3 +1,3 @@
   SELECT 
-DISTINCT [Salary]
+DISTINCT [JobTitle]
     FROM [Employees]
