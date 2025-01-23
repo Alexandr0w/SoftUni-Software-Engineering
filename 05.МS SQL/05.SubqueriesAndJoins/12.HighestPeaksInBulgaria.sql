@@ -1,3 +1,6 @@
+USE [Geography]
+GO
+
 SELECT
 	c.[CountryCode],
 	m.[MountainRange],
