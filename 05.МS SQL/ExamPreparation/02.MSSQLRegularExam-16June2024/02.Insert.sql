@@ -10,7 +10,7 @@ INSERT INTO [Authors]([Name], [ContactId]) VALUES
 	('Stephen King', 23),
 	('Suzanne Collins', 24)
 
-INSERT INTO Books ([Title], [YearPublished], [ISBN], [AuthorId], [GenreId]) VALUES
+INSERT INTO [Books]([Title], [YearPublished], [ISBN], [AuthorId], [GenreId]) VALUES
 	('1984', 1949, '9780451524935', 16, 2),
 	('Animal Farm', 1945, '9780451526342', 16, 2),
 	('Brave New World', 1932, '9780060850524', 17, 2),
@@ -21,7 +21,7 @@ INSERT INTO Books ([Title], [YearPublished], [ISBN], [AuthorId], [GenreId]) VALU
 	('Catching Fire', 2009, '9780439023498', 19, 7),
 	('Mockingjay', 2010, '9780439023511', 19, 7)
 
-INSERT INTO LibrariesBooks (LibraryId, BookId) VALUES
+INSERT INTO [LibrariesBooks]([LibraryId], [BookId]) VALUES
 	(1, 36),
 	(1, 37),
 	(2, 38),
