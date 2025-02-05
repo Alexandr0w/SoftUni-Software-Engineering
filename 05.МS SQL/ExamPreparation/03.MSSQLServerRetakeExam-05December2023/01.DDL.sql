@@ -32,8 +32,8 @@ CREATE TABLE [TrainsRailwayStations](
 	[TrainId] INT NOT NULL,
 	[RailwayStationId] INT NOT NULL,
 	CONSTRAINT [PK_TrainsRailwayStations] PRIMARY KEY ([TrainId], [RailwayStationId]),
-    CONSTRAINT [FK_TrainsRailwayStations_Trains] FOREIGN KEY ([TrainId]) REFERENCES [Trains]([Id]),
-    CONSTRAINT [FK_TrainsRailwayStations_RailwayStations] FOREIGN KEY ([RailwayStationId]) REFERENCES [RailwayStations]([Id])
+    	CONSTRAINT [FK_TrainsRailwayStations_Trains] FOREIGN KEY ([TrainId]) REFERENCES [Trains]([Id]),
+    	CONSTRAINT [FK_TrainsRailwayStations_RailwayStations] FOREIGN KEY ([RailwayStationId]) REFERENCES [RailwayStations]([Id])
 )
 
 CREATE TABLE [MaintenanceRecords](
