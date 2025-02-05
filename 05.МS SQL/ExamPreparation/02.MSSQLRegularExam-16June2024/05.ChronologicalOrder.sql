@@ -1,6 +1,6 @@
-SELECT [Title] AS [BookTitle], 
+SELECT [Title] AS [Book Title], 
        [ISBN], 
-       [YearPublished]
+       [YearPublished] AS [YearReleased]
 FROM [Books]
 ORDER BY [YearPublished] DESC, 
 		 [Title]
