@@ -9,9 +9,10 @@ WHERE [ShoeId] IN (
 DELETE 
 FROM [ShoesSizes] 
 WHERE [ShoeId] IN (
-SELECT [Id] 
-FROM [Shoes]
- WHERE [Model] = 'Joyride Run Flyknit')
+	SELECT [Id] 
+	FROM [Shoes]
+	WHERE [Model] = 'Joyride Run Flyknit'
+)
 
 DELETE 
 FROM [Shoes] 
