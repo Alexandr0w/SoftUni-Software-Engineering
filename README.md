@@ -27,4 +27,8 @@ All courses and exams from SoftUni
     <td><a href="https://softuni.bg/trainings/4697/csharp-oop-october-2024">C# OOP</a></td>
     <td><a href="https://softuni.bg/certificates/details/231441/921d4a8f">Completed ✔️</a></td>
   </tr>
+  <tr>
+    <td><a href="https://softuni.bg/trainings/4841/ms-sql-january-2025">MS SQL</a></td>
+    <td><a href="https://softuni.bg/certificates/details/235828/0f489256">Completed ✔️</a></td>
+  </tr>
 </table>
