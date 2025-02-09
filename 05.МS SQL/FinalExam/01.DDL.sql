@@ -1,0 +1,58 @@
+CREATE DATABASE [EuroLeagues]
+GO
+
+USE [EuroLeagues]
+GO
+
+CREATE TABLE [Leagues](
+	[Id] INT PRIMARY KEY IDENTITY,
+	[Name] NVARCHAR(50) NOT NULL
+)
+
+CREATE TABLE [Teams](
+	[Id] INT PRIMARY KEY IDENTITY,
+	[Name] NVARCHAR(50) UNIQUE NOT NULL,
+	[City] NVARCHAR(50) NOT NULL,
+	[LeagueId] INT FOREIGN KEY REFERENCES [Leagues]([Id]) NOT NULL
+)
+
+CREATE TABLE [Players](
+	[Id] INT PRIMARY KEY IDENTITY,
+	[Name] NVARCHAR(100) NOT NULL,
+	[Position] NVARCHAR(20) NOT NULL
+)
+
+CREATE TABLE [Matches](
+	[Id] INT PRIMARY KEY IDENTITY,
+	[HomeTeamId] INT FOREIGN KEY REFERENCES [Teams]([Id]) NOT NULL,
+	[AwayTeamId] INT FOREIGN KEY REFERENCES [Teams]([Id]) NOT NULL,
+	[MatchDate] DATETIME2 NOT NULL,
+	[HomeTeamGoals] INT NOT NULL DEFAULT 0,
+	[AwayTeamGoals] INT NOT NULL DEFAULT 0,
+	[LeagueId] INT FOREIGN KEY REFERENCES [Leagues]([Id]) NOT NULL
+)
+
+CREATE TABLE [PlayersTeams](
+	[PlayerId] INT NOT NULL,
+	[TeamId] INT NOT NULL,
+	CONSTRAINT [PK_PlayersTeams] PRIMARY KEY ([PlayerId], [TeamId]),
+	CONSTRAINT [FK_PlayersTeams_Players] FOREIGN KEY ([PlayerId]) REFERENCES [Players]([Id]),
+    CONSTRAINT [FK_PlayersTeams_Teams] FOREIGN KEY ([TeamId]) REFERENCES [Teams]([Id])
+)
+
+CREATE TABLE [PlayerStats](
+    [PlayerId] INT NOT NULL,
+    [Goals] INT NOT NULL DEFAULT 0,
+    [Assists] INT NOT NULL DEFAULT 0,
+    CONSTRAINT [PK_PlayerStats] PRIMARY KEY ([PlayerId]),
+    CONSTRAINT [FK_PlayerStats_Players] FOREIGN KEY ([PlayerId]) REFERENCES [Players]([Id])
+)
+
+CREATE TABLE [TeamStats](
+    [TeamId] INT NOT NULL,
+    [Wins] INT NOT NULL DEFAULT 0,
+    [Draws] INT NOT NULL DEFAULT 0,
+    [Losses] INT NOT NULL DEFAULT 0,
+    CONSTRAINT [PK_TeamStats] PRIMARY KEY ([TeamId]),
+    CONSTRAINT [FK_TeamStats_Teams] FOREIGN KEY ([TeamId]) REFERENCES [Teams]([Id])
+)
