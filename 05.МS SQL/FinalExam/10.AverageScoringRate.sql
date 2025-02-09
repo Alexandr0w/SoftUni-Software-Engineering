@@ -3,4 +3,4 @@ SELECT l.[Name] AS [LeagueName],
 FROM [Matches] AS m
 	JOIN [Leagues] AS l ON m.[LeagueId] = l.[Id]
 GROUP BY l.[Name]
-ORDER BY AvgScoringRate DESC
+ORDER BY [AvgScoringRate] DESC
