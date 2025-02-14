@@ -1,22 +1,23 @@
-﻿/// <summary>
-/// Used for wrapping a database _connection with a using statement and
-/// automatically closing it when the using statement ends
-/// </summary>
-
-namespace MiniORM;
-
-internal class ConnectionManager : IDisposable
+﻿namespace MiniORM
 {
-    private readonly DatabaseConnection _connection;
-    public ConnectionManager(DatabaseConnection connection)
+    /// <summary>
+    /// Used for wrapping a database connection with a using statement and
+    /// automatically closing it when the using statement ends
+    /// </summary>
+    internal class ConnectionManager : IDisposable
     {
-        this._connection = connection;
+        private readonly DatabaseConnection connection;
 
-        this._connection.Open();
-    }
+        public ConnectionManager(DatabaseConnection connection)
+        {
+            this.connection = connection;
 
-    public void Dispose()
-    {
-        this._connection.Close();
+            this.connection.Open();
+        }
+
+        public void Dispose()
+        {
+            this.connection.Close();
+        }
     }
 }

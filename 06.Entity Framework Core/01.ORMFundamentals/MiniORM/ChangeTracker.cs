@@ -3,101 +3,139 @@
     using System.ComponentModel.DataAnnotations;
     using System.Reflection;
 
-    internal class ChangeTracker<TEntity>
-     where TEntity : class, new()
+    public class ChangeTracker<T>
+        where T : class, new()
     {
-        private readonly IList<TEntity> _allEntities;
-        private readonly IList<TEntity> _added;
-        private readonly IList<TEntity> _removed;
+        private readonly ICollection<T> _allEntities;
+        private readonly ICollection<T> _added;
+        private readonly ICollection<T> _removed;
 
-        public ChangeTracker(IEnumerable<TEntity> entities)
+        public ChangeTracker(IEnumerable<T> entities)
         {
-            this._added = new List<TEntity>();
-            this._removed = new List<TEntity>();
+            this._allEntities = this.CloneEntities(entities);
 
-            this._allEntities = CloneEntities(entities);
+            this._added = new HashSet<T>();
+            this._removed = new HashSet<T>();
         }
-        public IReadOnlyCollection<TEntity> AllEntities => (IReadOnlyCollection<TEntity>)this._allEntities;
-        public IReadOnlyCollection<TEntity> Added => (IReadOnlyCollection<TEntity>)this._added;
-        public IReadOnlyCollection<TEntity> Removed => (IReadOnlyCollection<TEntity>)this._removed;
 
-        public void Add(TEntity entity) => this._added.Add(entity);
-        public void Remove(TEntity entity) => this._removed.Add(entity);
+        public IReadOnlyCollection<T> AllEntities
+            => this._allEntities.ToList().AsReadOnly();
 
-        public IEnumerable<TEntity> GetModifiedEntities(DbSet<TEntity> dbSet)
+        public IReadOnlyCollection<T> Added
+            => this._added.ToList().AsReadOnly();
+
+        public IReadOnlyCollection<T> Removed
+            => this._removed.ToList().AsReadOnly();
+
+        /// <summary>
+        /// This method tracks newly added entity records by adding them to the "added" collection.
+        /// This method is not intended to actually persist the new entities in the DB.
+        /// </summary>
+        /// <param name="entity">New record of entity</param>
+        public void Add(T entity)
         {
-            List<TEntity> modifiedEntities = new List<TEntity>();
-            //Take all the properties of the TEntity type, which have the KeyAttribute (used for PKs)
-            PropertyInfo[] primaryKeys = typeof(TEntity)
+            this._added.Add(entity);
+        }
+
+        /// <summary>
+        /// This method tracks removed entity records by adding them to the "removed" collection.
+        /// </summary>
+        /// <param name="entity"></param>
+        public void Remove(T entity)
+        {
+            this._removed.Add(entity);
+        }
+
+        public IEnumerable<T> GetModifiedEntities(DbSet<T> dbSet)
+        {
+            ICollection<T> modifiedEntities = new HashSet<T>();
+            PropertyInfo[] primaryKeys = typeof(T)
                 .GetProperties()
                 .Where(pi => pi.HasAttribute<KeyAttribute>())
                 .ToArray();
-
-            foreach (TEntity proxyEntity in this.AllEntities)
+            foreach (T proxyEntity in this._allEntities)
             {
-                object?[] primaryKeyValues = GetPrimaryKeyValues(primaryKeys, proxyEntity).ToArray();
+                IEnumerable<object> proxyPrimaryKeys =
+                    GetPrimaryKeyValues(primaryKeys, proxyEntity);
+                T dbSetEntity = dbSet
+                    .Entities
+                    .Single(e => GetPrimaryKeyValues(primaryKeys, e).SequenceEqual(proxyPrimaryKeys));
 
-                //We take the original entity for the DbSet, as we already have the proxy entity
-                TEntity? entity = dbSet.Entities
-                    .Single(ent =>
-                    GetPrimaryKeyValues(primaryKeys, ent).SequenceEqual(GetPrimaryKeyValues(primaryKeys, ent)));
-
-                //Compare both entities and see if a change has been made in the proxy one
-                bool isModified = IsModified(entity, proxyEntity);
-                if (isModified)
+                bool isEntityModified = this.IsModified(proxyEntity, dbSetEntity);
+                if (isEntityModified)
                 {
-                    modifiedEntities.Add(proxyEntity);
+                    modifiedEntities.Add(dbSetEntity);
                 }
             }
 
             return modifiedEntities;
         }
-        private static List<TEntity> CloneEntities(IEnumerable<TEntity> entities)
-        {
-            List<TEntity> clonedEntities = new List<TEntity>();
 
-            //We get all properties which are of the allowed SQL types.
-            PropertyInfo[] propertiesToClone = typeof(TEntity)
+        private static IEnumerable<object> GetPrimaryKeyValues(IEnumerable<PropertyInfo> primaryKeys, T entity)
+        {
+            ICollection<object> primaryKeyValues = new HashSet<object>();
+            foreach (PropertyInfo primaryKeyInfo in primaryKeys)
+            {
+                object? primaryKeyValue = primaryKeyInfo.GetValue(entity);
+                if (primaryKeyValue == null)
+                {
+                    throw new ArgumentNullException(primaryKeyInfo.Name,
+                        ErrorMessages.PrimaryKeyNullErrorMessage);
+                }
+
+                primaryKeyValues.Add(primaryKeyValue);
+            }
+
+            return primaryKeyValues;
+        }
+
+        private ICollection<T> CloneEntities(IEnumerable<T> entities)
+        {
+            ICollection<T> clonedEntities = new HashSet<T>();
+            PropertyInfo[] propertiesToClone = typeof(T)
                 .GetProperties()
                 .Where(pi => DbContext.AllowedSqlTypes.Contains(pi.PropertyType))
                 .ToArray();
 
-            //foreach Employee in Employees
-            foreach (TEntity entity in entities)
+            foreach (T entity in entities)
             {
-                //T = Employee
-                TEntity clonedEntity = Activator.CreateInstance<TEntity>();
-                foreach (PropertyInfo property in propertiesToClone)
+                T entityClone = Activator.CreateInstance<T>();
+                foreach (PropertyInfo propertyInfo in propertiesToClone)
                 {
-                    //Getting the property value from the original entity (from the database)
-                    object? value = property.GetValue(entity);
-                    //We set the property value of a specified object -> T = Employee
-                    property.SetValue(clonedEntity, value);
+                    object? originalEntityValue = propertyInfo.GetValue(entity);
+                    propertyInfo.SetValue(entityClone, originalEntityValue);
                 }
-                clonedEntities.Add(entity);
+
+                clonedEntities.Add(entityClone);
             }
 
             return clonedEntities;
         }
 
-        private static bool IsModified(TEntity entity, TEntity proxyEntity)
+        private bool IsModified(T proxyEntity, T dbSetEntity)
         {
-            //We take all the valid properties of the entity type (Employee).
-            PropertyInfo[] monitoredProperties = typeof(TEntity)
+            PropertyInfo[] monitoredProperties = typeof(T)
                 .GetProperties()
                 .Where(pi => DbContext.AllowedSqlTypes.Contains(pi.PropertyType))
                 .ToArray();
+            foreach (PropertyInfo pi in monitoredProperties)
+            {
+                object? proxyEntityValue = pi.GetValue(proxyEntity);
+                object? dbSetEntityValue = pi.GetValue(dbSetEntity);
 
-            //We go through every valid property and check -> is the value of the current entity
-            //equal to the value of the proxy entity, if so, then the property has been modified.
-            PropertyInfo[] modifiedProperties = monitoredProperties
-                .Where(pi => !Equals(pi.GetValue(entity), pi.GetValue(proxyEntity)))
-                .ToArray();
+                if (proxyEntityValue == null &&
+                    dbSetEntityValue == null)
+                {
+                    continue;
+                }
 
-            return modifiedProperties.Any();
+                if (!proxyEntityValue!.Equals(dbSetEntityValue))
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
-
-        private static IEnumerable<object?> GetPrimaryKeyValues<T>(IEnumerable<PropertyInfo> primaryKeys, T entity)
-            => primaryKeys.Select(pk => pk.GetValue(entity));
     }
 }
