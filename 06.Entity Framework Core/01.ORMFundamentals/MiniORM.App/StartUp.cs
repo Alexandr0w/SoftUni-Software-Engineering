@@ -8,7 +8,7 @@
     {
         public static void Main()
         {
-            string connectionString = @"Server=localhost;Database=MiniORM;Integrated Security=True;Encrypt=False";
+            string connectionString = @"Server=.;Database=MiniORM;Integrated Security=True;Encrypt=False;";
 
             SoftUniDbContext context = new SoftUniDbContext(connectionString);
 

@@ -1,5 +1,4 @@
-﻿// ReSharper disable PossibleMultipleEnumeration
-namespace MiniORM
+﻿namespace MiniORM
 {
     using System.Collections;
     using System.ComponentModel.DataAnnotations;

@@ -10,18 +10,18 @@
     /// </summary>
     internal class DatabaseConnection
     {
-        private readonly SqlConnection connection;
+        private readonly SqlConnection _connection;
 
-        private SqlTransaction transaction;
+        private SqlTransaction _transaction;
 
         public DatabaseConnection(string connectionString)
         {
-            this.connection = new SqlConnection(connectionString);
+            this._connection = new SqlConnection(connectionString);
         }
 
         private SqlCommand CreateCommand(string queryText, params SqlParameter[] parameters)
         {
-            var command = new SqlCommand(queryText, this.connection, this.transaction);
+            var command = new SqlCommand(queryText, this._connection, this._transaction);
 
             foreach (var param in parameters)
             {
@@ -253,13 +253,13 @@
 
         public SqlTransaction StartTransaction()
         {
-            this.transaction = this.connection.BeginTransaction();
-            return this.transaction;
+            this._transaction = this._connection.BeginTransaction();
+            return this._transaction;
         }
 
-        public void Open() => this.connection.Open();
+        public void Open() => this._connection.Open();
 
-        public void Close() => this.connection.Close();
+        public void Close() => this._connection.Close();
 
         private static string EscapeColumn(string c)
         {

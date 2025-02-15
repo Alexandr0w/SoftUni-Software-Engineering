@@ -3,8 +3,7 @@
     using System.ComponentModel.DataAnnotations;
     using System.Reflection;
 
-    public class ChangeTracker<T>
-        where T : class, new()
+    public class ChangeTracker<T> where T : class, new()
     {
         private readonly ICollection<T> _allEntities;
         private readonly ICollection<T> _added;
