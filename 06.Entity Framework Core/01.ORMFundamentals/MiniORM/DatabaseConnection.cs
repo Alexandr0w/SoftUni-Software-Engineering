@@ -1,8 +1,8 @@
 ﻿namespace MiniORM
 {
     using System.ComponentModel.DataAnnotations;
-
     using Microsoft.Data.SqlClient;
+    using Exceptions;
 
     /// <summary>
     /// Used for accessing a database, inserting/updating/deleting entities
@@ -12,7 +12,7 @@
     {
         private readonly SqlConnection _connection;
 
-        private SqlTransaction _transaction;
+        private SqlTransaction? _transaction;
 
         public DatabaseConnection(string connectionString)
         {
@@ -121,7 +121,7 @@
 
             var rowValues = entities
                 .Select(entity => columnsToInsert
-                    .Select(c => entity.GetType().GetProperty(c).GetValue(entity))
+                    .Select(c => entity.GetType().GetProperty(c)!.GetValue(entity))
                     .ToArray())
                 .ToArray();
 
@@ -154,7 +154,7 @@
 
             if (insertedRows != entities.Count())
             {
-                throw new InvalidOperationException($"Could not insert {entities.Count() - insertedRows} rows.");
+                throw new InvalidOperationException(string.Format(ErrorMessages.CouldNotInsert, entities.Count() - insertedRows));
             }
         }
 
@@ -180,7 +180,7 @@
                     .ToArray();
 
                 var rowValues = columnsToUpdate
-                    .Select(c => entity.GetType().GetProperty(c).GetValue(entity) ?? DBNull.Value)
+                    .Select(c => entity.GetType().GetProperty(c)!.GetValue(entity) ?? DBNull.Value)
                     .ToArray();
 
                 var columnsParameters = columnsToUpdate.Zip(rowValues, (param, value) => new SqlParameter(param, value))
@@ -201,7 +201,7 @@
 
                 if (updatedRows != 1)
                 {
-                    throw new InvalidOperationException($"Update for table {tableName} failed.");
+                    throw new InvalidOperationException(string.Format(ErrorMessages.FaildTableUpdate, tableName));
                 }
             }
         }
@@ -234,7 +234,7 @@
 
                 if (updatedRows != 1)
                 {
-                    throw new InvalidOperationException($"Delete for table {tableName} failed.");
+                    throw new InvalidOperationException(string.Format(ErrorMessages.FailedTableDelete, tableName));
                 }
             }
         }
@@ -282,7 +282,7 @@
                 }
 
                 var property = typeof(T).GetProperty(columnName);
-                property.SetValue(obj, columnValue);
+                property!.SetValue(obj, columnValue);
             }
 
             return obj;

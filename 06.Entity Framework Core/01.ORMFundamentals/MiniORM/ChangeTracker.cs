@@ -1,5 +1,6 @@
 ﻿namespace MiniORM
 {
+    using MiniORM.Exceptions;
     using System.ComponentModel.DataAnnotations;
     using System.Reflection;
 

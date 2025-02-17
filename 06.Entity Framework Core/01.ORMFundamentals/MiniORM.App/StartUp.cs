@@ -8,7 +8,7 @@
     {
         public static void Main()
         {
-            string connectionString = @"Server=.;Database=MiniORM;Integrated Security=True;Encrypt=False;";
+            string connectionString = @"Server=localhost;Database=MiniORM;Integrated Security=True;Encrypt=False;";
 
             SoftUniDbContext context = new SoftUniDbContext(connectionString);
 
@@ -20,9 +20,12 @@
                 IsEmployed = true,
             });
 
-            Employee employee = context.Employees.Last();
+            var employee = context.Employees.Last();
             employee.FirstName = "Modified";
 
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("Employee has been added successfully!");
             context.SaveChanges();
         }
     }

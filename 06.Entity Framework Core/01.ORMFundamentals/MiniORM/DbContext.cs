@@ -7,7 +7,7 @@
 
     using Microsoft.Data.SqlClient;
 
-    using static ErrorMessages;
+    using Exceptions;
 
     public class DbContext
     {
@@ -58,7 +58,7 @@
 
                 if (invalidEntities.Any())
                 {
-                    throw new InvalidOperationException(String.Format(InvalidEntitiesInDbSetMessage,
+                    throw new InvalidOperationException(String.Format(ErrorMessages.InvalidEntitiesInDbSetMessage,
                         invalidEntities.Count(), dbSet.GetType().Name));
                 }
             }
@@ -70,9 +70,12 @@
 
                 foreach (IEnumerable dbSet in dbSetsObjects)
                 {
+                    Type dbSetType = dbSet.GetType();
+                    Type entityType = dbSetType.GetGenericArguments()[0];
+
                     MethodInfo persistMethod = typeof(DbContext)
                         .GetMethod("Persist", BindingFlags.NonPublic | BindingFlags.Instance)!
-                        .MakeGenericMethod(dbSet.GetType());
+                        .MakeGenericMethod(entityType);
 
                     try
                     {
@@ -91,9 +94,9 @@
                         transaction.Rollback();
                         throw;
                     }
-
-                    transaction.Commit();
                 }
+
+                transaction.Commit();
             }
         }
 
@@ -144,7 +147,7 @@
                 if (dbSetInstance == null)
                 {
                     throw new ArgumentNullException(dbSetPropertyInfo.Name,
-                        String.Format(NullDbSetMessage, dbSetPropertyInfo.Name));
+                        String.Format(ErrorMessages.NullDbSetMessage, dbSetPropertyInfo.Name));
                 }
 
                 mapRelationsGenericMethodInfo.Invoke(this, new object?[] { dbSetInstance });
@@ -228,31 +231,53 @@
                 return tableNameAttrConf.Name;
             }
 
-            throw new ArgumentException(String.Format(NoTableNameFound, this._dbSetProperties[tableType].Name));
+            throw new ArgumentException(String.Format(ErrorMessages.NoTableNameFound, this._dbSetProperties[tableType].Name));
         }
 
         private void MapRelations<TEntity>(DbSet<TEntity> dbSet)
             where TEntity : class, new()
         {
+            //TEntity = Department.
             Type entityType = typeof(TEntity);
 
-            this.MapNavigationProperties(dbSet);
+            //We map all navigation properties.
+            MapNavigationProperties(dbSet);
 
-            IEnumerable<PropertyInfo> entityCollections = entityType
-                .GetProperties()
-                .Where(pi => pi.PropertyType.IsGenericType &&
-                             pi.PropertyType.GetGenericTypeDefinition() == typeof(ICollection<>));
-
-            foreach (PropertyInfo entityCollectionPropInfo in entityCollections)
+            foreach (PropertyInfo property in entityType.GetProperties())
             {
-                Type collectionEntityType = entityCollectionPropInfo
-                    .PropertyType
-                    .GenericTypeArguments
-                    .First();
-                MethodInfo mapCollectionGenMethodInfo = typeof(DbContext)
+                string typeName = property.PropertyType.IsGenericType && property.PropertyType.GetGenericTypeDefinition() == typeof(ICollection<>)
+                    ? $"ICollection<{property.PropertyType.GetGenericArguments()[0].Name}>"
+                    : property.PropertyType.Name;
+
+                Console.WriteLine($"Property: {property.Name} | Type: {typeName}");
+                Console.WriteLine("---------------------------------------------------------------");
+            }
+
+            //Getting all the collections, whose generic type is ICollection ->
+            //Meaning: One department can have more than one Employee => inside the Department we have
+            //ICollection<Employee>, that is what we are looking for.
+
+            var collections = entityType
+                .GetProperties()
+                .Where(pi =>
+                    pi.PropertyType.IsGenericType &&
+                    pi.PropertyType.GetGenericTypeDefinition() == typeof(ICollection<>))
+                .ToArray();
+
+            foreach (PropertyInfo collection in collections)
+            {
+                //Taking the generic type arguments the current collection has ->
+                //if we take the example with ICollection<Employee> => the generic argument would be 'Employee'.
+                //We take only the first one, because we are 100% sure only one argument will be provided.
+                Type collectionType = collection.PropertyType.GenericTypeArguments.First();
+
+                //Creating a generic instance of the 'MapCollection' method of type <Department, Employee>
+                MethodInfo mapCollectionGeneric = typeof(DbContext)
                     .GetMethod("MapCollection", BindingFlags.Instance | BindingFlags.NonPublic)!
-                    .MakeGenericMethod(collectionEntityType);
-                mapCollectionGenMethodInfo.Invoke(this, new object?[] { dbSet, entityCollectionPropInfo });
+                    .MakeGenericMethod(entityType, collectionType);
+
+                //Dynamically invoking the method
+                mapCollectionGeneric.Invoke(this, new object[] { dbSet, collection });
             }
         }
 
@@ -275,7 +300,7 @@
 
                 if (navigationPropertyInfo == null)
                 {
-                    throw new ArgumentException(String.Format(InvalidNavigationPropertyName,
+                    throw new ArgumentException(String.Format(ErrorMessages.InvalidNavigationPropertyName,
                         fkPropertyInfo.Name, navigationPropName));
                 }
 
@@ -285,7 +310,7 @@
 
                 if (navDbSetInstance == null)
                 {
-                    throw new ArgumentException(String.Format(NavPropertyWithoutDbSetMessage,
+                    throw new ArgumentException(String.Format(ErrorMessages.NavPropertyWithoutDbSetMessage,
                         navigationPropName, navigationPropertyInfo.PropertyType));
                 }
 
@@ -324,13 +349,12 @@
                 .Where(pi => pi.HasAttribute<KeyAttribute>());
 
             PropertyInfo primaryKey = collectionPrimaryKeys.First();
+
             PropertyInfo foreignKey = entityType
                 .GetProperties()
                 .First(pi => pi.HasAttribute<KeyAttribute>());
-
             if (collectionPrimaryKeys.Count() >= 2)
             {
-                // Many-To-Many
                 primaryKey = collectionType
                     .GetProperties()
                     .First(pi => collectionType
@@ -347,7 +371,10 @@
                 object pkValue = foreignKey.GetValue(dbSetEntity)!;
                 IEnumerable<TCollection> navCollectionEntities = navDbSet
                     .Where(navEntity => primaryKey.GetValue(navEntity)!.Equals(pkValue));
-                ReflectionHelper.ReplaceBackingField(dbSetEntity, collectionPropInfo.Name, navCollectionEntities);
+
+                var collectionEntitiesAsList = navCollectionEntities.ToList();
+
+                ReflectionHelper.ReplaceBackingField(dbSetEntity, collectionPropInfo.Name, collectionEntitiesAsList);
             }
         }
     }
