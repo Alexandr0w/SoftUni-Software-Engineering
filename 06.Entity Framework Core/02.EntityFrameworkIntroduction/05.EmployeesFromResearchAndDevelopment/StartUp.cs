@@ -8,30 +8,31 @@ namespace SoftUni
         public static void Main()
         {
             SoftUniContext dbContext = new SoftUniContext();
-            string result = GetEmployeesFullInformation(dbContext);
+            string result = GetEmployeesFromResearchAndDevelopment(dbContext);
 
             Console.WriteLine(result);
         }
 
-        public static string GetEmployeesFullInformation(SoftUniContext context)
+        public static string GetEmployeesFromResearchAndDevelopment(SoftUniContext context)
         {
             StringBuilder sb = new StringBuilder();
 
-            var employees = context.Employees
-                .OrderBy(e => e.EmployeeId)
+            var employeeRnD = context.Employees
+                .Where(e => e.Department.Name == "Research and Development")
                 .Select(e => new
                 {
                     e.FirstName,
                     e.LastName,
-                    e.MiddleName,
-                    e.JobTitle,
+                    DepartmentName = e.Department.Name,
                     e.Salary
                 })
+                .OrderBy(e => e.Salary)
+                .ThenByDescending(e => e.FirstName)
                 .ToArray();
 
-            foreach (var e in employees)
+            foreach (var e in employeeRnD)
             {
-                sb.AppendLine($"{e.FirstName} {e.LastName} {e.MiddleName} {e.JobTitle} {e.Salary.ToString("F2")}");
+                sb.AppendLine($"{e.FirstName} {e.LastName} from Research and Development - ${e.Salary:F2}");
             }
 
             return sb.ToString().TrimEnd();

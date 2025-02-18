@@ -8,30 +8,31 @@ namespace SoftUni
         public static void Main()
         {
             SoftUniContext dbContext = new SoftUniContext();
-            string result = GetEmployeesFullInformation(dbContext);
+            string result = GetEmployeesByFirstNameStartingWithSa(dbContext);
 
             Console.WriteLine(result);
         }
 
-        public static string GetEmployeesFullInformation(SoftUniContext context)
+        public static string GetEmployeesByFirstNameStartingWithSa(SoftUniContext context)
         {
             StringBuilder sb = new StringBuilder();
 
             var employees = context.Employees
-                .OrderBy(e => e.EmployeeId)
+                .Where(e => e.FirstName.StartsWith("Sa"))
                 .Select(e => new
                 {
                     e.FirstName,
                     e.LastName,
-                    e.MiddleName,
                     e.JobTitle,
                     e.Salary
                 })
-                .ToArray();
+                .OrderBy(e => e.FirstName)
+                .ThenBy(e => e.LastName)
+                .ToList();
 
             foreach (var e in employees)
             {
-                sb.AppendLine($"{e.FirstName} {e.LastName} {e.MiddleName} {e.JobTitle} {e.Salary.ToString("F2")}");
+                sb.AppendLine($"{e.FirstName} {e.LastName} - {e.JobTitle} - (${e.Salary:F2})");
             }
 
             return sb.ToString().TrimEnd();

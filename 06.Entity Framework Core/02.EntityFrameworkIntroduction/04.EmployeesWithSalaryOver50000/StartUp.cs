@@ -8,9 +8,8 @@ namespace SoftUni
         public static void Main()
         {
             SoftUniContext dbContext = new SoftUniContext();
-            dbContext.Database.EnsureCreated();
-
             string result = GetEmployeesWithSalaryOver50000(dbContext);
+
             Console.WriteLine(result);
         }
 
