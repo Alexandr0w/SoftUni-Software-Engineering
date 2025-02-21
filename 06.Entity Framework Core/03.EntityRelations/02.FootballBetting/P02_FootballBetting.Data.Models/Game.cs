@@ -10,20 +10,11 @@
         [Key]
         public int GameId { get; set; }
 
-        public int HomeId { get; set; }
-
-        public int AwayTeamId { get; set; }
-
         public int HomeTeamGoals { get; set; }
-
         public int AwayTeamGoals { get; set; }
-
         public decimal HomeTeamBetRate { get; set; }
-
         public decimal AwayTeamBetRate { get; set; }
-
         public decimal DrawBetRate { get; set; }
-
         public DateTime DateTime { get; set; }
 
         [MaxLength(GameResultMaxLength)]
@@ -31,13 +22,15 @@
 
         [ForeignKey(nameof(HomeTeam))]
         public int HomeTeamId { get; set; }
+
         public virtual Team HomeTeam { get; set; } = null!;
 
         [ForeignKey(nameof(AwayTeam))]
         public int AwayTeamId { get; set; }
         public virtual Team AwayTeam { get; set; } = null!;
 
-        public virtual ICollection<PlayerStatistic> PlayerStatistics { get; set; } = new HashSet<PlayerStatistic>();
+        public virtual ICollection<PlayerStatistic> PlayersStatistics { get; set; } = new HashSet<PlayerStatistic>();
+
         public virtual ICollection<Bet> Bets { get; set; } = new HashSet<Bet>();
     }
 }

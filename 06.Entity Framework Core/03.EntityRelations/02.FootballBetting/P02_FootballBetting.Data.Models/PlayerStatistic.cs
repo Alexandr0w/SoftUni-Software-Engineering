@@ -12,7 +12,7 @@
         public int PlayerId { get; set; }
         public virtual Player Player { get; set; } = null!;
 
-        public int ScoreGoals { get; set; }
+        public int ScoredGoals { get; set; }
 
         public int Assists { get; set; }
 

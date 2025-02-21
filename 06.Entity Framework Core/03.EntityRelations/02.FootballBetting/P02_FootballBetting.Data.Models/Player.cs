@@ -4,6 +4,7 @@
     using System.ComponentModel.DataAnnotations.Schema;
 
     using static Common.EntityValidationConstants.Player;
+
     public class Player
     {
         [Key]
@@ -13,8 +14,7 @@
         [MaxLength(PlayerNameMaxLength)]
         public string Name { get; set; } = null!;
 
-        public int SquadNumber { get; set; }
-
+        public int SquadNumber { get; set; } 
         public bool IsInjured { get; set; }
 
         [ForeignKey(nameof(Position))]
