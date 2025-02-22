@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P01_StudentSystem.Common\P01_StudentSystem.Common.csproj" />
+    <ProjectReference Include="..\P01_StudentSystem.Data\P01_StudentSystem.Data.csproj" />
+  </ItemGroup>
+
+</Project>
