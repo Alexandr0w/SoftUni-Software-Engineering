@@ -1,7 +1,6 @@
 ﻿namespace BookShop
 {
     using System.Text;
-    using System.Globalization;
 
     using Data;
     using Initializer;
@@ -13,33 +12,45 @@
             using var db = new BookShopContext();
             DbInitializer.ResetDatabase(db);
 
-            string input = Console.ReadLine()!;
-            string result = GetAuthorNamesEndingIn(db, input);
+            string result = GetMostRecentBooks(db);
             Console.WriteLine(result);
         }
 
-        public static string GetAuthorNamesEndingIn(BookShopContext context, string input)
+        public static string GetMostRecentBooks(BookShopContext context)
         {
             StringBuilder sb = new StringBuilder();
 
-            var authors = context.Authors
-                .Where(a => a.FirstName != null &&
-                            a.FirstName.EndsWith(input))
-                .Select(a => new
+            var categories = context.Categories
+                .OrderBy(c => c.Name)
+                .Select(c => new
                 {
-                    a.FirstName,
-                    a.LastName
+                    c.Name,
+                    Books = c.CategoryBooks
+                    .OrderByDescending(b => b.Book.ReleaseDate)
+                    .Select(b => new
+                    {
+                        Title = b.Book.Title,
+                        Year = b.Book.ReleaseDate!.Value.Year
+                    })
+                    .Take(3)
+                    .ToArray()
                 })
-                .OrderBy(a => a.FirstName)
-                .ThenBy(a => a.LastName)
                 .ToArray();
 
-            foreach (var author in authors)
+            foreach (var c in categories)
             {
-                sb.AppendLine($"{author.FirstName} {author.LastName}");
+                sb.AppendLine($"--{c.Name}");
+
+                if (c.Books.Length > 0)
+                {
+                    foreach (var b in c.Books)
+                    {
+                        sb.AppendLine($"{b.Title} ({b.Year})");
+                    }
+                }
             }
 
-            return sb.ToString().TrimEnd();
+            return sb.ToString().Trim();
         }
     }
 }

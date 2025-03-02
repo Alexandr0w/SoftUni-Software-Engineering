@@ -1,7 +1,7 @@
 ﻿namespace BookShop
 {
     using System.Text;
-    using System.Globalization;
+    using Microsoft.EntityFrameworkCore;
 
     using Data;
     using Initializer;
@@ -13,30 +13,29 @@
             using var db = new BookShopContext();
             DbInitializer.ResetDatabase(db);
 
-            string input = Console.ReadLine()!;
-            string result = GetAuthorNamesEndingIn(db, input);
+            string result = GetTotalProfitByCategory(db);
             Console.WriteLine(result);
         }
 
-        public static string GetAuthorNamesEndingIn(BookShopContext context, string input)
+        public static string GetTotalProfitByCategory(BookShopContext context)
         {
             StringBuilder sb = new StringBuilder();
 
-            var authors = context.Authors
-                .Where(a => a.FirstName != null &&
-                            a.FirstName.EndsWith(input))
-                .Select(a => new
+            var categories = context.Categories
+                .Include(c => c.CategoryBooks)
+                .ThenInclude(cb => cb.Book)
+                .Select(c => new
                 {
-                    a.FirstName,
-                    a.LastName
+                    CategoryName = c.Name,
+                    TotalProfit = c.CategoryBooks.Sum(cb => cb.Book.Price * cb.Book.Copies)
                 })
-                .OrderBy(a => a.FirstName)
-                .ThenBy(a => a.LastName)
+                .OrderByDescending(c => c.TotalProfit)
+                .ThenBy(c => c.CategoryName)
                 .ToArray();
 
-            foreach (var author in authors)
+            foreach (var category in categories)
             {
-                sb.AppendLine($"{author.FirstName} {author.LastName}");
+                sb.AppendLine($"{category.CategoryName} ${category.TotalProfit:F2}");
             }
 
             return sb.ToString().TrimEnd();

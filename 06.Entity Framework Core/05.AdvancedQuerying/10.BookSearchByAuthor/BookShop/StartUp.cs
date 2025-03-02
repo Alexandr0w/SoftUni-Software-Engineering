@@ -1,7 +1,6 @@
 ﻿namespace BookShop
 {
     using System.Text;
-    using System.Globalization;
 
     using Data;
     using Initializer;
@@ -14,29 +13,27 @@
             DbInitializer.ResetDatabase(db);
 
             string input = Console.ReadLine()!;
-            string result = GetAuthorNamesEndingIn(db, input);
+            string result = GetBooksByAuthor(db, input);
             Console.WriteLine(result);
         }
 
-        public static string GetAuthorNamesEndingIn(BookShopContext context, string input)
+        public static string GetBooksByAuthor(BookShopContext context, string input)
         {
             StringBuilder sb = new StringBuilder();
 
-            var authors = context.Authors
-                .Where(a => a.FirstName != null &&
-                            a.FirstName.EndsWith(input))
-                .Select(a => new
+            var booksByAuthor = context.Books
+                .Where(b => b.Author.LastName.ToLower().StartsWith(input.ToLower()))
+                .OrderBy(b => b.BookId)
+                .Select(b => new
                 {
-                    a.FirstName,
-                    a.LastName
+                    b.Title,
+                    AuthorName = b.Author.FirstName + " " + b.Author.LastName
                 })
-                .OrderBy(a => a.FirstName)
-                .ThenBy(a => a.LastName)
                 .ToArray();
 
-            foreach (var author in authors)
+            foreach (var book in booksByAuthor)
             {
-                sb.AppendLine($"{author.FirstName} {author.LastName}");
+                sb.AppendLine($"{book.Title} ({book.AuthorName})");
             }
 
             return sb.ToString().TrimEnd();
