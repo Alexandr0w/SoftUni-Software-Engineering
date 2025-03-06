@@ -5,11 +5,14 @@ namespace AcademicRecordsApp.Data.Migrations
 {
     using Microsoft.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore.Infrastructure;
+    using Microsoft.EntityFrameworkCore.Migrations;
 
     [DbContext(typeof(AcademicRecordsDbContext))]
-    partial class AcademicRecordsDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250306233211_AddDescriptionToCourse")]
+    partial class AddDescriptionToCourse
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

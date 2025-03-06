@@ -1,8 +1,10 @@
 ﻿namespace AcademicRecordsApp.Data
 {
-    using Models;
-    using static DbConfiguration;
     using Microsoft.EntityFrameworkCore;
+
+    using Models;
+
+    using static DbConfiguration;
 
     public partial class AcademicRecordsDbContext : DbContext
     {
@@ -29,7 +31,8 @@
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(ConnectionString);
+            optionsBuilder
+                .UseSqlServer(ConnectionString);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -37,7 +40,7 @@
             modelBuilder.Entity<Exam>(entity =>
             {
                 entity.HasKey(e => e.Id)
-                    .HasName("PK__Exams__3214EC07D6B51828");
+                    .HasName("PK__Exams__3214EC07991C1421");
 
                 entity.Property(e => e.Name)
                     .HasMaxLength(100);
@@ -45,19 +48,20 @@
                 entity.HasOne(e => e.Course)
                     .WithMany(c => c.Exams)
                     .HasForeignKey(e => e.CourseId)
-                    .OnDelete(DeleteBehavior.SetNull);
+                    .OnDelete(DeleteBehavior.Restrict);
             });
 
             modelBuilder.Entity<Grade>(entity =>
             {
                 entity.HasKey(g => g.Id)
-                    .HasName("PK__Grades__3214EC0799BA6AB4");
+                    .HasName("PK__Grades__3214EC07C710CA48");
 
-                entity.Property(g => g.Value)
+                entity
+                    .Property(g => g.Value)
                     .HasColumnType("decimal(3, 2)");
 
                 entity.HasOne(g => g.Exam)
-                    .WithMany(g => g.Grades)
+                    .WithMany(e => e.Grades)
                     .HasForeignKey(g => g.ExamId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Grades_Exams");
@@ -71,8 +75,9 @@
 
             modelBuilder.Entity<Student>(entity =>
             {
-                entity.HasKey(s => s.Id)
-                    .HasName("PK__Students__3214EC0707A09C7C");
+                entity
+                    .HasKey(s => s.Id)
+                    .HasName("PK__Students__3214EC07677E945B");
 
                 entity.Property(s => s.FullName)
                     .HasMaxLength(100);
@@ -80,16 +85,21 @@
 
             modelBuilder.Entity<Course>(entity =>
             {
-                entity.HasKey(c => c.Id);
+                entity
+                    .HasKey(c => c.Id);
 
                 entity.Property(c => c.Name)
                     .HasMaxLength(100)
                     .HasDefaultValue(string.Empty);
+
+                entity.Property(c => c.Description)
+                    .HasMaxLength(1000);
             });
 
             modelBuilder.Entity<StudentCourse>(entity =>
             {
-                entity.HasKey(sc => new { sc.CourseId, sc.StudentId });
+                entity
+                    .HasKey(sc => new { sc.CourseId, sc.StudentId });
 
                 entity.HasOne(sc => sc.Student)
                     .WithMany(s => s.Courses)
