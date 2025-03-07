@@ -16,15 +16,16 @@
             // For PRODUCTION, use Migration Bundles -> easier CI/CD integration
             dbContext.Database.Migrate();
 
-            //FillAllExamsWithDefaultCourse(dbContext);
-            //Console.WriteLine("All exams have a course!");
+            FillAllExamsWithDefaultCourse(dbContext);
+            Console.WriteLine("All exams have a course!");
         }
 
         private static void FillAllExamsWithDefaultCourse(AcademicRecordsDbContext dbContext)
         {
             Course testCourse = new Course
             {
-                Name = "Default Course"
+                Name = "Default Course",
+                Description = "This is a default course description."
             };
 
             dbContext.Courses.Add(testCourse);
