@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.ImportSales", "13.Import
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.ExportOrderedCustomers", "14.ExportOrderedCustomers\14.ExportOrderedCustomers.csproj", "{78ABEA13-ABEB-4979-BD57-BEAA2890967D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.ExportCarsFromToyota", "15.ExportCarsFromToyota\15.ExportCarsFromToyota.csproj", "{1D56C0C9-91F7-4557-B54D-B0AF0C8255A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{78ABEA13-ABEB-4979-BD57-BEAA2890967D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78ABEA13-ABEB-4979-BD57-BEAA2890967D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78ABEA13-ABEB-4979-BD57-BEAA2890967D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D56C0C9-91F7-4557-B54D-B0AF0C8255A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D56C0C9-91F7-4557-B54D-B0AF0C8255A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D56C0C9-91F7-4557-B54D-B0AF0C8255A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D56C0C9-91F7-4557-B54D-B0AF0C8255A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

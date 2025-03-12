@@ -1,10 +1,9 @@
 ﻿namespace ProductShop
 {
+    using Data;
+    using Microsoft.EntityFrameworkCore;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Serialization;
-    using Microsoft.EntityFrameworkCore;
-
-    using Data;
     using System.Text;
 
     public class StartUp
@@ -16,7 +15,7 @@
             dbContext.Database.Migrate();
             Console.WriteLine("Database migrated successfully!");
 
-            const string outputFilePath = "../../../Results/output.json";
+            const string outputFilePath = "../../../Results/users-and-products.json";
             string result = GetUsersWithProducts(dbContext);
 
             File.WriteAllText(outputFilePath, result, Encoding.Unicode);

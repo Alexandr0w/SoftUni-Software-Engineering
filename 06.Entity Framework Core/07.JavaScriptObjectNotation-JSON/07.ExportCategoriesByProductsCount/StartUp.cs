@@ -14,7 +14,7 @@
             dbContext.Database.Migrate();
             Console.WriteLine("Database migrated successfully!");
 
-            const string outputFilePath = "../../../Results/output.json";
+            const string outputFilePath = "../../../Results/categories-by-products.json";
             string result = GetCategoriesByProductsCount(dbContext);
 
             File.WriteAllText(outputFilePath, result, Encoding.Unicode);
