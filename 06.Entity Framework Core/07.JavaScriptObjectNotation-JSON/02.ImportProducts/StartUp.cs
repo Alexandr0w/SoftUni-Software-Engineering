@@ -27,15 +27,9 @@
         {
             string result = string.Empty;
 
-            ImportProductDto[]? productDtos = JsonConvert
-                .DeserializeObject<ImportProductDto[]>(inputJson);
+            ImportProductDto[]? productDtos = JsonConvert.DeserializeObject<ImportProductDto[]>(inputJson);
             if (productDtos != null)
             {
-                ICollection<int> dbUsers = context
-                    .Users
-                    .Select(u => u.Id)
-                    .ToArray();
-
                 ICollection<Product> validProducts = new List<Product>();
                 foreach (ImportProductDto productDto in productDtos)
                 {
@@ -44,10 +38,8 @@
                         continue;
                     }
 
-                    bool isPriceValid = decimal
-                        .TryParse(productDto.Price, out decimal productPrice);
-                    bool isSellerValid = int
-                        .TryParse(productDto.SellerId, out int sellerId);
+                    bool isPriceValid = decimal.TryParse(productDto.Price, out decimal productPrice);
+                    bool isSellerValid = int.TryParse(productDto.SellerId, out int sellerId);
                     if ((!isPriceValid) || (!isSellerValid))
                     {
                         continue;
@@ -56,8 +48,7 @@
                     int? buyerId = null;
                     if (productDto.BuyerId != null)
                     {
-                        bool isBuyerIdValid = int
-                            .TryParse(productDto.BuyerId, out int parsedBuyerId);
+                        bool isBuyerIdValid = int.TryParse(productDto.BuyerId, out int parsedBuyerId);
                         if (!isBuyerIdValid)
                         {
                             continue;

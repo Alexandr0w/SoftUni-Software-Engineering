@@ -25,8 +25,7 @@
 
         public static string GetSoldProducts(ProductShopContext context)
         {
-            var usersWithSoldProducts = context
-                .Users
+            var usersWithSoldProducts = context.Users
                 .Where(u => u.ProductsSold.Any(p => p.BuyerId.HasValue))
                 .Select(u => new
                 {

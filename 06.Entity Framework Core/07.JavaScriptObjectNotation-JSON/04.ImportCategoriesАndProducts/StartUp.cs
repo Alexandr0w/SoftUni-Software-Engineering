@@ -31,16 +31,6 @@
 
             if (catProdDtos != null)
             {
-                ICollection<int> dbProducts = context
-                    .Products
-                    .Select(p => p.Id)
-                    .ToArray();
-
-                ICollection<int> dbCategories = context
-                    .Categories
-                    .Select(c => c.Id)
-                    .ToArray();
-
                 ICollection<CategoryProduct> validCatProd = new List<CategoryProduct>();
                 foreach (ImportCategoryProductDto catProdDto in catProdDtos)
                 {
