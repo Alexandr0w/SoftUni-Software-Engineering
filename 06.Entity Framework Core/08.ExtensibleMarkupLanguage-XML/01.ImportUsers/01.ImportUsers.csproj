@@ -25,8 +25,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="DTOs\Export\" />
     <Folder Include="DTOs\Import\" />
     <Folder Include="DTOs\Export\" />
+    <Folder Include="Results\" />
     <Folder Include="Results\" />
   </ItemGroup>
 

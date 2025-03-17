@@ -40,17 +40,10 @@ namespace CarDealer
                         continue;
                     }
 
-                    bool isImporterValid = bool.TryParse(supplierDto.IsImporter, out bool isImporter); 
-
-                    if (!isImporterValid)
-                    {
-                        continue;
-                    }
-
                     Supplier supplier = new Supplier()
                     {
                         Name = supplierDto.Name,
-                        IsImporter = isImporterValid,
+                        IsImporter = supplierDto.IsImporter,
                     };
 
                     validSuppliers.Add(supplier);
