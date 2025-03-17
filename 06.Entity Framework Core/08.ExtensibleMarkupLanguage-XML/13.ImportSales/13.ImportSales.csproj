@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Results\**" />
+    <EmbeddedResource Remove="Results\**" />
+    <None Remove="Results\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.1">
@@ -25,9 +31,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\Export\" />
-    <Folder Include="Results\" />
-    <Folder Include="Results\" />
+	  <Folder Include="DTOs\Export\" />
+	  <Folder Include="DTOs\Import\" />
+	  <Folder Include="Results\" />
   </ItemGroup>
 
 </Project>

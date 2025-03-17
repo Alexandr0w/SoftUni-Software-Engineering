@@ -9,7 +9,7 @@ namespace CarDealer.DTOs.Export
         public int Id { get; set; }
 
         [XmlAttribute("name")]
-        public string Name { get; set; }
+        public string Name { get; set; } = null!;
 
         [XmlAttribute("parts-count")]
         public int PartsCount { get; set; }

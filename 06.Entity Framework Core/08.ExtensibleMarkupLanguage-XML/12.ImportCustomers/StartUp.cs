@@ -4,7 +4,6 @@ using CarDealer.Models;
 using CarDealer.Utilities;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
-using System.Globalization;
 
 namespace CarDealer
 {
@@ -32,46 +31,37 @@ namespace CarDealer
 
             if (customerDtos != null)
             {
-                ICollection<Customer> validCustomers = new List<Customer>();
+                ICollection<Customer> customersToAdd = new List<Customer>();
 
-                foreach (ImportCustomerDto customerDto in customerDtos)
+                foreach (var customerDto in customerDtos)
                 {
                     if (!IsValid(customerDto))
                     {
                         continue;
                     }
 
-                    bool isBirthDateValid = DateTime
-                        .TryParse(customerDto.Birthdate, CultureInfo.InvariantCulture, DateTimeStyles.None, 
-                            out DateTime birthDate);
-                    
-                    if (!isBirthDateValid)
+                    var isbirthDateValid = DateTime.TryParse(customerDto.Birthdate, out DateTime birthDate);
+                    var isYoungDriverValid = bool.TryParse(customerDto.IsYoungDriver, out bool isYoungDriver);
+
+                    if (!isbirthDateValid || !isYoungDriverValid)
                     {
                         continue;
                     }
 
-                    bool isYoungDriverValid = bool
-                        .TryParse(customerDto.IsYoungDriver, out bool isYoungDriver);
-                    
-                    if (!isYoungDriverValid)
-                    {
-                        continue;
-                    }
-
-                    Customer customer = new Customer
+                    Customer customer = new Customer()
                     {
                         Name = customerDto.Name,
                         BirthDate = birthDate,
                         IsYoungDriver = isYoungDriver
                     };
 
-                    validCustomers.Add(customer);
+                    customersToAdd.Add(customer);
                 }
-                
-                context.Customers.AddRange(validCustomers);
+
+                context.Customers.AddRange(customersToAdd);
                 context.SaveChanges();
 
-                result = $"Successfully imported {validCustomers.Count}";
+                result = $"Successfully imported {customersToAdd.Count}";
             }
 
             return result;

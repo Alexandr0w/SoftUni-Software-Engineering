@@ -24,9 +24,28 @@ namespace CarDealer
 
         public static string GetCarsWithTheirListOfParts(CarDealerContext context)
         {
-           
+            ExportCarsWithPartsDto[] carsWithPartsDtos = context.Cars
+                .OrderByDescending(c => c.TraveledDistance)
+                .ThenBy(c => c.Model)
+                .Select(c => new ExportCarsWithPartsDto
+                { 
+                    Make = c.Make,
+                    Model = c.Model,
+                    TraveledDistance = c.TraveledDistance.ToString(),
+                    Parts = c.PartsCars
+                        .Select(pc => pc.Part)
+                        .OrderByDescending(p => p.Price)
+                        .Select(p => new ExportCarsWithPartsPartDto
+                        {
+                            Name = p.Name,
+                            Price = p.Price.ToString()
+                        })
+                        .ToArray()
+                })
+                .Take(5)
+                .ToArray();
 
-            string result = XmlHelper.Serialize(localSuppliers, "suppliers");
+            string result = XmlHelper.Serialize(carsWithPartsDtos, "cars");
             return result;
         }
     }
