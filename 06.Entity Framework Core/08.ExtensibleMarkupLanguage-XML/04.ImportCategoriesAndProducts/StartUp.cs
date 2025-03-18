@@ -27,7 +27,36 @@ namespace ProductShop
         {
             string result = string.Empty;
 
-            
+            ImportCategoryProductDto[]? catProdDtos = XmlHelper.Deserialize<ImportCategoryProductDto[]>(inputXml, "CategoryProducts");
+
+            if (catProdDtos != null)
+            {
+                ICollection<CategoryProduct> validCatProd = new List<CategoryProduct>();
+
+                foreach (ImportCategoryProductDto catProdDto in catProdDtos)
+                {
+                    bool isProductIdValid = int.TryParse(catProdDto.ProductId, out int productId);
+                    bool isCategoryIdValid = int.TryParse(catProdDto.CategoryId, out int categoryId);
+
+                    if ((!IsValid(catProdDto) || (!isProductIdValid) || (!isCategoryIdValid)))
+                    {
+                        continue;
+                    }
+
+                    CategoryProduct categoryProduct = new CategoryProduct
+                    {
+                        CategoryId = categoryId,
+                        ProductId = productId
+                    };
+
+                    validCatProd.Add(categoryProduct);
+                }
+
+                context.CategoryProducts.AddRange(validCatProd);
+                context.SaveChanges();
+
+                result = $"Successfully imported {validCatProd.Count}";
+            }
 
             return result;
         }

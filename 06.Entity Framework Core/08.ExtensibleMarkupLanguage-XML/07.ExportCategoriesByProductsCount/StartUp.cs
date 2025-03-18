@@ -5,6 +5,7 @@ using ProductShop.Utilities;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using ProductShop.DTOs.Export;
 
 namespace ProductShop
 {
@@ -26,10 +27,19 @@ namespace ProductShop
 
         public static string GetCategoriesByProductsCount(ProductShopContext context)
         {
-            string result = string.Empty;
+            CategoryDto[] categories = context.Categories
+                .Select(c => new CategoryDto
+                {
+                    Name = c.Name,
+                    Count = c.CategoryProducts.Count,
+                    AveragePrice = c.CategoryProducts.Average(p => p.Product.Price),
+                    TotalRevenue = c.CategoryProducts.Sum(p => p.Product.Price)
+                })
+                .OrderByDescending(c => c.Count)
+                .ThenBy(c => c.TotalRevenue)
+                .ToArray();
 
-
-
+            string result = XmlHelper.Serialize(categories, "Categories");
             return result;
         }
     }

@@ -5,6 +5,7 @@ using ProductShop.Utilities;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using ProductShop.DTOs.Export;
 
 namespace ProductShop
 {
@@ -26,10 +27,19 @@ namespace ProductShop
 
         public static string GetProductsInRange(ProductShopContext context)
         {
-            string result = string.Empty;
+            ExportProductsInRangeDto[] products = context.Products
+                .Where(p => p.Price >= 500 && p.Price <= 1000)
+                .Select(p => new ExportProductsInRangeDto
+                {
+                    Name = p.Name,
+                    Price = p.Price,
+                    Buyer = p.Buyer.FirstName + " " + p.Buyer.LastName
+                })
+                .OrderBy(p => p.Price)
+                .Take(10)
+                .ToArray();
 
-
-
+            string result = XmlHelper.Serialize(products, "Products");
             return result;
         }
     }

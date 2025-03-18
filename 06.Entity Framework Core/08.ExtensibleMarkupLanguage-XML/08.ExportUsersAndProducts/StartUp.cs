@@ -5,6 +5,7 @@ using ProductShop.Utilities;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using ProductShop.DTOs.Export;
 
 namespace ProductShop
 {
@@ -26,10 +27,38 @@ namespace ProductShop
 
         public static string GetUsersWithProducts(ProductShopContext context)
         {
-            string result = string.Empty;
+            UserDto[] users = context.Users
+                .Where(u => u.ProductsSold.Count > 0)
+                .Select(u => new UserDto
+                {
+                    FirstName = u.FirstName,
+                    LastName = u.LastName,
+                    Age = u.Age,
+                    SoldProducts = new ProductsDto
+                    {
+                        Count = u.ProductsSold.Count,
+                        Products = u.ProductsSold
+                            .Select(p => new ProductDto
+                            {
+                                Name = p.Name,
+                                Price = p.Price
+                            })
+                            .OrderByDescending(p => p.Price)
+                            .ToArray()
+                    }
+                })
+                .OrderByDescending(u => u.SoldProducts.Count)
+                .ToArray();
 
+            UsersDto usersDto = new UsersDto()
+            {
+                Count = users.Length,
+                Users = users
+                    .Take(10)
+                    .ToArray()
+            };
 
-
+            string result = XmlHelper.Serialize(usersDto, "Users");
             return result;
         }
     }
