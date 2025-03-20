@@ -5,16 +5,16 @@ namespace NetPay.DataProcessor.ExportDtos
     [XmlType("Expense")]
     public class ExportExpenseDto
     {
-        [XmlElement("ExpenseName")]
+        [XmlElement(nameof(ExpenseName))]
         public string ExpenseName { get; set; } = null!;
 
-        [XmlElement("Amount")]
+        [XmlElement(nameof(Amount))]
         public string Amount { get; set; } = null!;
 
-        [XmlElement("PaymentDate")]
+        [XmlElement(nameof(PaymentDate))]
         public string PaymentDate { get; set; } = null!;
 
-        [XmlElement("ServiceName")]
+        [XmlElement(nameof(ServiceName))]
         public string ServiceName { get; set; } = null!;
     }
 }

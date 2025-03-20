@@ -29,7 +29,7 @@ namespace NetPay.DataProcessor
                             e.Service.ServiceName
                         })
                         .OrderBy(e => e.DueDate)
-                        .ToList()
+                        .ToArray()
                 })
                 .OrderBy(h => h.ContactPerson)
                 .ToArray();

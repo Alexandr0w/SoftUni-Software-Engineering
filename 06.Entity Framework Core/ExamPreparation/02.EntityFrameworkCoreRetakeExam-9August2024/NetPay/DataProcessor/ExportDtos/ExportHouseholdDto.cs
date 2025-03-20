@@ -5,13 +5,13 @@ namespace NetPay.DataProcessor.ExportDtos
     [XmlType("Household")]
     public class ExportHouseholdDto
     {
-        [XmlElement("ContactPerson")]
+        [XmlElement(nameof(ContactPerson))]
         public string ContactPerson { get; set; } = null!;
 
-        [XmlElement("Email")]
+        [XmlElement(nameof(Email))]
         public string? Email { get; set; }
 
-        [XmlElement("PhoneNumber")]
+        [XmlElement(nameof(PhoneNumber))]
         public string PhoneNumber { get; set; } = null!;
 
         [XmlArray("Expenses")]
