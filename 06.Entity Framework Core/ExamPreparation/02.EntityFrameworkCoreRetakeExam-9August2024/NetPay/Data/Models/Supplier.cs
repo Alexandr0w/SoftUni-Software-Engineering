@@ -9,10 +9,10 @@ namespace NetPay.Data.Models
         public int Id { get; set; }
 
         [Required]
-        [StringLength(SupplierNameMaxLength, MinimumLength = SupplierNameMinLength)]
+        [MaxLength(SupplierNameMaxLength)]
         public string SupplierName { get; set; } = null!;
 
-        public ICollection<SupplierService> SuppliersServices { get; set; } = new HashSet<SupplierService>();
+        public virtual ICollection<SupplierService> SuppliersServices { get; set; } = new HashSet<SupplierService>();
     }
 }
 

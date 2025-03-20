@@ -11,12 +11,11 @@ namespace NetPay.Data.Models
         public int Id { get; set; }
 
         [Required]
-        [StringLength(ExpenseNameMaxLength, MinimumLength = ExpenseNameMinLength)]
+        [MaxLength(ExpenseNameMaxLength)]
         public string ExpenseName { get; set; } = null!;
 
         [Required]
-        [Column(TypeName = "decimal(18,2)")]
-        [Range(typeof(decimal), ExpenseAmountMin, ExpenseAmountMax)]
+        [Column(TypeName = ExpenseAmountType)]
         public decimal Amount { get; set; }
 
         [Required]
@@ -26,13 +25,13 @@ namespace NetPay.Data.Models
         public PaymentStatus PaymentStatus { get; set; }
 
         [Required]
-        [ForeignKey(nameof(HouseholdId))]
+        [ForeignKey(nameof(Household))]
         public int HouseholdId { get; set; }
-        public Household Household { get; set; } = null!;
+        public virtual Household Household { get; set; } = null!;
 
         [Required]
-        [ForeignKey(nameof(ServiceId))]
+        [ForeignKey(nameof(Service))]
         public int ServiceId { get; set; }
-        public Service Service { get; set; } = null!;
+        public virtual Service Service { get; set; } = null!;
     }
 }

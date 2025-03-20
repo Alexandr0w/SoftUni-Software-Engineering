@@ -1,5 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
-using static NetPay.Common.ValidationConstants;
+﻿using static NetPay.Common.ValidationConstants;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NetPay.Data.Models
 {
@@ -9,17 +10,17 @@ namespace NetPay.Data.Models
         public int Id { get; set; }
 
         [Required]
-        [StringLength(ContactPersonMaxLength, MinimumLength = ContactPersonMinLength)]
+        [MaxLength(ContactPersonMaxLength)]
         public string ContactPerson { get; set; } = null!;
 
-        [StringLength(EmailMaxLength, MinimumLength = EmailMinLength)]
+        [MaxLength(EmailMaxLength)]
         public string? Email { get; set; }
 
         [Required]
-        [StringLength(PhoneNumberLength, MinimumLength = PhoneNumberLength)]
-        [RegularExpression(PhoneNumberPattern)]
+        [MaxLength(PhoneNumberLength)]
+        [Column(TypeName = PhoneNumberType)]
         public string PhoneNumber { get; set; } = null!;
 
-        public ICollection<Expense> Expenses { get; set; } = new HashSet<Expense>();
+        public virtual ICollection<Expense> Expenses { get; set; } = new HashSet<Expense>();
     }
 }

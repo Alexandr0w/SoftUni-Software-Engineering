@@ -1,7 +1,7 @@
 ﻿using NetPay.Data.Models.Enums;
 using static NetPay.Common.ValidationConstants;
-using Newtonsoft.Json;
 using System.ComponentModel.DataAnnotations;
+using Newtonsoft.Json;
 
 namespace NetPay.DataProcessor.ImportDtos
 {
