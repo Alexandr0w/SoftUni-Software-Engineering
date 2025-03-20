@@ -1,4 +1,5 @@
-﻿using NetPay.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using NetPay.Data;
 using NetPay.Data.Models.Enums;
 using NetPay.DataProcessor.ExportDtos;
 using NetPay.Utilities;
@@ -19,7 +20,7 @@ namespace NetPay.DataProcessor
                     h.ContactPerson,
                     h.Email,
                     h.PhoneNumber,
-                    UnpaidExpences = h.Expenses
+                    Expenses = h.Expenses
                     .Where(e => e.PaymentStatus != PaymentStatus.Paid)
                         .Select(e => new
                         {
@@ -34,13 +35,13 @@ namespace NetPay.DataProcessor
                 .OrderBy(h => h.ContactPerson)
                 .ToArray();
 
-            var householdResult = households
+            var householdsResult = households
                 .Select(h => new ExportHouseholdDto
                 {
                     ContactPerson = h.ContactPerson,
                     Email = h.Email!,
                     PhoneNumber = h.PhoneNumber,
-                    UnpaidExpenses = h.UnpaidExpences
+                    Expenses = h.Expenses
                         .Select(e => new ExportExpenseDto
                         {
                             ExpenseName = e.ExpenseName,
@@ -55,7 +56,7 @@ namespace NetPay.DataProcessor
                 .OrderBy(h => h.ContactPerson)
                 .ToArray();
 
-            result = XmlHelper.Serialize(householdResult, "Households");
+            result = XmlHelper.Serialize(householdsResult, "Households");
             return result;
         }
 

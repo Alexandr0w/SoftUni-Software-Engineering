@@ -10,6 +10,7 @@
         public const int EmailMaxLength = 80;
 
         public const int PhoneNumberLength = 15;
+        public const string PhoneNumberType = @"char(15)";
         public const string PhoneNumberPattern = @"^\+\d{3}/\d{3}-\d{6}$";
 
         // Expense
@@ -18,6 +19,8 @@
 
         public const string ExpenseAmountMin = "0.01";
         public const string ExpenseAmountMax = "100000";
+
+        public const string ExpenseAmountType = "decimal(18,2)";
 
         // Service
         public const int ServiceNameMinLength = 5;

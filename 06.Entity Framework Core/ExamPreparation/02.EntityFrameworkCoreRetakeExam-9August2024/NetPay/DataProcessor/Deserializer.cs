@@ -22,9 +22,9 @@ namespace NetPay.DataProcessor
             StringBuilder sb = new StringBuilder();
             ImportHouseholdDto[]? householdDtos = XmlHelper.Deserialize <ImportHouseholdDto[]>(xmlString, "Households");
 
-            if (householdDtos != null)
+            if (householdDtos != null && householdDtos.Length > 0)
             {
-                ICollection<Household> dbHousehold = new List<Household>();
+                ICollection<Household> dbHouseholds = new List<Household>();
 
                 foreach (ImportHouseholdDto householdDto in householdDtos)
                 {
@@ -34,7 +34,7 @@ namespace NetPay.DataProcessor
                         continue;
                     }
 
-                    if (ExistInDb(householdDto, dbHousehold))
+                    if (IsDuplicateHouseholds(householdDto, context, dbHouseholds))
                     {
                         sb.AppendLine(DuplicationDataMessage);
                         continue;
@@ -47,11 +47,11 @@ namespace NetPay.DataProcessor
                         Email = householdDto.Email
                     };
 
-                    dbHousehold.Add(household);
+                    dbHouseholds.Add(household);
                     sb.AppendLine(string.Format(SuccessfullyImportedHousehold, household.ContactPerson));
                 }
 
-                context.Households.AddRange(dbHousehold);
+                context.Households.AddRange(dbHouseholds);
                 context.SaveChanges();
             }
 
@@ -77,8 +77,13 @@ namespace NetPay.DataProcessor
                         continue;
                     }
 
-                    if (!context.Households.Any(hh => hh.Id == expenseDto.HouseholdId) || 
-                        !context.Services.Any(s => s.Id == expenseDto.ServiceId))
+                    bool householdExists = context.Households
+                        .Any(h => h.Id == expenseDto.HouseholdId);
+
+                    bool serviceExists = context.Services
+                        .Any(s => s.Id == expenseDto.ServiceId);
+
+                    if (!householdExists || !serviceExists)
                     {
                         sb.AppendLine(ErrorMessage);
                         continue;
@@ -105,14 +110,15 @@ namespace NetPay.DataProcessor
             return sb.ToString().TrimEnd();
         }
 
-        private static bool ExistInDb(ImportHouseholdDto householdDto, ICollection<Household> dbHousehold)
+        private static bool IsDuplicateHouseholds(ImportHouseholdDto householdDto, NetPayContext context, ICollection<Household> dbHousehold)
         {
-            bool result = dbHousehold.Any(h => h.PhoneNumber == householdDto.PhoneNumber) ||
-                          dbHousehold.Any(h => h.ContactPerson == householdDto.ContactPerson) ||
-                          dbHousehold.Any(h => h.Email == householdDto.Email);
-            return result;
+            return context.Households.Any(h => h.PhoneNumber == householdDto.PhoneNumber) ||
+                   context.Households.Any(h => h.ContactPerson == householdDto.ContactPerson) ||
+                   context.Households.Any(h => h.Email == householdDto.Email) ||
+                   dbHousehold.Any(h => h.PhoneNumber == householdDto.PhoneNumber) ||
+                   dbHousehold.Any(h => h.ContactPerson == householdDto.ContactPerson) ||
+                   dbHousehold.Any(h => h.Email == householdDto.Email);
         }
-
         public static bool IsValid(object dto)
         {
             var validationContext = new ValidationContext(dto);
