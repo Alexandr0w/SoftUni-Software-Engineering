@@ -63,7 +63,7 @@ namespace NetPay.DataProcessor
             StringBuilder sb = new StringBuilder();
             ImportExpenseDto[]? expenseDtos = JsonConvert.DeserializeObject<ImportExpenseDto[]>(jsonString);
 
-            if (expenseDtos != null)
+            if (expenseDtos != null && expenseDtos.Length > 0)
             {
                 ICollection<Expense> dbExpenses = new List<Expense>();
                 foreach (ImportExpenseDto expenseDto in expenseDtos)
