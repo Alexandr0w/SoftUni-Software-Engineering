@@ -1,9 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Xml.Serialization;
+using Cadastre.Data.Models;
 using static Cadastre.Common.ValidationConstants;
 
 namespace Cadastre.DataProcessor.ImportDtos
 {
+    [XmlType(nameof(Property))]
     public class ImportPropertyDto
     {
         [Required]
