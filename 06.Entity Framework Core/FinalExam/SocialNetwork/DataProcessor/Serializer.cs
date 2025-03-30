@@ -64,14 +64,15 @@ namespace SocialNetwork.DataProcessor
                     c.Id,
                     c.Title,
                     StartedAt = c.StartedAt.ToString("yyyy-MM-ddTHH:mm:ss"),  
-                    Messages = c.Messages.Select(m => new
-                    {
-                        m.Content,
-                        SentAt = m.SentAt.ToString("yyyy-MM-ddTHH:mm:ss"), 
-                        m.Status,
-                        m.SenderUsername
-                    })
-                    .ToArray()
+                    Messages = c.Messages
+                        .Select(m => new
+                        {
+                            m.Content,
+                            SentAt = m.SentAt.ToString("yyyy-MM-ddTHH:mm:ss"), 
+                            m.Status,
+                            m.SenderUsername
+                        })
+                        .ToArray()
                 })
                 .ToArray();
 
