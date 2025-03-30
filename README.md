@@ -31,4 +31,8 @@ All courses and exams from SoftUni
     <td><a href="https://softuni.bg/trainings/4841/ms-sql-january-2025">MS SQL</a></td>
     <td><a href="https://softuni.bg/certificates/details/235828/0f489256">Completed ✔️</a></td>
   </tr>
+   <tr>
+    <td><a href="https://softuni.bg/trainings/4842/entity-framework-core-february-2025">Entity Framework Core</a></td>
+    <td><a href="https://softuni.bg/certificates/details/239840/55f29ea7">Completed ✔️</a></td>
+  </tr>
 </table>
