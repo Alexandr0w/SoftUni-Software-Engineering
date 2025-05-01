@@ -35,7 +35,8 @@ namespace CinemaApp.Data.Configuration
                 .HasOne(t => t.CinemaMovie)
                 .WithMany(cm => cm.Tickets)
                 .HasForeignKey(t => t.CinemaMovieId)
-                .OnDelete(DeleteBehavior.NoAction);
+                .OnDelete(DeleteBehavior.NoAction)
+                .IsRequired(false);
 
             // Define relation between the Ticket and ApplicationUser entities
             entity
