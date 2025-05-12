@@ -13,6 +13,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaApp.Data.Models", "Ci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaApp.Common", "CinemaApp.Common\CinemaApp.Common.csproj", "{590EABA7-02E5-41B6-A143-D8500DB0644F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{AD18DDCF-63A3-49FB-B675-71B60040CE77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{F1CBD82F-2BBE-4288-A1FD-080C0672AC62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1CC135BB-C124-4289-A655-40F3C672184D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{12FCCB49-07B1-490E-A3E5-30DF414626DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +50,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE382396-85AF-422E-A0EF-E4BF46D0FAB5} = {AD18DDCF-63A3-49FB-B675-71B60040CE77}
+		{1A34EE73-0332-4B6A-A6CA-893B4AA37CB3} = {F1CBD82F-2BBE-4288-A1FD-080C0672AC62}
+		{9EBBC06A-A7EB-46D5-89BA-D4DD4115A25C} = {1CC135BB-C124-4289-A655-40F3C672184D}
+		{978489A2-EA04-434D-BD9D-08CA977AC7A1} = {F1CBD82F-2BBE-4288-A1FD-080C0672AC62}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7ADBF41-29AD-4337-BD33-D78E26F5BA31}
