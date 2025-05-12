@@ -18,7 +18,7 @@ namespace CinemaApp.Data
         {
         }
 
-        public DbSet<ApplicationUserMovie> applicationUserMovies { get; set; } = null!;
+        public DbSet<ApplicationUserMovie> ApplicationUserMovies { get; set; } = null!;
         public DbSet<Cinema> Cinemas { get; set; } = null!;
         public DbSet<CinemaMovie> CinemaMovies { get; set; } = null!;
         public DbSet<Movie> Movies { get; set; } = null!;
