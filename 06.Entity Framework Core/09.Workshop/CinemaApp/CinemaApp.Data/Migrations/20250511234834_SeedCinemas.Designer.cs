@@ -4,6 +4,7 @@ using CinemaApp.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CinemaApp.Data.Migrations
 {
     [DbContext(typeof(CinemaDbContext))]
-    partial class CinemaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250511234834_SeedCinemas")]
+    partial class SeedCinemas
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -108,7 +111,7 @@ namespace CinemaApp.Data.Migrations
 
                     b.HasIndex("MovieId");
 
-                    b.ToTable("ApplicationUserMovies", null, t =>
+                    b.ToTable("ApplicationUserMovies", t =>
                         {
                             t.HasComment("Movie watchlist for system user");
                         });
@@ -141,7 +144,7 @@ namespace CinemaApp.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Cinemas", null, t =>
+                    b.ToTable("Cinemas", t =>
                         {
                             t.HasComment("Cinemas in the system");
                         });
@@ -209,7 +212,7 @@ namespace CinemaApp.Data.Migrations
                     b.HasIndex("CinemaId", "MovieId")
                         .IsUnique();
 
-                    b.ToTable("CinemaMovies", null, t =>
+                    b.ToTable("CinemaMovies", t =>
                         {
                             t.HasComment("Movies in a cinema with available tickets and schedule");
                         });
@@ -267,7 +270,7 @@ namespace CinemaApp.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Movies", null, t =>
+                    b.ToTable("Movies", t =>
                         {
                             t.HasComment("Movie in the system");
                         });
@@ -444,7 +447,7 @@ namespace CinemaApp.Data.Migrations
 
                     b.HasIndex("CinemaMovieId");
 
-                    b.ToTable("Tickets", null, t =>
+                    b.ToTable("Tickets", t =>
                         {
                             t.HasComment("Tickets in the system");
                         });
