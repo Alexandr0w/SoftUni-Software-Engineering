@@ -3,8 +3,8 @@
     using Models;
     using Data.Models;
     using Services.Contracts;
-    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
+    using Microsoft.AspNetCore.Authorization;
 
     [Authorize]
     public class GameController : BaseController
@@ -110,7 +110,7 @@
 
                 if (game.PublisherId != userId)
                 {
-                    return Unauthorized();
+                    return this.RedirectToAction(nameof(All));
                 }
 
                 await this._gameService.EditGameAsync(editModel, game);
@@ -153,6 +153,12 @@
                 }
 
                 string userId = GetUserId() ?? string.Empty;
+
+                if (game.GamersGames.Any(gg => gg.GamerId == userId))
+                {
+                    return RedirectToAction(nameof(All));
+                }
+
                 await this._gameService.AddGameToMyZoneAsync(userId, game);
 
                 return RedirectToAction(nameof(MyZone));
@@ -231,7 +237,7 @@
         }
 
         [HttpPost]
-        public async Task<IActionResult> Delete(int id, GameDeleteViewModel model)
+        public async Task<IActionResult> DeleteConfirmed(int id, GameDeleteViewModel model)
         {
             try
             {
@@ -242,13 +248,7 @@
                     return BadRequest();
                 }
 
-                string userId = GetUserId() ?? string.Empty;
-                if (game.PublisherId != userId)
-                {
-                    return Unauthorized();
-                }
-
-                await this._gameService.SoftDeleteGameAsync(game);
+                await this._gameService.SoftDeleteGameAsync(model);
                 return RedirectToAction(nameof(All));
             }
             catch (Exception e)

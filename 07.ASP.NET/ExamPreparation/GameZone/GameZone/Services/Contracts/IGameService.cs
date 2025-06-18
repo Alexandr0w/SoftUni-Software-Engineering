@@ -18,6 +18,6 @@
         Task StrikeOutAsync(string userId, Game game);
         Task<GameDetailsViewModel?> GetGameDetails(int id);
         Task<GameDeleteViewModel?> GetGameForDeleteAsync(int id);
-        Task SoftDeleteGameAsync(Game game);
+        Task SoftDeleteGameAsync(GameDeleteViewModel model);
     }
 }

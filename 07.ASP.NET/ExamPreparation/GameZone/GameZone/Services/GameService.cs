@@ -7,8 +7,8 @@
     using static Common.ValidationConstants.Game;
     using System.Collections.Generic;
     using System.Threading.Tasks;
-    using Microsoft.EntityFrameworkCore;
     using System.Globalization;
+    using Microsoft.EntityFrameworkCore;
 
     public class GameService : IGameService
     {
@@ -187,7 +187,7 @@
 
         public async Task<GameDetailsViewModel?> GetGameDetails(int id)
         {
-            GameDetailsViewModel? game = await _dbContext
+            GameDetailsViewModel? game = await this._dbContext
                 .Games
                 .Where(g => g.Id == id)
                 .Select(g => new GameDetailsViewModel
@@ -222,13 +222,24 @@
             return model;
         }
 
-        public Task SoftDeleteGameAsync(Game game)
+        public async Task SoftDeleteGameAsync(GameDeleteViewModel model)
         {
-            throw new NotImplementedException();
+            Game? game = await this._dbContext
+                .Games
+                .Where(g => g.Id == model.Id)
+                .Where(g => g.IsDeleted == false)
+                .FirstOrDefaultAsync();
+
+            if (game != null)
+            {
+                game.IsDeleted = true;
+
+                await this._dbContext.SaveChangesAsync();
+            }
         }
 
         public async Task<Game?> GetGameByIdAsync(int id)
-            => await _dbContext
+            => await this._dbContext
                 .Games
                 .FirstOrDefaultAsync(g => g.Id == id);
     }
