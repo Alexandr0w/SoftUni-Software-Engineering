@@ -1,4 +1,6 @@
 using GameZone.Data;
+using GameZone.Services;
+using GameZone.Services.Contracts;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,14 +13,8 @@ namespace GameZone
             WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            string connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
-                                    ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-
-                        builder.Services.AddDbContext<GameZoneDbContext>(options =>
-                options.UseSqlServer(connectionString));
-
-                                    builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<GameZoneDbContext>();
+            string connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
+                                        ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
             builder.Services
                 .AddDbContext<GameZoneDbContext>(options =>
@@ -31,9 +27,15 @@ namespace GameZone
             builder.Services
                 .AddDefaultIdentity<IdentityUser>(options =>
                 {
-                    options.SignIn.RequireConfirmedAccount = true;
+                    options.SignIn.RequireConfirmedAccount = false;
+
+                    options.Password.RequireDigit = false;
+                    options.Password.RequireNonAlphanumeric = false;
+                    options.Password.RequireUppercase = false;
                 })
                 .AddEntityFrameworkStores<GameZoneDbContext>();
+
+            builder.Services.AddScoped<IGameService, GameService>();
 
             builder.Services.AddControllersWithViews();
 
