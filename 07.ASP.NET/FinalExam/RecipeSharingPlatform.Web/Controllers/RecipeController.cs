@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using RecipeSharingPlatform.Services.Core.Contracts;
 using RecipeSharingPlatform.ViewModels.Recipe;
 using static RecipeSharingPlatform.GCommon.ValidationConstants.Recipe;
@@ -65,6 +65,7 @@ namespace RecipeSharingPlatform.Web.Controllers
                     inputModel.Categories = await this._categoryService.GetCategoriesDropDownAsync();
                     return this.View(inputModel);
                 }
+
                 bool addResult = await this._recipeService.CreateRecipeAsync(this.GetUserId(), inputModel);
 
                 if (addResult == false)
@@ -90,7 +91,7 @@ namespace RecipeSharingPlatform.Web.Controllers
             try
             {
                 string? userId = this.GetUserId();
-                DetailsRecipeViewModel recipeDetails = await this._recipeService.GetRecipeDetailsAsync(userId, id);
+                DetailsRecipeViewModel? recipeDetails = await this._recipeService.GetRecipeDetailsAsync(userId, id);
 
                 if (recipeDetails == null)
                 {
@@ -139,7 +140,7 @@ namespace RecipeSharingPlatform.Web.Controllers
                     return this.View(inputModel);
                 }
 
-                bool deleteResult = await this._recipeService.SoftDeleteDestinationAsync(this.GetUserId()!, inputModel);
+                bool deleteResult = await this._recipeService.SoftDeleteRecipeAsync(this.GetUserId()!, inputModel);
 
                 if (deleteResult == false)
                 {
@@ -212,7 +213,7 @@ namespace RecipeSharingPlatform.Web.Controllers
             try
             {
                 string? userId = this.GetUserId();
-                IEnumerable<FavoriteRecipeViewModel> favoriteRecipes = await this._recipeService.GetFavoriteRecipesAsync(userId);
+                IEnumerable<FavoriteRecipeViewModel>? favoriteRecipes = await this._recipeService.GetFavoriteRecipesAsync(userId);
 
                 if(favoriteRecipes == null)
                 {
@@ -233,7 +234,7 @@ namespace RecipeSharingPlatform.Web.Controllers
         {
             try
             {
-                string userId = this.GetUserId()!;
+                string userId = this.GetUserId();
 
                 if (id == null)
                 {
@@ -261,7 +262,7 @@ namespace RecipeSharingPlatform.Web.Controllers
         {
             try
             {
-                string userId = this.GetUserId()!;
+                string userId = this.GetUserId();
 
                 if (id == null)
                 {

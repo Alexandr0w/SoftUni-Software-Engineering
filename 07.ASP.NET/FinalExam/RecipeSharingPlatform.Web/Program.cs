@@ -1,5 +1,5 @@
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using RecipeSharingPlatform.Data;
 using RecipeSharingPlatform.Services.Core;
 using RecipeSharingPlatform.Services.Core.Contracts;
@@ -33,6 +33,7 @@ namespace RecipeSharingPlatform.Web
 
             builder.Services.AddScoped<IRecipeService, RecipeService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
+
             builder.Services.AddControllersWithViews();
 
             WebApplication app = builder.Build();

@@ -44,15 +44,22 @@ namespace RecipeSharingPlatform.Services.Core
 
         public async Task<bool> CreateRecipeAsync(string? userId, CreateRecipeInputModel inputModel)
         {
-            bool opResult = false;
-            IdentityUser? user = await this._userManager.FindByIdAsync(userId);
-            Category? category = await this._dbContext.Categories.FindAsync(inputModel.CategoryId);
+            bool isCreated = false;
 
-            bool isCreatedOnValid = DateTime.TryParseExact(inputModel.CreatedOn, CreatedOnFormat, CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime createdOn);
+            IdentityUser? user = await this._userManager
+                .FindByIdAsync(userId!);
+
+            Category? category = await this._dbContext
+                .Categories
+                .FindAsync(inputModel.CategoryId);
+
+            bool isCreatedOnValid = DateTime
+                .TryParseExact(inputModel.CreatedOn, CreatedOnFormat, 
+                    CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime createdOn);
 
             if (user != null && category != null && isCreatedOnValid)
             {
-                Recipe Newrecipe = new Recipe()
+                Recipe newRecipe = new Recipe()
                 {
                     Title = inputModel.Title,
                     Instructions = inputModel.Instructions,
@@ -63,26 +70,27 @@ namespace RecipeSharingPlatform.Services.Core
                     CategoryId = category.Id,
                     Category = category
                 };
-                await this._dbContext.Recipes.AddAsync(Newrecipe);
+
+                await this._dbContext.Recipes.AddAsync(newRecipe);
                 await this._dbContext.SaveChangesAsync();
 
-                opResult = true;
+                isCreated = true;
             }
 
-            return opResult;
+            return isCreated;
         }
 
-        public async Task<DeleteRecipeInputModel> GetRecipeForDeletingAsync(string? userId, int id)
+        public async Task<DeleteRecipeInputModel?> GetRecipeForDeletingAsync(string? userId, int? id)
         {
             DeleteRecipeInputModel? deleteModel = null;
 
-            if (id != null)
+            if (id.HasValue)
             {
                 Recipe? DeleteRecipeModel = await this._dbContext
                     .Recipes
                     .Include(r => r.Author)
-                   .AsNoTracking()
-                   .SingleOrDefaultAsync(r => r.Id == id);
+                    .AsNoTracking()
+                    .SingleOrDefaultAsync(r => r.Id == id);
 
                 if (DeleteRecipeModel != null && DeleteRecipeModel.AuthorId.ToLower() == userId.ToLower())
                 {
@@ -96,36 +104,40 @@ namespace RecipeSharingPlatform.Services.Core
                 }
             }
 
-            return deleteModel!;
+            return deleteModel;
         }
 
-        public async Task<bool> SoftDeleteDestinationAsync(string userId, DeleteRecipeInputModel inputModel)
+        public async Task<bool> SoftDeleteRecipeAsync(string userId, DeleteRecipeInputModel inputModel)
         {
-            bool opResult = false;
+            bool isDeletedRecipe = false;
 
-            IdentityUser? user = await this._userManager.FindByIdAsync(userId);
+            IdentityUser? user = await this._userManager
+                .FindByIdAsync(userId);
 
             Recipe? recipe = await this._dbContext
-                .Recipes.FindAsync(inputModel.Id);
+                .Recipes
+                .FindAsync(inputModel.Id);
 
             if (user != null && recipe != null && recipe.AuthorId.ToLower() == userId.ToLower())
             {
                 recipe.IsDeleted = true;
 
                 await this._dbContext.SaveChangesAsync();
-                opResult = true;
+
+                isDeletedRecipe = true;
             }
 
-            return opResult;
+            return isDeletedRecipe;
         }
 
-        public async Task<DetailsRecipeViewModel> GetRecipeDetailsAsync(string userId, int? id)
+        public async Task<DetailsRecipeViewModel?> GetRecipeDetailsAsync(string userId, int? id)
         {
             DetailsRecipeViewModel? detailsRecipeVm = null;
 
             if (id.HasValue)
             {
-                Recipe? recipe = await this._dbContext.Recipes
+                Recipe? recipe = await this._dbContext
+                    .Recipes
                     .Include(r => r.Category)
                     .Include(r => r.UsersRecipes)
                     .Include(r => r.Author)
@@ -150,18 +162,19 @@ namespace RecipeSharingPlatform.Services.Core
                 }
             }
 
-            return detailsRecipeVm!;
+            return detailsRecipeVm;
         }
 
-        public async Task<EditRecipeInputModel> GetRecipeForEditingAsync(string userId, int? id)
+        public async Task<EditRecipeInputModel?> GetRecipeForEditingAsync(string userId, int? id)
         {
             EditRecipeInputModel? editModel = null;
 
             if (id != null)
             {
-                Recipe? recipeToEdit = await this._dbContext.Recipes
-                .AsNoTracking()
-                .SingleOrDefaultAsync(r => r.Id == id);
+                Recipe? recipeToEdit = await this._dbContext
+                    .Recipes
+                    .AsNoTracking()
+                    .SingleOrDefaultAsync(r => r.Id == id);
 
                 if (recipeToEdit != null && recipeToEdit.AuthorId.ToLower() == userId.ToLower())
                 {
@@ -173,7 +186,8 @@ namespace RecipeSharingPlatform.Services.Core
                         ImageUrl = recipeToEdit.ImageUrl,
                         CreatedOn = recipeToEdit.CreatedOn.ToString(CreatedOnFormat, CultureInfo.InvariantCulture),
                         CategoryId = recipeToEdit.CategoryId,
-                        Categories = await this._dbContext.Categories
+                        Categories = await this._dbContext
+                            .Categories
                             .Select(c => new AddCategoryDropDownModel()
                             {
                                 Id = c.Id,
@@ -182,24 +196,25 @@ namespace RecipeSharingPlatform.Services.Core
                             .ToListAsync()
                     };
                 }
-
             }
 
-            return editModel!;
+            return editModel;
         }
 
         public async Task<bool> PersistUpdatedRecipeAsync(string userId, EditRecipeInputModel inputModel)
         {
-            bool opResult = false;
-            IdentityUser? user = await this._userManager.FindByIdAsync(userId);
+            bool isPersisted = false;
+
+            IdentityUser? user = await this._userManager
+                .FindByIdAsync(userId);
 
             Recipe? updatedRecipe = await this._dbContext
                 .Recipes
                 .FindAsync(inputModel.Id);
 
             Category? categoryRef = await this._dbContext
-             .Categories
-             .FindAsync(inputModel.CategoryId);
+                .Categories
+                .FindAsync(inputModel.CategoryId);
 
             bool isPublishedOnDateValid = DateTime
                    .TryParseExact(inputModel.CreatedOn, CreatedOnFormat, CultureInfo.InvariantCulture,
@@ -216,16 +231,19 @@ namespace RecipeSharingPlatform.Services.Core
                 updatedRecipe.CreatedOn = publishedOnDate;
 
                 await this._dbContext.SaveChangesAsync();
-                opResult = true;
+
+                isPersisted = true;
             }
 
-            return opResult;
+            return isPersisted;
         }
 
-        public async Task<IEnumerable<FavoriteRecipeViewModel>> GetFavoriteRecipesAsync(string userId)
+        public async Task<IEnumerable<FavoriteRecipeViewModel>?> GetFavoriteRecipesAsync(string userId)
         {
             IEnumerable<FavoriteRecipeViewModel>? favRecipes = null;
-            IdentityUser? user = await this._userManager.FindByIdAsync(userId);
+
+            IdentityUser? user = await this._userManager
+                .FindByIdAsync(userId);
 
             if (user != null)
             {
@@ -234,7 +252,7 @@ namespace RecipeSharingPlatform.Services.Core
                     .Include(ur => ur.Recipe)
                     .ThenInclude(ur => ur.Category)
                     .AsNoTracking()
-                     .Where(ur => ur.UserId.ToLower() == userId.ToLower())
+                    .Where(ur => ur.UserId.ToLower() == userId.ToLower())
                     .Select(ur => new FavoriteRecipeViewModel()
                     {
                         Id = ur.Recipe.Id,
@@ -246,21 +264,21 @@ namespace RecipeSharingPlatform.Services.Core
                     })
                     .ToArrayAsync();
             }
-            return favRecipes!;
+            return favRecipes;
         }
 
         public async Task<bool> AddRecipeToUserFavoritesListAsync(string userId, int id)
         {
-            bool opResult = false;
+            bool isFavorite = false;
 
-            IdentityUser? user = await this._userManager.FindByIdAsync(userId);
+            IdentityUser? user = await this._userManager
+                .FindByIdAsync(userId);
 
             Recipe? favRecipe = await this._dbContext
                 .Recipes
                 .FindAsync(id);
 
-            if (user != null && favRecipe != null &&
-                favRecipe.AuthorId.ToLower() != userId.ToLower())
+            if (user != null && favRecipe != null && favRecipe.AuthorId.ToLower() != userId.ToLower())
             {
                 UserRecipe? userFavRecipe = await this._dbContext
                     .UsersRecipes
@@ -277,18 +295,19 @@ namespace RecipeSharingPlatform.Services.Core
                     await this._dbContext.UsersRecipes.AddAsync(userFavRecipe);
                     await this._dbContext.SaveChangesAsync();
 
-                    opResult = true;
+                    isFavorite = true;
                 }
             }
 
-            return opResult;
+            return isFavorite;
         }
 
         public async Task<bool> RemoveRecipeFromUserFavoritesListAsync(string userId, int id)
         {
-            bool opResult = false;
+            bool isRemoved = false;
 
-            IdentityUser? user = await this._userManager.FindByIdAsync(userId);
+            IdentityUser? user = await this._userManager
+                .FindByIdAsync(userId);
 
             if (user != null)
             {
@@ -301,11 +320,11 @@ namespace RecipeSharingPlatform.Services.Core
                     this._dbContext.UsersRecipes.Remove(userFavRecipe);
                     await this._dbContext.SaveChangesAsync();
 
-                    opResult = true;
+                    isRemoved = true;
                 }
             }
 
-            return opResult;
+            return isRemoved;
         }
     }
 }
