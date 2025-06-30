@@ -36,6 +36,7 @@ namespace RecipeSharingPlatform.Web.Controllers
         } 
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> Create()
         {
             try
@@ -56,6 +57,7 @@ namespace RecipeSharingPlatform.Web.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Create(CreateRecipeInputModel inputModel)
         {
             try
@@ -108,6 +110,7 @@ namespace RecipeSharingPlatform.Web.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> Delete(int id)
         {
             try
@@ -130,6 +133,7 @@ namespace RecipeSharingPlatform.Web.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> ConfirmDelete(DeleteRecipeInputModel inputModel)
         {
             try
@@ -158,6 +162,7 @@ namespace RecipeSharingPlatform.Web.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             try
@@ -181,12 +186,14 @@ namespace RecipeSharingPlatform.Web.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Edit(EditRecipeInputModel inputModel)
         {
             try
             {
                 if (!this.ModelState.IsValid)
                 {
+                    inputModel.Categories = await this._categoryService.GetCategoriesDropDownAsync();
                     return this.View(inputModel);
                 }
 
@@ -208,6 +215,7 @@ namespace RecipeSharingPlatform.Web.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> Favorites()
         {
             try
@@ -230,6 +238,7 @@ namespace RecipeSharingPlatform.Web.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Save(int? id)
         {
             try
@@ -258,6 +267,7 @@ namespace RecipeSharingPlatform.Web.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Remove(int? id)
         {
             try
