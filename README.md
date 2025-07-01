@@ -35,4 +35,8 @@ All courses and exams from SoftUni
     <td><a href="https://softuni.bg/trainings/4842/entity-framework-core-february-2025">Entity Framework Core</a></td>
     <td><a href="https://softuni.bg/certificates/details/239840/55f29ea7">Completed ✔️</a></td>
   </tr>
+  <tr>
+    <td><a href="https://softuni.bg/trainings/4953/asp-net-fundamentals-may-2025">ASP.NET Fundamentals</a></td>
+    <td><a href="https://softuni.bg/certificates/details/245715/7f7e6221">Completed ✔️</a></td>
+  </tr>
 </table>
