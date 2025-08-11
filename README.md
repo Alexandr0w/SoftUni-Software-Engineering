@@ -39,4 +39,8 @@ All courses and exams from SoftUni
     <td><a href="https://softuni.bg/trainings/4953/asp-net-fundamentals-may-2025">ASP.NET Fundamentals</a></td>
     <td><a href="https://softuni.bg/certificates/details/245715/7f7e6221">Completed ✔️</a></td>
   </tr>
+  <tr>
+    <td><a href="https://softuni.bg/trainings/4954/asp-net-advanced-june-2025">ASP.NET Advanced</a></td>
+    <td><a href="https://softuni.bg/certificates/details/248506/1120cb7a">Completed ✔️</a></td>
+  </tr>
 </table>
