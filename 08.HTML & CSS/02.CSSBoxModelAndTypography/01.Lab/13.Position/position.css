@@ -1,0 +1,32 @@
+section {
+    border: 2px solid #000;
+    padding: 2em;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.item {
+    border: 1px solid #333;
+    padding: 0.5em;
+    width: 5em;
+    height: 5em;
+    display: inline-block;
+    background: #f2f2f2;
+    text-align: center;
+    line-height: 5em;
+    margin-right: 1em;
+}
+
+.position-relative .item:nth-child(2) {
+    position: relative;
+    left: 5em;
+    top: 2em;
+    background: lightgreen;
+}
+
+.position-relative-absolute .item:nth-child(2) {
+    position: absolute;
+    left: 4em;
+    top: 4em;
+    background: lightgreen;
+}
