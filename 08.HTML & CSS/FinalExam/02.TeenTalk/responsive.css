@@ -1,0 +1,150 @@
+@media (max-width: 600px) {
+
+    .Section-Heading {
+        font-size: 32px;
+        line-height: 1.3;
+    }
+
+    .Section-Text,
+    .Card-Text {
+        font-size: 16px;
+        width: 85%;
+    }
+
+    .home-hero,
+    .home-features,
+    .home-stats {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .home-navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        gap: 0;
+        background-color: #d1a4f2;
+    }
+
+    .home-links-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: auto;
+        gap: 18px;
+    }
+
+    .home-link,
+    .home-link1,
+    .home-link2,
+    .home-link3 {
+        margin-right: 0;
+        padding: 0;
+        font-size: 15px;
+        font-weight: 600;
+        text-decoration: none;
+        line-height: 1;
+    }
+
+    .home-cta-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+    }
+
+    .home-cta-btn {
+        width: auto;
+        padding: 8px 14px;
+        font-size: 13px;
+        font-weight: 700;
+        border-radius: 20px;
+        line-height: 1;
+    }
+
+    .home-hero {
+        flex-direction: column-reverse;
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+
+    .home-hero-text-container {
+        width: 100%;
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+        margin-top: 24px;
+    }
+
+    .home-text03.Section-Heading {
+        font-size: 32px;
+        line-height: 1.3;
+        width: 60%;
+        margin: 0 auto 16px auto;
+        text-align: center;
+        white-space: normal;
+        word-break: break-word;
+    }
+
+    .home-text07 {
+        width: 80%;
+    }
+
+    .home-heading,
+    .home-text02 {
+        text-align: center;
+    }
+
+    .home-cta-btn2 {
+        width: auto;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .home-image1 {
+        width: 95%;
+        height: auto;
+    }
+
+    .home-features {
+        height: auto;
+    }
+
+    .home-heading-container {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .home-cards-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .home-feature-card,
+    .home-feature-card1,
+    .home-feature-card2 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .home-image2,
+    .home-image3,
+    .home-image4 {
+        width: 60%;
+        height: auto;
+        max-height: 250px;
+    }
+
+    .home-stats {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        padding: 24px 16px;
+    }
+}
