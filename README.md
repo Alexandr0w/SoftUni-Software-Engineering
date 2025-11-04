@@ -54,6 +54,11 @@
     <td><a href="https://github.com/Alexandr0w/PCShop">🧩 Repo</a></td>
     <td><a href="https://softuni.bg/certificates/details/248506/1120cb7a">✅ Completed</a></td>
   </tr>
+    <tr>
+    <td><a href="https://softuni.bg/trainings/5107/html-and-css-september-2025">HTML & CSS</a></td>
+    <td><a href="https://github.com/Alexandr0w/SoftUni-Software-Engineering/tree/main/08.HTML%20%26%20CSS">🧩 Repo</a></td>
+    <td><a href="https://softuni.bg/certificates/details/252847/7a97dfe3">✅ Completed</a></td>
+  </tr>
 </table>
 
 <br/>
