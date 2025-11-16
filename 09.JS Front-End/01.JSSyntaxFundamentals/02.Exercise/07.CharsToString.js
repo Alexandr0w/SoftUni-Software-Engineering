@@ -1,0 +1,8 @@
+function charsToString(a, b, c) {
+    const result = `${a}${b}${c}`;
+    console.log(result);
+}
+
+charsToString("a", "b", "c");
+charsToString("%", "2", "o");
+charsToString("1", "5", "p");
