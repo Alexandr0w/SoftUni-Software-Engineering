@@ -205,7 +205,7 @@
 
   <!-- DEVOPS -->
   <tr>
-    <td><strong>🟠 DevOps</strong></td>
+    <td rowspan="2"><strong>🟠 DevOps</strong></td>
     <td>
       <a href="https://softuni.bg/trainings/5212/software-engineering-and-devops-january-2026">
         Software Engineering and DevOps
@@ -221,6 +221,10 @@
         📜 Certificate
       </a>
     </td>
+  </tr>
+  
+  <tr>
+    <td>
 	 <a href="https://softuni.bg/trainings/5150/containers-and-cloud-february-2026">
         Containers and Cloud
       </a>
