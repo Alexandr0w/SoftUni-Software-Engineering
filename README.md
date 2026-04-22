@@ -221,6 +221,20 @@
         📜 Certificate
       </a>
     </td>
+	 <a href="https://softuni.bg/trainings/5150/containers-and-cloud-february-2026">
+        Containers and Cloud
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/Alexandr0w?tab=repositories">
+        🔗 View Repo
+      </a>
+    </td>
+    <td>
+      <a href="https://softuni.bg/certificates/details/260736/ce140576">
+        📜 Certificate
+      </a>
+    </td>
   </tr>
 </table>
 
